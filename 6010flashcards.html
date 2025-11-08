@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Gas Installer 6010 Flashcards</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .header {
+            color: white;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .progress {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 1rem;
+        }
+
+        .card-container {
+            perspective: 1000px;
+            width: 100%;
+            max-width: 700px;
+            margin-bottom: 30px;
+        }
+
+        .card {
+            width: 100%;
+            height: 400px;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: transform 0.6s, opacity 0.3s;
+            cursor: pointer;
+        }
+
+        .card.changing {
+            opacity: 0;
+            transform: scale(0.95);
+        }
+
+        .card.flipped {
+            transform: rotateY(180deg);
+        }
+
+        .card-face {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .card-front {
+            background: white;
+        }
+
+        .card-back {
+            background: #4CAF50;
+            color: white;
+            transform: rotateY(180deg);
+        }
+
+        .card-content {
+            text-align: center;
+            font-size: 1.82rem;
+            line-height: 1.6;
+            font-weight: bold;
+        }
+
+        .card-number {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            font-size: 0.9rem;
+            color: #999;
+            font-weight: bold;
+        }
+
+        .card-back .card-number {
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .controls {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            align-items: center;
+            max-width: 700px;
+        }
+
+        .controls-row {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: transform 0.2s, box-shadow 0.2s;
+            white-space: nowrap;
+        }
+
+        button .btn-text-full {
+            display: inline;
+        }
+
+        button .btn-text-short {
+            display: none;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+
+        .btn-prev, .btn-next {
+            min-width: 140px;
+            max-width: 140px;
+        }
+
+        .btn-flip {
+            background: white;
+            color: #667eea;
+            min-width: 182px;
+            max-width: 182px;
+        }
+
+        .btn-prev {
+            background: #ff6b6b;
+            color: white;
+        }
+
+        .btn-next {
+            background: #4CAF50;
+            color: white;
+        }
+
+        .btn-shuffle {
+            background: #ffd93d;
+            color: #333;
+        }
+
+        .instructions {
+            margin-top: 30px;
+            color: white;
+            text-align: center;
+            max-width: 700px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+
+        .instructions p {
+            margin: 8px 0;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        .instructions strong {
+            color: #ffd93d;
+        }
+
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 1.5rem;
+            }
+
+            .card {
+                height: 350px;
+            }
+
+            .card-content {
+                font-size: 1.54rem;
+            }
+
+            button {
+                padding: 12px 20px;
+                font-size: 1.2rem;
+                min-width: auto;
+            }
+
+            button .btn-text-full {
+                display: none;
+            }
+
+            button .btn-text-short {
+                display: inline;
+            }
+
+            .btn-prev, .btn-next {
+                min-width: 60px;
+                max-width: none;
+            }
+
+            .btn-flip {
+                min-width: 70px;
+                max-width: none;
+            }
+
+            .btn-shuffle {
+                min-width: 70px;
+                max-width: none;
+            }
+
+            .instructions {
+                margin-top: 20px;
+                padding: 15px;
+            }
+
+            .instructions p {
+                font-size: 0.85rem;
+                margin: 6px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Medical Gas Installer 6010</h1>
+        <p class="progress">Question <span id="current">1</span> of <span id="total">400</span></p>
+    </div>
+
+    <div class="card-container">
+        <div class="card" id="flashcard">
+            <div class="card-face card-front">
+                <span class="card-number" id="card-number-front">1/400</span>
+                <div class="card-content" id="question">
+                    Loading questions...
+                </div>
+            </div>
+            <div class="card-face card-back">
+                <span class="card-number" id="card-number-back">1/400</span>
+                <div class="card-content" id="answer">
+                    Answer will appear here
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="controls">
+        <div class="controls-row">
+            <button class="btn-prev" onclick="previousCard()">
+                <span class="btn-text-full">← Previous</span>
+                <span class="btn-text-short">←</span>
+            </button>
+            <button class="btn-flip" onclick="flipCard()">
+                <span class="btn-text-full">Flip Card</span>
+                <span class="btn-text-short">🔄</span>
+            </button>
+            <button class="btn-next" onclick="nextCard()">
+                <span class="btn-text-full">Next →</span>
+                <span class="btn-text-short">→</span>
+            </button>
+        </div>
+        <div class="controls-row">
+            <button class="btn-shuffle" onclick="shuffleCards()">
+                <span class="btn-text-full">🔀 Shuffle</span>
+                <span class="btn-text-short">🔀</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="instructions">
+        <p><strong>Desktop:</strong> Use arrow keys (← →) to navigate • Space bar or click card to flip</p>
+        <p><strong>Mobile:</strong> Tap card to flip • Use buttons to navigate</p>
+    </div>
+
+    <script>
+        // Load flashcards data from external JSON file
+        let flashcardsData = [];
+        let flashcards = [];
+        let currentIndex = 0;
+        let isFlipped = false;
+
+        // Fetch the flashcards.json file
+        fetch('flashcards.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Could not load flashcards.json');
+                }
+                return response.json();
+            })
+            .then(data => {
+                flashcardsData = data;
+                flashcards = [...flashcardsData];
+                loadCard();
+            })
+            .catch(error => {
+                console.error('Error loading flashcards:', error);
+                document.getElementById('question').textContent = 
+                    'Error: Could not load flashcards.json. Make sure the file is in the same directory as this HTML file.';
+            });
+
+        function loadCard() {
+            if (flashcards.length === 0) {
+                document.getElementById('question').textContent = 
+                    'Please paste your flashcards data into the script section of this file.';
+                return;
+            }
+
+            // Add animation class
+            const cardElement = document.getElementById('flashcard');
+            cardElement.classList.add('changing');
+
+            // Wait for animation to complete before changing content
+            setTimeout(() => {
+                const card = flashcards[currentIndex];
+                const cardNumber = `${currentIndex + 1}/${flashcards.length}`;
+                
+                document.getElementById('card-number-front').textContent = cardNumber;
+                document.getElementById('card-number-back').textContent = cardNumber;
+                document.getElementById('question').textContent = card.question;
+                document.getElementById('answer').textContent = card.answer;
+                document.getElementById('current').textContent = currentIndex + 1;
+                document.getElementById('total').textContent = flashcards.length;
+                
+                // Reset flip state
+                if (isFlipped) {
+                    flipCard();
+                }
+
+                // Remove animation class
+                cardElement.classList.remove('changing');
+            }, 150);
+        }
+
+        function flipCard() {
+            const card = document.getElementById('flashcard');
+            card.classList.toggle('flipped');
+            isFlipped = !isFlipped;
+        }
+
+        function nextCard() {
+            currentIndex = (currentIndex + 1) % flashcards.length;
+            loadCard();
+        }
+
+        function previousCard() {
+            currentIndex = (currentIndex - 1 + flashcards.length) % flashcards.length;
+            loadCard();
+        }
+
+        function shuffleCards() {
+            flashcards = [...flashcardsData].sort(() => Math.random() - 0.5);
+            currentIndex = 0;
+            loadCard();
+        }
+
+        // Keyboard shortcuts
+        document.addEventListener('keydown', (e) => {
+            if (e.key === ' ' || e.key === 'ArrowUp' || e.key === 'ArrowDown') {
+                e.preventDefault();
+                flipCard();
+            } else if (e.key === 'ArrowLeft') {
+                previousCard();
+            } else if (e.key === 'ArrowRight') {
+                nextCard();
+            }
+        });
+
+        // Click card to flip
+        document.getElementById('flashcard').addEventListener('click', flipCard);
+
+        // Load first card
+        loadCard();
+    </script>
+</body>
+</html>
