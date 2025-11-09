@@ -148,6 +148,18 @@
             background: rgba(255, 255, 255, 0.9);
         }
 
+        .save-check {
+            color: #4CAF50;
+            font-size: 1rem;
+            font-weight: bold;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .save-check.show {
+            opacity: 1;
+        }
+
         .controls {
             display: flex;
             flex-direction: column;
@@ -306,6 +318,7 @@
                 <div class="section-container">
                     <span class="section-label">Section:</span>
                     <input type="text" class="section-input" id="section-input-front" placeholder="e.g. 3.2.1">
+                    <span class="save-check" id="save-check-front">✓</span>
                 </div>
                 <div class="card-content" id="question">
                     Loading questions...
@@ -316,6 +329,7 @@
                 <div class="section-container">
                     <span class="section-label">Section:</span>
                     <input type="text" class="section-input" id="section-input-back" placeholder="e.g. 3.2.1">
+                    <span class="save-check" id="save-check-back">✓</span>
                 </div>
                 <div class="card-content" id="answer">
                     Answer will appear here
@@ -376,6 +390,11 @@
             const input = event.target;
             const card = flashcards[currentIndex];
             const cardNumber = card.number || `${currentIndex + 1}`;
+            const newValue = input.value;
+            
+            // Sync both inputs immediately
+            document.getElementById('section-input-front').value = newValue;
+            document.getElementById('section-input-back').value = newValue;
             
             // Clear any existing timeout
             if (saveTimeout) {
@@ -385,13 +404,20 @@
             // Set new timeout to save after 1 second
             saveTimeout = setTimeout(() => {
                 const sections = loadSections();
-                sections[cardNumber] = input.value;
+                sections[cardNumber] = newValue;
                 saveSections(sections);
                 
-                // Show green border briefly
-                input.classList.add('saved');
+                // Show green border and checkmark briefly on both inputs
+                document.getElementById('section-input-front').classList.add('saved');
+                document.getElementById('section-input-back').classList.add('saved');
+                document.getElementById('save-check-front').classList.add('show');
+                document.getElementById('save-check-back').classList.add('show');
+                
                 setTimeout(() => {
-                    input.classList.remove('saved');
+                    document.getElementById('section-input-front').classList.remove('saved');
+                    document.getElementById('section-input-back').classList.remove('saved');
+                    document.getElementById('save-check-front').classList.remove('show');
+                    document.getElementById('save-check-back').classList.remove('show');
                 }, 500);
             }, 1000);
         }
