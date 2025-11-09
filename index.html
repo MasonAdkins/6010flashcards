@@ -341,7 +341,7 @@
             // Wait for animation to complete before changing content
             setTimeout(() => {
                 const card = flashcards[currentIndex];
-                const cardNumber = `${currentIndex + 1}/${flashcards.length}`;
+                const cardNumber = card.number || `${currentIndex + 1}`;
                 
                 document.getElementById('card-number-front').textContent = cardNumber;
                 document.getElementById('card-number-back').textContent = cardNumber;
