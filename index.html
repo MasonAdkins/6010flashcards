@@ -105,6 +105,49 @@
             color: rgba(255, 255, 255, 0.6);
         }
 
+        .section-container {
+            position: absolute;
+            bottom: 15px;
+            left: 15px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .section-label {
+            font-size: 0.9rem;
+            color: #999;
+            font-weight: bold;
+        }
+
+        .card-back .section-label {
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .section-input {
+            font-size: 0.9rem;
+            padding: 4px 8px;
+            border: 2px solid #ddd;
+            border-radius: 4px;
+            background: white;
+            color: #333;
+            width: 100px;
+            transition: border-color 0.3s;
+        }
+
+        .section-input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .section-input.saved {
+            border-color: #4CAF50;
+        }
+
+        .card-back .section-input {
+            background: rgba(255, 255, 255, 0.9);
+        }
+
         .controls {
             display: flex;
             flex-direction: column;
@@ -260,12 +303,20 @@
         <div class="card" id="flashcard">
             <div class="card-face card-front">
                 <span class="card-number" id="card-number-front">1/400</span>
+                <div class="section-container">
+                    <span class="section-label">Section:</span>
+                    <input type="text" class="section-input" id="section-input-front" placeholder="e.g. 3.2.1">
+                </div>
                 <div class="card-content" id="question">
                     Loading questions...
                 </div>
             </div>
             <div class="card-face card-back">
                 <span class="card-number" id="card-number-back">1/400</span>
+                <div class="section-container">
+                    <span class="section-label">Section:</span>
+                    <input type="text" class="section-input" id="section-input-back" placeholder="e.g. 3.2.1">
+                </div>
                 <div class="card-content" id="answer">
                     Answer will appear here
                 </div>
@@ -307,6 +358,48 @@
         let flashcards = [];
         let currentIndex = 0;
         let isFlipped = false;
+        let saveTimeout = null;
+
+        // Load sections from localStorage
+        function loadSections() {
+            const stored = localStorage.getItem('flashcard-sections');
+            return stored ? JSON.parse(stored) : {};
+        }
+
+        // Save sections to localStorage
+        function saveSections(sections) {
+            localStorage.setItem('flashcard-sections', JSON.stringify(sections));
+        }
+
+        // Handle section input with 1 second delay and green border
+        function handleSectionInput(event) {
+            const input = event.target;
+            const card = flashcards[currentIndex];
+            const cardNumber = card.number || `${currentIndex + 1}`;
+            
+            // Clear any existing timeout
+            if (saveTimeout) {
+                clearTimeout(saveTimeout);
+            }
+            
+            // Set new timeout to save after 1 second
+            saveTimeout = setTimeout(() => {
+                const sections = loadSections();
+                sections[cardNumber] = input.value;
+                saveSections(sections);
+                
+                // Show green border briefly
+                input.classList.add('saved');
+                setTimeout(() => {
+                    input.classList.remove('saved');
+                }, 500);
+            }, 1000);
+        }
+
+        // Prevent card flip when clicking section input
+        function preventFlip(event) {
+            event.stopPropagation();
+        }
 
         // Fetch the flashcards.json file
         fetch('flashcards.json')
@@ -349,6 +442,12 @@
                 document.getElementById('answer').textContent = card.answer;
                 document.getElementById('current').textContent = currentIndex + 1;
                 document.getElementById('total').textContent = flashcards.length;
+                
+                // Load saved section if exists
+                const sections = loadSections();
+                const savedSection = sections[cardNumber] || '';
+                document.getElementById('section-input-front').value = savedSection;
+                document.getElementById('section-input-back').value = savedSection;
                 
                 // Reset flip state
                 if (isFlipped) {
@@ -396,6 +495,14 @@
 
         // Click card to flip
         document.getElementById('flashcard').addEventListener('click', flipCard);
+
+        // Setup section input event listeners
+        const sectionInputs = document.querySelectorAll('.section-input');
+        sectionInputs.forEach(input => {
+            input.addEventListener('click', preventFlip);
+            input.addEventListener('input', handleSectionInput);
+            input.addEventListener('focus', preventFlip);
+        });
 
         // Load first card
         loadCard();
