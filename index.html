@@ -385,6 +385,34 @@
             localStorage.setItem('flashcard-sections', JSON.stringify(sections));
         }
 
+        // Load shuffle order from localStorage
+        function loadShuffleOrder() {
+            const stored = localStorage.getItem('shuffle-order');
+            return stored ? JSON.parse(stored) : null;
+        }
+
+        // Save shuffle order to localStorage
+        function saveShuffleOrder(order) {
+            localStorage.setItem('shuffle-order', JSON.stringify(order));
+        }
+
+        // Save current position
+        function saveCurrentPosition() {
+            localStorage.setItem('current-position', currentIndex.toString());
+        }
+
+        // Load current position
+        function loadCurrentPosition() {
+            const stored = localStorage.getItem('current-position');
+            return stored ? parseInt(stored) : 0;
+        }
+
+        // Clear shuffle order
+        function clearShuffleOrder() {
+            localStorage.removeItem('shuffle-order');
+            localStorage.removeItem('current-position');
+        }
+
         // Handle section input with 1 second delay and green border
         function handleSectionInput(event) {
             const input = event.target;
@@ -437,7 +465,23 @@
             })
             .then(data => {
                 flashcardsData = data;
-                flashcards = [...flashcardsData];
+                
+                // Check if there's a saved shuffle order
+                const savedOrder = loadShuffleOrder();
+                if (savedOrder && savedOrder.length === data.length) {
+                    // Restore shuffled order
+                    flashcards = savedOrder.map(index => data[index]);
+                    currentIndex = loadCurrentPosition();
+                    // Make sure position is valid
+                    if (currentIndex >= flashcards.length) {
+                        currentIndex = 0;
+                    }
+                } else {
+                    // Use original order
+                    flashcards = [...flashcardsData];
+                    currentIndex = 0;
+                }
+                
                 loadCard();
             })
             .catch(error => {
@@ -493,16 +537,35 @@
 
         function nextCard() {
             currentIndex = (currentIndex + 1) % flashcards.length;
+            saveCurrentPosition();
             loadCard();
         }
 
         function previousCard() {
             currentIndex = (currentIndex - 1 + flashcards.length) % flashcards.length;
+            saveCurrentPosition();
             loadCard();
         }
 
         function shuffleCards() {
-            flashcards = [...flashcardsData].sort(() => Math.random() - 0.5);
+            // Create array of indices and shuffle them
+            const indices = Array.from({length: flashcardsData.length}, (_, i) => i);
+            const shuffledIndices = indices.sort(() => Math.random() - 0.5);
+            
+            // Apply shuffle order to flashcards
+            flashcards = shuffledIndices.map(index => flashcardsData[index]);
+            
+            // Save the shuffle order
+            saveShuffleOrder(shuffledIndices);
+            
+            currentIndex = 0;
+            saveCurrentPosition();
+            loadCard();
+        }
+
+        function resetOrder() {
+            flashcards = [...flashcardsData];
+            clearShuffleOrder();
             currentIndex = 0;
             loadCard();
         }
