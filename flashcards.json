@@ -152,8 +152,9 @@
   {
     "number": 26,
     "questionId": "5de768ca-0b2e-4d81-b82c-55af008e4668",
-    "question": "Underground piping buried outside of buildings shall have an installation procedure to what while being backfilled?",
-    "answer": "Protect"
+    "question": "Underground piping buried outside of buildings shall have an installation procedure to _______ while being backfilled?",
+    "answer": "Protect the pipe",
+    "code_section": "5.1.10.11.5.2"
   },
   {
     "number": 27,
@@ -164,14 +165,9 @@
   {
     "number": 28,
     "questionId": "89f5d654-de2e-4642-ab5d-2980700ab13c",
-    "question": "Which ASTM standard is NOT applicable to medical-surgical vacuum system piping made from hard-drawn seamless copper tube?",
-    "answer": "ASTM B597"
-  },
-  {
-    "number": 29,
-    "questionId": "f198f296-0a2d-49d6-84b3-7befa90db2b3",
-    "question": "What is an incorrect assumption about medical gas pipeline systems?",
-    "answer": "They can operate without relief valves"
+    "question": "Which ASTM standards are applicable to medical-surgical vacuum system piping made from hard-drawn seamless copper tube?",
+    "answer": "ASTM B280 and B819",
+    "code_section": "2.3.6"
   },
   {
     "number": 30,
@@ -182,8 +178,8 @@
   {
     "number": 31,
     "questionId": "57e1d6fc-a714-4b68-95b9-c97479603d24",
-    "question": "Which of the following NPS is allowed for connecting tubing for alarms?",
-    "answer": "1/4"
+    "question": "Which size NPS is allowed for connecting tubing for alarms?",
+    "answer": "1/4in"
   },
   {
     "number": 32,
@@ -201,36 +197,30 @@
     "number": 34,
     "questionId": "41d7af66-3f5e-4290-b8a7-e8f2220e3a02",
     "question": "Mains and branches in medical gas piping systems shall be not less than which NPS?",
-    "answer": "1/2"
+    "answer": "1/2in"
   },
   {
     "number": 35,
     "questionId": "9ccc00e1-d27e-4308-af2d-bdc97e978e1a",
-    "question": "Intake air for instrument air compressors shall not be drawn from which source?",
-    "answer": "C) medical air intake"
-  },
-  {
-    "number": 36,
-    "questionId": "0c8acbaf-7ed0-4ec0-aca7-8a6ca6e82cd0",
-    "question": "Which components are essential for the operation of central supply systems in a medical setting?",
-    "answer": "Check valves and filters"
+    "question": "Intake air for instrument air compressors shall not be drawn from which similar source?",
+    "answer": "Medical Air Intake"
   },
   {
     "number": 37,
     "questionId": "87784ff7-1652-402e-b242-562cecc3b7c8",
-    "question": "Cylinders in use must not exceed a temperature of which specified degree Fahrenheit?",
+    "question": "Cylinders in use must not exceed a temperature of which degree Fahrenheit?",
     "answer": "125"
   },
   {
     "number": 38,
     "questionId": "381947a1-f30f-485b-9564-c005cc6a11f7",
     "question": "Instrument air sources shall produce air at a gauge pressure of not less than how many PSIG?",
-    "answer": "C) 200"
+    "answer": "200"
   },
   {
     "number": 39,
     "questionId": "ea21355e-0e2b-4fb5-9f46-04dfc3e6505c",
-    "question": "Locations for central supply systems shall have what type of devices protected from physical damage?",
+    "question": "In locations for central supply systems, ___________ devices shall be protected from physical damage?",
     "answer": "Electrical"
   },
   {
