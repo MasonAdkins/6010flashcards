@@ -3,37 +3,39 @@
     "number": 1,
     "questionId": "37c40592-fec9-4028-b780-72fea45a3549",
     "question": "Joints shall be brazed within how many hours after surfaces are cleaned for brazing?",
-    "answer": "8"
+    "answer": "8 hours"
   },
   {
     "number": 2,
     "questionId": "92288a18-6d7b-41c0-9f7c-2a3564e87783",
-    "question": "In what category is the loss of piped gas likely to cause minor injury?",
-    "answer": "category 2"
+    "question": "In what risk category is the loss of piped medical gas likely to cause minor injury?",
+    "answer": "Category 2"
   },
   {
     "number": 3,
     "questionId": "bf710994-865f-4b8e-b15a-ccbbc2afe078",
     "question": "What is the purpose of the master alarm system in a medical gas setup?",
-    "answer": "To signal changes in pressure or system faults"
+    "answer": "To monitor the operation and condition of the source of the supply, the reserver source (if any), and the pressure in the main lines of each medical gas and vacuum system"
   },
   {
     "number": 4,
     "questionId": "ec4055eb-2272-4e9b-87d3-faf7043f9218",
     "question": "What type of alarm is activated when the backup producer in a WAGD source system is running?",
-    "answer": "Local"
+    "answer": "Local Alarm"
   },
   {
     "number": 5,
     "questionId": "f7208564-55b0-4a41-9c1b-87209550d47f",
-    "question": "The vacuum exhaust must discharge a minimum of how many feet from any door, window, or air intake?",
-    "answer": "25"
+    "question": "The vacuum exhaust must discharge a minimum of how many feet from any building door, window, or air intake?",
+    "answer": "25",
+    "code_section": "5.1.3.7.7.2"
   },
   {
     "number": 6,
     "questionId": "fb92503a-adf2-4939-9c8c-dd585ca45496",
     "question": "Where instrument air systems are provided with a standby header, the header shall have how many cylinders attached?",
-    "answer": "A) a sufficient amount for one hour of normal operation"
+    "answer": "A sufficient amount for ONE hour of normal operation",
+    "code_section": "5.1.13.3.7.6"
   },
   {
     "number": 7,
@@ -44,20 +46,23 @@
   {
     "number": 8,
     "questionId": "37f8aaeb-4db3-4809-9a35-0319c42b179d",
-    "question": "Piping shall be labeled by?",
-    "answer": "stenciling or adhesive markers"
+    "question": "What shall be used to label medical gas, medical support gas, and vacuum systems piping?",
+    "answer": "stenciling or adhesive markers",
+    "code_section": "5.1.11.1.1"
   },
   {
     "number": 9,
     "questionId": "5d181f31-57d0-4bc4-85e1-5af5bedaf01b",
     "question": "Which areas may require zone valves to be secured to prevent inappropriate access?",
-    "answer": "psychiatric or pediatric"
+    "answer": "psychiatric or pediatric areas",
+    "code_section": "5.1.4.1.4"
   },
   {
     "number": 10,
     "questionId": "310e2719-fa8b-458e-86a1-f40948fbbd7e",
     "question": "Category 1 medical-surgical vacuum sources must consist of a minimum of how many vacuum pumps?",
-    "answer": "2"
+    "answer": "2",
+    "code_section": "5.1.3.7.1.1"
   },
   {
     "number": 11,
@@ -68,8 +73,9 @@
   {
     "number": 12,
     "questionId": "b02cd6f8-971a-4a61-b7ae-98eb05a7ec23",
-    "question": "The medical air intake must be located a minimum of how many feet from exhausts or other noxious fumes?",
-    "answer": "25 ft"
+    "question": "The medical air intake must be located a minimum of how many feet from exhausts, fuel storage, or areas that can collect vehicle exhaust or other noxious fumes?",
+    "answer": "25 ft",
+    "code_section": "5.1.3.6.3.11"
   },
   {
     "number": 13,
@@ -81,13 +87,15 @@
     "number": 14,
     "questionId": "c784a886-eb27-4e3e-8ef5-e1f7899f83bb",
     "question": "Who must witness a 24-hour standing pressure test?",
-    "answer": "designee of the authority having jurisdiction"
+    "answer": "An ASSE 6020 inspector, an ASSE 6030 verifier, or the Authority Having Jurisdiction(or a designee of)",
+    "code_section": "5.1.12.2.6.7"
   },
   {
     "number": 15,
     "questionId": "b1c194f4-0d19-4639-8171-550263c47edd",
     "question": "Which valves should not be located in a room with station outlets or inlets that they control?",
-    "answer": "zone"
+    "answer": "zone",
+    "code_section": "5.1.4.6.1"
   },
   {
     "number": 16,
@@ -108,22 +116,18 @@
     "answer": "Check valve"
   },
   {
-    "number": 19,
-    "questionId": "64d46fe7-e0ec-4847-bf03-0d54a8acf3eb",
-    "question": "What must be the status of outlet connections on gas containers when they are being removed?",
-    "answer": "Functional"
-  },
-  {
     "number": 20,
     "questionId": "a4b38e60-a9de-4ae9-9e90-be2d4a172e3d",
     "question": "How many seals must separate the oil-containing section from the compression chamber in reciprocating compressors for medical air?",
-    "answer": "1"
+    "answer": "1",
+    "code_section": "5.1.3.6.3.4"
   },
   {
     "number": 21,
     "questionId": "205e1828-2870-4ff2-9280-1705d03a2e18",
     "question": "The scale range of positive pressure analog indicators shall have the normal operating pressure fall within which part of the gauge scale?",
-    "answer": "Middle third"
+    "answer": "Middle third",
+    "code_section": "5.1.8.1.3"
   },
   {
     "number": 22,
@@ -134,20 +138,16 @@
   {
     "number": 23,
     "questionId": "43e7469f-bb85-4e02-bbe4-88a234afe4d3",
-    "question": "Medical air sources shall only be used for which application?",
-    "answer": "Human respiratory applications"
+    "question": "Medical air sources shall only be used for which applications?",
+    "answer": "Human respiratory applications",
+    "code_section": "5.1.3.6.2"
   },
   {
     "number": 24,
     "questionId": "d6d9978d-4850-4014-91ff-6e7dfde25394",
     "question": "Station outlets that operate at a pressure in excess of what PSI shall be either D.I.S.S. or be designed to relieve pressure prior to removal of adapter?",
-    "answer": "80"
-  },
-  {
-    "number": 25,
-    "questionId": "e0b0450d-c9d5-4e63-a7fb-85ebfe988c73",
-    "question": "What should be verified before the use of medical gases in a system?",
-    "answer": "C) Correct labeling"
+    "answer": "80",
+    "code_section": "5.1.5.15"
   },
   {
     "number": 26,
