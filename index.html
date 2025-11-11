@@ -309,6 +309,10 @@
     <div class="header">
         <h1>Medical Gas Installer 6010</h1>
         <p class="progress">Question <span id="current">1</span> of <span id="total">400</span></p>
+        <p style="font-size: 0.85rem; margin-top: 10px; opacity: 0.85; max-width: 600px; margin-left: auto; margin-right: auto;">
+            ⚠️ Work in Progress: Card quality has not been fully confirmed. 
+            <a href="https://tinyurl.com/helpfix6010cards" target="_blank" style="color: #ffd93d; text-decoration: underline;">Help me improve the cards here.</a>
+        </p>
     </div>
 
     <div class="card-container">
@@ -316,7 +320,7 @@
             <div class="card-face card-front">
                 <span class="card-number" id="card-number-front">1/400</span>
                 <div class="section-container">
-                    <span class="section-label">Section:</span>
+                    <span class="section-label">Code Section:</span>
                     <input type="text" class="section-input" id="section-input-front" placeholder="e.g. 3.2.1">
                     <span class="save-check" id="save-check-front">✓</span>
                 </div>
@@ -513,11 +517,16 @@
                 document.getElementById('current').textContent = currentIndex + 1;
                 document.getElementById('total').textContent = flashcards.length;
                 
-                // Load saved section if exists
-                const sections = loadSections();
-                const savedSection = sections[cardNumber] || '';
-                document.getElementById('section-input-front').value = savedSection;
-                document.getElementById('section-input-back').value = savedSection;
+                // Load code_section from JSON if it exists, otherwise check localStorage
+                let sectionValue = '';
+                if (card.code_section !== undefined && card.code_section !== null) {
+                    sectionValue = card.code_section;
+                } else {
+                    const sections = loadSections();
+                    sectionValue = sections[cardNumber] || '';
+                }
+                document.getElementById('section-input-front').value = sectionValue;
+                document.getElementById('section-input-back').value = sectionValue;
                 
                 // Reset flip state
                 if (isFlipped) {
