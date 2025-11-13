@@ -1,2392 +1,1521 @@
 [
   {
     "number": 1,
-    "questionId": "37c40592-fec9-4028-b780-72fea45a3549",
-    "question": "Joints shall be brazed within how many hours after surfaces are cleaned for brazing?",
-    "answer": "8 hours"
-  },
-  {
-    "number": 2,
-    "questionId": "92288a18-6d7b-41c0-9f7c-2a3564e87783",
-    "question": "In what risk category is the loss of piped medical gas likely to cause minor injury?",
-    "answer": "Category 2"
-  },
-  {
-    "number": 3,
-    "questionId": "bf710994-865f-4b8e-b15a-ccbbc2afe078",
-    "question": "What is the purpose of the master alarm system in a medical gas setup?",
-    "answer": "To monitor the operation and condition of the source of the supply, the reserver source (if any), and the pressure in the main lines of each medical gas and vacuum system"
-  },
-  {
-    "number": 4,
-    "questionId": "ec4055eb-2272-4e9b-87d3-faf7043f9218",
-    "question": "What type of alarm is activated when the backup producer in a WAGD source system is running?",
-    "answer": "Local Alarm"
-  },
-  {
-    "number": 5,
-    "questionId": "f7208564-55b0-4a41-9c1b-87209550d47f",
-    "question": "The vacuum exhaust must discharge a minimum of how many feet from any building door, window, or air intake?",
-    "answer": "25",
+    "question": "Which of the following systems shall not be permitted to be located in an outdoor enclosure?",
+    "options": [
+      "Manifolds for gas cyclinders with or without reserve",
+      "Medical air sources",
+      "Bulk cryogenic liquid system",
+      "Manifolds for cryogenic liquid cylinders"
+    ],
+    "answer": "Medical air sources",
     "code_section": "5.1.3.7.7.2"
   },
   {
+    "number": 2,
+    "question": "What system is used to monitor the operation and condition of the source supply of each medical gas and vacuum piping system?",
+    "options": [
+      "Master alarm system",
+      "Area alarm system",
+      "Building anagement system",
+      "Pressure indidcator system"
+    ],
+    "answer": "Master alarm system"
+  },
+  {
+    "number": 3,
+    "question": "What system is used to capture and carry away gases away from anesthesia or analgesia equipment?",
+    "options": [
+      "Waste anesthetic gas disposal system",
+      "Medical surgical vacuum",
+      "Mask system",
+      "Terminal system"
+    ],
+    "answer": "Waste anesthetic gas disposal system"
+  },
+  {
+    "number": 4,
+    "question": "What is not part of a typical category 1 medical gas vacuum system?",
+    "options": [
+      "An inlet at lcoations where patient suction could be",
+      "Patient lead",
+      "Pressure gauges and operating controls",
+      "Shutoff valves"
+    ],
+    "answer": "Patient lead"
+  },
+  {
+    "number": 5,
+    "question": "What is a pnuematic terminus of a piped gas system? Other than critical continuous duty, nonflammable medical life support type gases.",
+    "options": [
+      "Compressor",
+      "Service inlet",
+      "Service outlet",
+      "Vacuum outlet"
+    ],
+    "answer": "Service outlet"
+  },
+  {
     "number": 6,
-    "questionId": "fb92503a-adf2-4939-9c8c-dd585ca45496",
-    "question": "Where instrument air systems are provided with a standby header, the header shall have how many cylinders attached?",
-    "answer": "A sufficient amount for ONE hour of normal operation",
-    "code_section": "5.1.13.3.7.6"
+    "question": "What guide is for preparation of precautionary labeling and marking of compressed gas containers?",
+    "options": [
+      "ANSI/ ISA S-7.0.01",
+      "CGA V-5",
+      "CGA C-7",
+      "CGA P-2.7"
+    ],
+    "answer": "CGA C-7"
   },
   {
     "number": 7,
-    "questionId": "37a2b646-7281-45f1-8a8c-dcc9672e7ad1",
-    "question": "How should relief valve vent lines be labeled when vented to the outside?",
-    "answer": "Any manner that will distinguish them from the medical gas pipeline"
+    "question": "What device that automatically reduces gas under high pressure to a usable lower working pressure?",
+    "options": [
+      "Final line regulator",
+      "Isolation valve",
+      "positive negative regulator",
+      "pressure reducing regulator"
+    ],
+    "answer": "pressure reducing regulator"
   },
   {
-    "number": 8,
-    "questionId": "37f8aaeb-4db3-4809-9a35-0319c42b179d",
-    "question": "What shall be used to label medical gas, medical support gas, and vacuum systems piping?",
-    "answer": "stenciling or adhesive markers",
-    "code_section": "5.1.11.1.1"
+    "number": 3,
+    "question": "Under the risk categories, what category does major injury or death to patients or caregivers?",
+    "options": [
+      "3",
+      "4",
+      "1",
+      "2"
+    ],
+    "answer": "1"
   },
   {
     "number": 9,
-    "questionId": "5d181f31-57d0-4bc4-85e1-5af5bedaf01b",
-    "question": "Which areas may require zone valves to be secured to prevent inappropriate access?",
-    "answer": "psychiatric or pediatric areas",
-    "code_section": "5.1.4.1.4"
+    "question": "The riser is the ______ pipe that connects the main line to various levels of the facility?",
+    "options": [
+      "Main",
+      "Branch",
+      "Vertical",
+      "Horizontal"
+    ],
+    "answer": "Vertical"
   },
   {
     "number": 10,
-    "questionId": "310e2719-fa8b-458e-86a1-f40948fbbd7e",
-    "question": "Category 1 medical-surgical vacuum sources must consist of a minimum of how many vacuum pumps?",
-    "answer": "2",
-    "code_section": "5.1.3.7.1.1"
+    "question": "The main text of which contains only mandatory provisions using the word shall to indicate the requirements of a ______ and suitable for adoption into law. Non-mandatory provisions shall be located in an appendix or annex are not to be considered requirement of a _______.",
+    "options": [
+      "Standard, Code",
+      "Code, Standard",
+      "Should, Standard",
+      "Code, Listed"
+    ],
+    "answer": "Code, Standard"
   },
   {
     "number": 11,
-    "questionId": "fca636d4-4d76-4542-aee4-a4c5883a6634",
-    "question": "The factory installed tuning on station outlets and inlets shall extend no further than how many inches from the body of the terminal?",
-    "answer": "8"
+    "question": "Oxygen enriched atmosphere is the concentration of oxygen that exceeds _____ percent by volume.",
+    "options": [
+      "19.5",
+      "22.5",
+      "99.5",
+      "23.5"
+    ],
+    "answer": "23.5"
   },
   {
     "number": 12,
-    "questionId": "b02cd6f8-971a-4a61-b7ae-98eb05a7ec23",
-    "question": "The medical air intake must be located a minimum of how many feet from exhausts, fuel storage, or areas that can collect vehicle exhaust or other noxious fumes?",
-    "answer": "25 ft",
-    "code_section": "5.1.3.6.3.11"
+    "question": "Medical support gas, nitrogen or instrument air is used to operate ______ ?",
+    "options": [
+      "medical surgical tools",
+      "Air driven booms",
+      "Pendants",
+      "All of the above"
+    ],
+    "answer": "All of the above"
   },
   {
     "number": 13,
-    "questionId": "655f36cd-a9b1-4fb7-9b11-50263b8d809e",
-    "question": "How are manifold control systems maintained to ensure they operate effectively?",
-    "answer": "Regular cleaning and inspection"
+    "question": "Manufacturers shall design their medical air compressors to exclude _______ from the air stream and compression chamber?",
+    "options": [
+      "Nitrous oxide",
+      "Oxygen",
+      "Oil",
+      "Ozone"
+    ],
+    "answer": "Oil"
   },
   {
-    "number": 14,
-    "questionId": "c784a886-eb27-4e3e-8ef5-e1f7899f83bb",
-    "question": "Who must witness a 24-hour standing pressure test?",
-    "answer": "An ASSE 6020 inspector, an ASSE 6030 verifier, or the Authority Having Jurisdiction(or a designee of)",
-    "code_section": "5.1.12.2.6.7"
+    "number": 1,
+    "question": "Facility systems in which failure of such equipment is likely to cause minor injury to patients or caregivers shall be designed to meet what category?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
   },
   {
     "number": 15,
-    "questionId": "b1c194f4-0d19-4639-8171-550263c47edd",
-    "question": "Which valves should not be located in a room with station outlets or inlets that they control?",
-    "answer": "zone",
-    "code_section": "5.1.4.6.1"
+    "question": "Building, structure or space used to house chambers and all auxiliary service equipment for medical applications and procedures at pressures above normal atmospheric pressures?",
+    "options": [
+      "Hospital",
+      "Hyperbaric facility",
+      "Hypobaric",
+      "Hypoxia"
+    ],
+    "answer": "Hyperbaric facility"
   },
   {
     "number": 16,
-    "questionId": "f2bb8f0b-aa6f-4e32-b7ac-2b0a297ed620",
-    "question": "New or replacement valves are not required to be which type?",
-    "answer": "ball type"
+    "question": "A DISS connector is a system of ______ medical gas and vacuum connectors comply with CGA V-5",
+    "options": [
+      "Double insulated",
+      "Emergency",
+      "Interchangeable",
+      "Non-interchangeable"
+    ],
+    "answer": "Non-interchangeable"
   },
   {
     "number": 17,
-    "questionId": "41372e28-9532-43ec-8ce0-5644d2405b6e",
-    "question": "Which alarm system acts as a primary alert mechanism for medical gas systems?",
-    "answer": "Master alarm systems"
+    "question": "A _____ device is used for connecting the outlets of one or more gas cyclinders to the central piping system?",
+    "options": [
+      "Mask",
+      "Manifold",
+      "Manufactured assembly",
+      "Connection"
+    ],
+    "answer": "Manifold"
   },
   {
     "number": 18,
-    "questionId": "85097844-054d-4a50-b911-90ef95751e1e",
-    "question": "Which component is essential for preventing backflow in a multi-pump vacuum system?",
-    "answer": "Check valve"
+    "question": "A chemical element that, at normal atmosphere temperatures and pressures, exsist as a colorless, odorless and tasteless gas and comprises about 21% by volume of the earth’s atmosphere.",
+    "options": [
+      "Nitrous Oxide",
+      "Liquid Oxygen",
+      "Oxygen",
+      "Hydrogen"
+    ],
+    "answer": "Oxygen"
+  },
+  {
+    "number": 19,
+    "question": "A factory assembled product designed for anesthetics or convenience that contains medical gas outlets or vacuum inlets, piping, or other related to medical gases is a ______ ?",
+    "options": [
+      "Subsystem",
+      "Manufactured assembly",
+      "Reconstituted assembly",
+      "All of the above"
+    ],
+    "answer": "Manufactured assembly"
   },
   {
     "number": 20,
-    "questionId": "a4b38e60-a9de-4ae9-9e90-be2d4a172e3d",
-    "question": "How many seals must separate the oil-containing section from the compression chamber in reciprocating compressors for medical air?",
-    "answer": "1",
-    "code_section": "5.1.3.6.3.4"
+    "question": "A non-interchangeable connection, usually a DISS connector, which is the termination of the pipeline and which is intended to be detached only for service, a _____ shall be used",
+    "options": [
+      "Service connection",
+      "Service inlet/outlet",
+      "Service terminal",
+      "Semi-permanent connection"
+    ],
+    "answer": "Semi-permanent connection"
   },
   {
     "number": 21,
-    "questionId": "205e1828-2870-4ff2-9280-1705d03a2e18",
-    "question": "The scale range of positive pressure analog indicators shall have the normal operating pressure fall within which part of the gauge scale?",
-    "answer": "Middle third",
-    "code_section": "5.1.8.1.3"
+    "question": "A portion of the health care facility designated by the governing body that serves a specific purpose is called  ____ ?",
+    "options": [
+      "Spaces",
+      "Rooms",
+      "Wastes",
+      "Category"
+    ],
+    "answer": "Spaces"
   },
   {
     "number": 22,
-    "questionId": "3cc448ba-1494-444c-bd2a-c695edefd138",
-    "question": "Where should area alarm pressure sensors be installed in anesthetizing gas delivery areas?",
-    "answer": "Source or patient"
+    "question": "A system of non-interchangeable medical gas and vacuum connectors shall comply with ______ for low pressure connections for medical gas applications?",
+    "options": [
+      "CDA copper tube handbook",
+      "The joint commission comprehensive manual for hospitals",
+      "CGA V-5 Diameter index safety system",
+      "ASHRAE handbook of fundamentals"
+    ],
+    "answer": "CGA V-5 Diameter index safety system"
   },
   {
     "number": 23,
-    "questionId": "43e7469f-bb85-4e02-bbe4-88a234afe4d3",
-    "question": "Medical air sources shall only be used for which applications?",
-    "answer": "Human respiratory applications",
-    "code_section": "5.1.3.6.2"
+    "question": "A warning system within an area uses a ______ that provides continuous visible and audible surveillance of category 1 and category 2 medical gas and vacuum systems?",
+    "options": [
+      "Alternate Alarm",
+      "Area Alarm",
+      "Local Alarm",
+      "Master Alarm"
+    ],
+    "answer": "Area Alarm"
   },
   {
-    "number": 24,
-    "questionId": "d6d9978d-4850-4014-91ff-6e7dfde25394",
-    "question": "Station outlets that operate at a pressure in excess of what PSI shall be either D.I.S.S. or be designed to relieve pressure prior to removal of adapter?",
-    "answer": "80",
-    "code_section": "5.1.5.15"
+    "number": 3,
+    "question": "An active system or equipment whose failure is not likely to cause injury to patients, staff or visitors shall be designed to meet what category?",
+    "options": [
+      "3",
+      "2",
+      "4",
+      "1"
+    ],
+    "answer": "3"
+  },
+  {
+    "number": 25,
+    "question": "Within a single patient room or critical care area to provide access for two or more gases through a common delivery system. Which would be used?",
+    "options": [
+      "Surface mounted medical gas rail system (MGR)",
+      "Multiple outlet systems (MOS)",
+      "Branch system (BS)",
+      "Waste anesthetic gas disposal (WAGD)"
+    ],
+    "answer": "Surface mounted medical gas rail system (MGR)"
   },
   {
     "number": 26,
-    "questionId": "5de768ca-0b2e-4d81-b82c-55af008e4668",
-    "question": "Underground piping buried outside of buildings shall have an installation procedure to _______ while being backfilled?",
-    "answer": "Protect the pipe",
-    "code_section": "5.1.10.11.5.2"
+    "question": "Atmosphere Absolute (ATA) is the pressure of the earth’s atmosphere, 760.0 mmHg, 101.325 kPa, or______ psia. Two ATA = two atmospheres.(See also 3.3.12, Atmosphere.)(HYP)",
+    "options": [
+      "14.3",
+      "14.6",
+      "14.2",
+      "14.7"
+    ],
+    "answer": "14.7"
   },
   {
     "number": 27,
-    "questionId": "8672e109-6fb9-4dd9-9d0b-442dfd8afae1",
-    "question": "Regardless of how many zone valve boxes are installed on a lateral branch off a riser, only one what type of valve is required for each branch?",
-    "answer": "service"
+    "question": "Any liquefied or vaporized gas alone or in any combination with other gases that is classified as a drug",
+    "options": [
+      "Compressed Medical Gases",
+      "Cyclinder",
+      "Container",
+      "None of the above"
+    ],
+    "answer": "Compressed Medical Gases"
   },
   {
     "number": 28,
-    "questionId": "89f5d654-de2e-4642-ab5d-2980700ab13c",
-    "question": "Which ASTM standards are applicable to medical-surgical vacuum system piping made from hard-drawn seamless copper tube?",
-    "answer": "ASTM B280 and B819",
-    "code_section": "2.3.6"
+    "question": "A bulk nitrous oxide system has a storage capacity of more than _____ pounds of nitrous oxide",
+    "options": [
+      "20,000",
+      "3200",
+      "16,000",
+      "5000"
+    ],
+    "answer": "3200"
+  },
+  {
+    "number": 29,
+    "question": "A chemical process of oxidation that occurs at a rate fast enough to produce heat and usually light in the form of either a glow or flame.What is this the definition of?",
+    "options": [
+      "Combustion",
+      "Combustible",
+      "Friction",
+      "Ignition"
+    ],
+    "answer": "Combustion"
   },
   {
     "number": 30,
-    "questionId": "c8e128a9-f317-40f0-b9d7-a2ae3d5b1aaf",
-    "question": "In a vacuum system, what occurs when not enough vacuum is maintained?",
-    "answer": "Air entry"
+    "question": "A low-pressure, vacuum-insulated vessel containing gases in liquid form.What is the definition for?",
+    "options": [
+      "Appliance",
+      "Container",
+      "Cylinder",
+      "Double insulated appliance"
+    ],
+    "answer": "Container"
   },
   {
     "number": 31,
-    "questionId": "57e1d6fc-a714-4b68-95b9-c97479603d24",
-    "question": "Which size NPS is allowed for connecting tubing for alarms?",
-    "answer": "1/4in"
+    "question": "A valve, usually a needle valve, that precisely controls flow of gas.What is the definition for?",
+    "options": [
+      "Flow control valve",
+      "Frequency control valve",
+      "Regulator valve",
+      "Throttling valve"
+    ],
+    "answer": "Flow control valve"
   },
   {
     "number": 32,
-    "questionId": "42490394-872c-4140-a142-04999e3a77bc",
-    "question": "Where should the emergency oxygen supply connection be placed when multiple buildings are served from a single cryogenic liquid oxygen source?",
-    "answer": "Each building served"
+    "question": "An assembly of equipment for supplying compressed gas (consisting of, but not limited to, storage containers, pressure regulators, pressure relief devices, vaporizers, manifolds, and interconnecting piping) that terminates where the gas, at service pressure, first enters the main line. The storage containers are either stationary or movable and include unconnected reserves on hand at the site, and the source gas is stored as a compressed gas or cryogenic fluid.What type of system is this?",
+    "options": [
+      "Bulk system",
+      "Compressed air system",
+      "Vacuum system",
+      "Medical gas system"
+    ],
+    "answer": "Bulk system"
   },
   {
     "number": 33,
-    "questionId": "81abfdaf-9284-425d-9692-402746a81f36",
-    "question": "A medical-surgical vacuum receiver shall be made serviceable by which method?",
-    "answer": "any method to ensure the continuation of service"
+    "question": "Equipment, materials, or services included in a list published by an organization that is acceptable to the authority having jurisdiction and concerned with evaluation of products or services, that maintains periodic inspection of production of listed equipment or materials or periodic evaluation of services, and whose listing states that either the equipment, material, or service meets appropriate designated standards or has been tested and found suitable for a specified purpose.",
+    "options": [
+      "Approved",
+      "Listed",
+      "Tested",
+      "Accepted"
+    ],
+    "answer": "Listed"
   },
   {
-    "number": 34,
-    "questionId": "41d7af66-3f5e-4290-b8a7-e8f2220e3a02",
-    "question": "Mains and branches in medical gas piping systems shall be not less than which NPS?",
-    "answer": "1/2in"
+    "number": 8,
+    "question": "Exists at cryogenic temperature, approximately −184.4°C (−300°F) at atmospheric pressure. It retains all of the properties of gaseous oxygen, but, in addition, when allowed to warm to room temperature at atmospheric pressure, it will evaporate and expand to fill a volume _____ times its liquid volume.",
+    "options": [
+      "8",
+      "86",
+      "100",
+      "Greater than 800"
+    ],
+    "answer": "Greater than 800"
   },
   {
     "number": 35,
-    "questionId": "9ccc00e1-d27e-4308-af2d-bdc97e978e1a",
-    "question": "Intake air for instrument air compressors shall not be drawn from which similar source?",
-    "answer": "Medical Air Intake"
+    "question": "What is the permitted use of the medical-surgical vacuum system?",
+    "options": [
+      "Patient suction",
+      "Cleaning of scopes",
+      "Liquid or debris disposal",
+      "vacuum steam condensate return"
+    ],
+    "answer": "Patient suction"
+  },
+  {
+    "number": 36,
+    "question": "Which NFPA code should you refer to for Life Safety?",
+    "options": [
+      "101",
+      "90A",
+      "170",
+      "45"
+    ],
+    "answer": "101"
   },
   {
     "number": 37,
-    "questionId": "87784ff7-1652-402e-b242-562cecc3b7c8",
-    "question": "Cylinders in use must not exceed a temperature of which degree Fahrenheit?",
-    "answer": "125"
+    "question": "Which ASSE publication covers the design of medical gas systems?",
+    "options": [
+      "6015",
+      "6030",
+      "6010",
+      "6060"
+    ],
+    "answer": "6060"
   },
   {
     "number": 38,
-    "questionId": "381947a1-f30f-485b-9564-c005cc6a11f7",
-    "question": "Instrument air sources shall produce air at a gauge pressure of not less than how many PSIG?",
-    "answer": "200"
+    "question": "Any location where moderate sedation, deep sedation, or general anesthesia is intended to be administered, is defined as?",
+    "options": [
+      "Anesthetic",
+      "Ambulatory health care ccupancy",
+      "Anesthetizing location",
+      "Area of Administration"
+    ],
+    "answer": "Anesthetizing location"
   },
   {
     "number": 39,
-    "questionId": "ea21355e-0e2b-4fb5-9f46-04dfc3e6505c",
-    "question": "In locations for central supply systems, ___________ devices shall be protected from physical damage?",
-    "answer": "Electrical"
+    "question": "A factory-assembled product designed for aesthetics or convenience that contains only the secondary valves of medical gas or vacuum outlets, piping, or other devices related to medical gases.",
+    "options": [
+      "Manufactured rough in assembly",
+      "Manifold",
+      "Manufactured assembly",
+      "Mask"
+    ],
+    "answer": "Manufactured rough in assembly"
   },
   {
-    "number": 40,
-    "questionId": "ca8f715d-86c7-423d-8a91-0c53adecfcc8",
-    "question": "How many connections should manifolds for gas cylinders have at a minimum?",
+    "number": 41,
+    "question": "A variant on the cryogenic liquid container manifold shall be permitted to have three headers. Such a variant shall have a minimum of _____ connections required for each of the primary and secondary headers.",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "An Average Days Supply"
+    ],
     "answer": "2"
   },
   {
     "number": 41,
-    "questionId": "bff9e90b-81bc-4e0b-aa69-48de9ac6460b",
-    "question": "What is the purpose of performing a standing pressure test?",
-    "answer": "Ensure system integrity"
+    "question": "All pressure relief valves shall be made of brass, bronze or _________.",
+    "options": [
+      "Stainless Steel",
+      "Carbon Steel",
+      "Cast Iron",
+      "Copper"
+    ],
+    "answer": "Stainless Steel"
   },
   {
     "number": 42,
-    "questionId": "6b576d1d-4983-4d27-8226-d12abbfa7801",
-    "question": "Which of the following is NOT a requirement for the quality of instrument air?",
-    "answer": "A) dry to a dew point of 35*F"
+    "question": "Cylinders in use and in storage shall be prevented from reaching temperatures in excess of  _________.",
+    "options": [
+      "100 F",
+      "125 F",
+      "160 F",
+      "190 F"
+    ],
+    "answer": "125 F"
   },
   {
     "number": 43,
-    "questionId": "1a0118dc-63d8-432e-8680-fab0bb6c50c7",
-    "question": "Inspection and testing shall be performed on all new piped gas systems to ensure all applicable provisions have been adhered to and system integrity has been achieved or maintained through a?",
-    "answer": "documented procedure"
+    "question": "Final line pressure regulators, when used for bulk cryogenic liquid systems shall be of a ______ design.",
+    "options": [
+      "Straight Through",
+      "Parellel",
+      "Balanced",
+      "None Of The Above"
+    ],
+    "answer": "Balanced"
   },
   {
     "number": 44,
-    "questionId": "17e18bd9-5c7e-44db-b87c-53ac90d284c1",
-    "question": "Which type of emergency reserve system can be substituted for the EOSC?",
-    "answer": "In-building"
-  },
-  {
-    "number": 45,
-    "questionId": "d69ed1ff-885e-4973-bd3c-e7c0bb3a3e64",
-    "question": "What kind of indicators shall all master, area, and local alarm systems include for each condition monitored?",
-    "answer": "Visual, audible"
-  },
-  {
-    "number": 46,
-    "questionId": "635300a2-42cf-4ef4-87e0-d20e6cc429c5",
-    "question": "What type of connectors shall be used to connect the vacuum pumps with their intake and outlet piping?",
-    "answer": "flexible"
-  },
-  {
-    "number": 47,
-    "questionId": "8281ad0e-35d4-42e5-958c-07cb0574695b",
-    "question": "What are all brazed joints required to be examined for during the initial pressure test?",
-    "answer": "leakage by means of a leak detectant safe for oxygen"
-  },
-  {
-    "number": 48,
-    "questionId": "c3169618-9d5f-4555-9a5e-049ccdc1147a",
-    "question": "Performance qualification of brazers shall remain in effect indefinitely unless the brazer does not braze with the qualified procedure for a period exceeding how many months?",
-    "answer": "6"
-  },
-  {
-    "number": 49,
-    "questionId": "321d9061-ed97-4bc0-9e4c-17fa301dcce6",
-    "question": "Final line filters for instrument air must be rated for a minimum of what efficiency at microns?",
-    "answer": ".01"
-  },
-  {
-    "number": 50,
-    "questionId": "151e4aa8-2279-4bf8-a455-1baf54726c28",
-    "question": "Where should medical air piping systems at different operating pressures separate?",
-    "answer": "Filters"
-  },
-  {
-    "number": 51,
-    "questionId": "8584b907-6fd8-47c9-89ae-2267220a4646",
-    "question": "Who shall conduct the verification testing?",
-    "answer": "a party other than the installing contractor"
-  },
-  {
-    "number": 52,
-    "questionId": "6ddb9c7a-749d-4525-88ba-6f614ea5b723",
-    "question": "What is the main purpose of having a pressure relief valve in a medical gas system?",
-    "answer": "B) To prevent system overpressure"
-  },
-  {
-    "number": 53,
-    "questionId": "5fafa9bd-a854-4933-8571-453a338e8a42",
-    "question": "When multiple vacuum pumps are joined to a common exhaust, the common exhaust must be sized to achieve what?",
-    "answer": "Minimize back pressure"
-  },
-  {
-    "number": 54,
-    "questionId": "9a5292c1-d53b-469d-a365-317b55d4846c",
-    "question": "An automatic means in a medical air compressor system is required to prevent what?",
-    "answer": "Backflow"
-  },
-  {
-    "number": 55,
-    "questionId": "f07fb948-e705-485b-85b4-e3644acb5aed",
-    "question": "Which of the following systems shall not be permitted to be located in an outdoor enclosure?",
-    "answer": "Medical air sources"
-  },
-  {
-    "number": 56,
-    "questionId": "f46d3113-7245-4928-8ee6-35ff57f6d203",
-    "question": "What piping material is permitted for field-installed medical-surgical vacuum distribution systems?",
-    "answer": "Stainless steel pipe"
-  },
-  {
-    "number": 57,
-    "questionId": "3ee31404-2656-43be-81ec-85fdfd36fa9b",
-    "question": "Which standard is NOT a requirement for the quality of medical air?",
-    "answer": "Be filtered to .01 microns"
-  },
-  {
-    "number": 58,
-    "questionId": "699675a1-834b-4b5b-b5a6-421c02810a83",
-    "question": "For what parameter is a high water level sensor needed in air receivers?",
-    "answer": "Avoiding system failure"
-  },
-  {
-    "number": 59,
-    "questionId": "d2e57363-6370-434e-9463-a99733d8e45d",
-    "question": "Cylinders in use and in storage shall be prevented from reaching temperatures in excess of what degree Fahrenheit?",
-    "answer": "125"
-  },
-  {
-    "number": 60,
-    "questionId": "acf505f9-670a-42e9-a91c-62fe5b0c56c3",
-    "question": "Alarm switches and sensors must be installed to ensure they are what?",
-    "answer": "Removable"
-  },
-  {
-    "number": 61,
-    "questionId": "5b4941ce-1535-42a7-ab08-3dacd444c3ce",
-    "question": "A continuous tape or marker placed immediately above the buried pipe must clearly identify the pipeline by what?",
-    "answer": "Specific name"
-  },
-  {
-    "number": 62,
-    "questionId": "aa12e698-8cdc-4f12-a613-f3c635bbb246",
-    "question": "What feature should not be equipped on medical air receivers?",
-    "answer": "A temperature indicator"
-  },
-  {
-    "number": 63,
-    "questionId": "c59c4758-a1c7-4ddd-b744-40a04dca2d14",
-    "question": "Category 1 medical-surgical vacuum sources shall have an automatic means to prevent what from any on-cycle pump through and off-cycle pump?",
-    "answer": "backflow"
-  },
-  {
-    "number": 64,
-    "questionId": "2351a571-74bc-4246-af33-8e73b2a121a4",
-    "question": "In medical gas systems, the purpose of a pressure relief valve is to?",
-    "answer": "discharge excess pressure safely"
-  },
-  {
-    "number": 65,
-    "questionId": "f851e26b-7d13-4f3e-9fe1-24bfbb7d41ce",
-    "question": "At what CO level (in PPM) shall carbon monoxide activate the required alarms?",
-    "answer": "10"
-  },
-  {
-    "number": 66,
-    "questionId": "2cc00a34-84b8-4450-b8b0-9f105d28774d",
-    "question": "Medical air compressors that are oil-based require what type of filter?",
-    "answer": "Coalescing filters"
-  },
-  {
-    "number": 67,
-    "questionId": "7254f9dc-e922-4042-b1df-4c373502ce37",
-    "question": "What is the minimum clearance around EOSC for a temporary source of supply?",
-    "answer": "3 ft"
-  },
-  {
-    "number": 68,
-    "questionId": "75cacf2e-8cc2-42f9-935b-baf6113361b7",
-    "question": "Liquids drained from a category 3 vacuum source shall discharge _ to a sanitary drainage system?",
-    "answer": "indirectly"
-  },
-  {
-    "number": 69,
-    "questionId": "d8d87af7-141a-4936-b68f-41652911e1bd",
-    "question": "What is the required relief setting for valves in central supply systems for positive pressure gases above normal working operating pressure?",
-    "answer": "50%"
-  },
-  {
-    "number": 70,
-    "questionId": "720e86f5-34de-41e9-9188-8f3d23a85833",
-    "question": "When is the initial pressure test conducted by the installer?",
-    "answer": "after blow down of the distribution piping"
-  },
-  {
-    "number": 71,
-    "questionId": "07063fc8-f3da-4ebb-bce0-e6932632d7a5",
-    "question": "When the dew point at system pressure exceeds what temperature in Fahrenheit, an alarm is activated?",
-    "answer": "-22"
-  },
-  {
-    "number": 72,
-    "questionId": "592a0aaa-cd10-4e97-985e-fe74cc9d9ce5",
-    "question": "What is the consequence if a brazer does not perform brazing for a duration exceeding 6 months?",
-    "answer": "Qualifying period resets"
-  },
-  {
-    "number": 73,
-    "questionId": "61012c73-05cc-4340-97ab-c760e2dada7e",
-    "question": "What is the primary purpose of an alarm in a medical-surgical vacuum system?",
-    "answer": "To notify failures in the vacuum system"
-  },
-  {
-    "number": 74,
-    "questionId": "d8941f59-b1ad-4974-85b0-cb30dac334bd",
-    "question": "Where should the master alarm panel be located for the individual responsible for the maintenance of the medical gas piping system?",
-    "answer": "Office or work space of the individual"
-  },
-  {
-    "number": 75,
-    "questionId": "4c28d726-daa0-4289-8741-ab0bbaf48c02",
-    "question": "The initial pressure test requires leakage detection that does not contain which of the following?",
-    "answer": "ammonia"
-  },
-  {
-    "number": 76,
-    "questionId": "d8aeb6d5-9ab7-4a1d-a860-944ff171f333",
-    "question": "Each station outlet/inlet for medical gases and vacuums shall be what type?",
-    "answer": "gas-specific"
-  },
-  {
-    "number": 77,
-    "questionId": "f9e1e1b6-96c6-4836-bd8e-c9b9310b7715",
-    "question": "Which location is medical gas piping allowed to be installed in?",
-    "answer": "Patient care areas"
-  },
-  {
-    "number": 78,
-    "questionId": "8db4c9a8-0e47-4915-be70-7da670e3b17b",
-    "question": "Which of the following filler metals shall be used to braze copper-to-copper joints in medical gas and vacuum distribution piping?",
-    "answer": "BCuP series"
-  },
-  {
-    "number": 79,
-    "questionId": "e1abcb93-79e5-42a5-9f38-2fdf403ab8dd",
-    "question": "Vacuum receivers should be capable of withstanding a gauge of how many inches of HgV?",
-    "answer": "30"
-  },
-  {
-    "number": 80,
-    "questionId": "36945be4-d24c-4263-a969-f3329f5ba60d",
-    "question": "A system shall be deemed breached as a result of all of the following except?",
-    "answer": "alarm testing"
-  },
-  {
-    "number": 81,
-    "questionId": "e555d569-f403-4c13-b14c-5fdf60cdc55f",
-    "question": "The quality of instrument air shall be dry to a dew point of what temperature?",
-    "answer": "A) -40*F"
-  },
-  {
-    "number": 82,
-    "questionId": "929b48d7-21f9-4aff-844e-1ebbe394f4cd",
-    "question": "What type of indicator is required for final line filters for instrument air to show the status of filter life?",
-    "answer": "visual"
-  },
-  {
-    "number": 83,
-    "questionId": "e0c5e4f6-0dd2-4ac9-8681-5c4f53b26252",
-    "question": "Medical air filters must be sized for what percentage of the system peak calculated demand?",
-    "answer": "100%"
-  },
-  {
-    "number": 84,
-    "questionId": "7837acc4-9022-45ae-b002-6a55cda1b269",
-    "question": "What treatment is required for water used in liquid ring compressors to prevent pathogens and chlorine?",
-    "answer": "Hypochlorination"
-  },
-  {
-    "number": 85,
-    "questionId": "b6d0c262-4d1c-49f5-a6e7-ccac34a976d2",
-    "question": "Which type of gas shall not be used to power the venture of a WAGD system?",
-    "answer": "Medical air"
-  },
-  {
-    "number": 86,
-    "questionId": "547c66d3-b607-4ddf-9c07-09d0fe109c91",
-    "question": "What minimum efficiency rating is required for medical air filters at 1 micron or greater?",
-    "answer": "98%"
-  },
-  {
-    "number": 87,
-    "questionId": "517a88cc-671b-4d24-872a-3136848a960b",
-    "question": "A Category 1 dedicated WAGD source must consist of how many producers to serve the peak calculated demand?",
-    "answer": "2"
-  },
-  {
-    "number": 88,
-    "questionId": "f30158e5-288b-4961-a02b-a598f601426f",
-    "question": "Brazing procedures and brazer performance for the installation of medical gas and vacuum piping shall be qualified in accordance with?",
-    "answer": "ASME section IX or AWS B2.2"
-  },
-  {
-    "number": 89,
-    "questionId": "9cece3e3-6f50-4e85-b06a-f6a4449e4cb3",
-    "question": "What dew point temperature activates the instrument air dew point high alarm?",
-    "answer": "-22°F"
-  },
-  {
-    "number": 90,
-    "questionId": "8b3a88fb-e96e-42c5-ab74-5d10f0a301c6",
-    "question": "What is installed in each header of central supply systems to prevent debris from entering the manifold controls?",
+    "question": "In central supply systems using gas or liquid cylinders, each header shall have a _______ to prevent debris from entering the manifold controls.",
+    "options": [
+      "Check Valve",
+      "Relief Valve",
+      "Filter",
+      "Monitor"
+    ],
     "answer": "Filter"
   },
   {
-    "number": 91,
-    "questionId": "46f5dd0f-3d1c-4980-9273-3203213668de",
-    "question": "The minimum backfilled cover above the top of the pipe or its enclosure shall be 36 inches, except that the minimum cover shall be permitted to be reduced to how many inches where there is no potential damage from surface loads or surface conditions?",
-    "answer": "18"
-  },
-  {
-    "number": 92,
-    "questionId": "3c66a1ec-31dc-40c7-aea1-e463e6da210c",
-    "question": "What is the maximum allowable pressure for a vacuum source in dental systems?",
-    "answer": "25 psi"
-  },
-  {
-    "number": 93,
-    "questionId": "66064e67-81d1-4505-9c83-c742f84435b6",
-    "question": "Verification testing for medical gas and vacuum pipeline systems must meet the requirements of which standard?",
-    "answer": "ASSE standard 6030"
-  },
-  {
-    "number": 94,
-    "questionId": "68504129-3a3f-4b4e-b601-f6b4ce170e3f",
-    "question": "The initial pressure test for positive pressure gases and vacuum systems shall have a test pressure of 1.5 times the system working pressure, but not less than what PSI?",
-    "answer": "150"
-  },
-  {
-    "number": 95,
-    "questionId": "41753799-9ec2-4ae0-89cc-cd044b1c7146",
-    "question": "A medical-surgical vacuum system should always aim to minimize what?",
-    "answer": "Back pressure"
-  },
-  {
-    "number": 96,
-    "questionId": "b9d32a65-3938-4608-a8a3-505664f05d7f",
-    "question": "The responsible authority shall review the inspection and testing records prior to the use of all systems to ensure that all findings have been successfully completed. Who is this authority?",
-    "answer": "responsible facility authority"
-  },
-  {
-    "number": 97,
-    "questionId": "71e6ea2c-f631-4011-9be2-0cdd015531bc",
-    "question": "What is the scale range of vacuum indicators measured in inches of HgV?",
-    "answer": "30"
-  },
-  {
-    "number": 98,
-    "questionId": "d48d43f9-a524-4493-8afd-65735a7967cd",
-    "question": "Which component is not part of an auxiliary source connection?",
-    "answer": "Visual pressure indicator"
-  },
-  {
-    "number": 99,
-    "questionId": "500cc72b-cfc0-49a2-b17c-88613c3c0b0e",
-    "question": "Station outlets and inlets of manufactured assemblies that employ hose or flexible connections to the piping system that are not fully and immediately accessible shall use what type of connectors?",
-    "answer": "D.I.S.S."
-  },
-  {
-    "number": 100,
-    "questionId": "c7e31f84-1790-4e68-924e-71259035a2b5",
-    "question": "What does a signal from each local alarm system indicate at the master alarm panels?",
-    "answer": "Source equipment issue is present"
-  },
-  {
-    "number": 101,
-    "questionId": "c54deb1d-ba76-419f-96f8-525385a4384e",
-    "question": "In positive pressure systems, area alarm sensors for critical care areas must be located on which side of the zone valve box assemblies?",
-    "answer": "Patient or use side"
-  },
-  {
-    "number": 102,
-    "questionId": "28baada5-1a31-4953-bd26-804b7419ad3d",
-    "question": "A standard gauge pressure of 160-185 psi applies to which of the following?",
-    "answer": "instrument air"
-  },
-  {
-    "number": 103,
-    "questionId": "8cf65923-06c4-4942-9c83-8d7e93f595d5",
-    "question": "Runouts to alarm panels and connecting tubing for gauges and alarm devices shall be permitted to be which NPS?",
-    "answer": "1/4"
-  },
-  {
-    "number": 104,
-    "questionId": "e1fcc402-a5fe-4f1a-a3e9-209a1a345d82",
-    "question": "The manufacturer is allowed a decay of less than what percentage in 24 hours during the standing pressure test?",
-    "answer": "1.0"
-  },
-  {
-    "number": 105,
-    "questionId": "900fb9e6-3495-47f4-a642-94b234b86489",
-    "question": "Which of the following is critical for the safe operation of medical gas systems regarding pressure levels?",
-    "answer": "Monitoring at the source"
-  },
-  {
-    "number": 106,
-    "questionId": "e3bf403e-7ded-49c2-9e7d-b11331423b39",
-    "question": "What is the maximum permitted interval for spacing pipe labels?",
-    "answer": "20 feet"
-  },
-  {
-    "number": 107,
-    "questionId": "347458be-1511-4aea-a090-1c4780ad7235",
-    "question": "Who is responsible for ensuring that fittings for positive pressure medical gas systems are cleaned for oxygen service before installation?",
-    "answer": "Manufacturer"
-  },
-  {
-    "number": 108,
-    "questionId": "980ae343-940a-4488-96bd-270478fb6567",
-    "question": "Factory installed outlet tubing on station inlets shall not be less than what NPS?",
-    "answer": "3/8"
-  },
-  {
-    "number": 109,
-    "questionId": "9a9fd8ae-2496-4fc2-b846-a3fdd94628f9",
-    "question": "When should the dew point monitor activate alarms in the medical air system?",
-    "answer": "When dew point exceeds 35°F"
-  },
-  {
-    "number": 110,
-    "questionId": "22807c58-2d60-4508-b6d4-4d6e493c8c94",
-    "question": "Why is it important for the master alarm panel to be monitored continuously?",
-    "answer": "To ensure rapid response to any issues"
-  },
-  {
-    "number": 111,
-    "questionId": "8a77e78a-7f79-45bb-aa76-fa257c803d98",
-    "question": "Immediately outside of each vital life-support, critical care, and anesthetizing location, there shall be what type of valve for each medical gas, vacuum, and WAGD system?",
-    "answer": "zone"
-  },
-  {
-    "number": 112,
-    "questionId": "70b09fee-5130-4e97-abe6-2f15484680e3",
-    "question": "Which valve is typically used to control the flow of medical gases in a treatment facility?",
-    "answer": "shutoff valve"
-  },
-  {
-    "number": 113,
-    "questionId": "e184268a-ebe7-47b6-86b2-0fc0661d2926",
-    "question": "Which of the following does NOT represent an indicator in the alarm system?",
-    "answer": "Mock signal"
-  },
-  {
-    "number": 114,
-    "questionId": "ff1b2396-1d87-4827-99da-608bd70b7ac2",
-    "question": "Supports in damp locations must be?",
-    "answer": "Plastic-coated"
-  },
-  {
-    "number": 115,
-    "questionId": "0c0a273c-90c8-4f6f-b75c-8a03d0708d23",
-    "question": "At what percentage from normal operating pressure will the master alarm system activate?",
-    "answer": "20%"
-  },
-  {
-    "number": 116,
-    "questionId": "c8562121-3af7-46d0-bc0b-b4224acfd68f",
-    "question": "Which document defines the qualifications for installers of medical gas systems?",
-    "answer": "ASSE standard 6010"
-  },
-  {
-    "number": 117,
-    "questionId": "676bcd6f-d5a9-441e-b6bc-ca0aba928afa",
-    "question": "What type of material is recommended for the piping of category 3 medical gases?",
-    "answer": "seamless copper"
-  },
-  {
-    "number": 118,
-    "questionId": "9768df2b-de27-4832-932a-1a51ee3cf25b",
-    "question": "Who must furnish documentation certifying that all installed piping and materials are cleaned for oxygen service?",
-    "answer": "Installer"
-  },
-  {
-    "number": 119,
-    "questionId": "1bf5ad9f-22fe-446b-88eb-57ec25ef390a",
-    "question": "Mains and branches in medical-surgical vacuum systems shall not be less than which NPS?",
-    "answer": "3/4"
-  },
-  {
-    "number": 120,
-    "questionId": "d7c587a3-fa75-49e1-84d2-901d3809167a",
-    "question": "What qualification is required to install a category 2 medical gas system?",
-    "answer": "ASSE 6010"
-  },
-  {
-    "number": 121,
-    "questionId": "d4a668f8-6794-4136-a77e-b04a098973f5",
-    "question": "What is a function of the final line regulator in a medical air system?",
-    "answer": "Monitors the pressure"
-  },
-  {
-    "number": 122,
-    "questionId": "9411e0b2-fca4-4cc7-839b-492dbe94a6c2",
-    "question": "What is the initial pressure test pressure for a category 2 system?",
-    "answer": "1.5 but not less than 150 psi"
-  },
-  {
-    "number": 123,
-    "questionId": "8850a6b1-1e15-4982-8a8b-86f1938799eb",
-    "question": "WAGD producers designed for operation at vacuums below how many inches of HgV shall only be used for WAGD service?",
-    "answer": "5"
-  },
-  {
-    "number": 124,
-    "questionId": "7955ae0c-2963-4653-943a-bdb2707a5fb1",
-    "question": "What minimum distance is prescribed for medical air intakes from exhausts to avoid contamination?",
-    "answer": "25 ft"
-  },
-  {
-    "number": 125,
-    "questionId": "386165b4-2738-4b2f-9187-35561e9fd2b4",
-    "question": "Pressure relief valves for dental air systems having less than _ ft3 at STP shall be permitted to discharge locally indoors?",
-    "answer": "3000"
-  },
-  {
-    "number": 126,
-    "questionId": "e3dd60bd-c1d2-4546-a6c2-c400471e7796",
-    "question": "All positive pressure supply systems shall be provided with duplex line pressure regulators piped in which configuration?",
-    "answer": "Parallel"
-  },
-  {
-    "number": 127,
-    "questionId": "646da960-4f72-4d14-9be5-13a45460ec68",
-    "question": "The labeling shall be what for all components of the system?",
-    "answer": "D) verified"
-  },
-  {
-    "number": 128,
-    "questionId": "55cdfad1-7021-4439-8b44-5a2f9c95da21",
-    "question": "Instrument air sources shall be filtered with what type of filters located upstream of the final line regulators?",
-    "answer": "A) activated carbon"
-  },
-  {
-    "number": 129,
-    "questionId": "45111e66-e42d-4b89-9f29-6737938506ce",
-    "question": "How often should medical gas systems undergo testing for compliance and safety?",
-    "answer": "A) Annually"
-  },
-  {
-    "number": 130,
-    "questionId": "21b115b9-117e-477b-9612-45c4ad06b3d3",
-    "question": "What should a medical air compressor system's pressure relief valve be set at above line pressure?",
-    "answer": "50 percent"
-  },
-  {
-    "number": 131,
-    "questionId": "bdbd46fe-ac25-433f-b78b-4c51a4f88893",
-    "question": "To assure that all ambient air has been removed from the pipeline prior to brazing, what shall be used to verify the effectiveness of the purge?",
-    "answer": "oxygen analyzer"
-  },
-  {
-    "number": 132,
-    "questionId": "01e33b41-9bb3-44ee-a1cd-6e8adf94e8dd",
-    "question": "What type of signal is required to indicate the operating status of manifolds for gas cylinders?",
-    "answer": "Local"
-  },
-  {
-    "number": 133,
-    "questionId": "0d1a6ce0-1b36-4fa4-aba2-ddeefd404caf",
-    "question": "Area alarms shall be tested to verify an alarm condition if the pressure in the piping system increases or decreases by what percentage?",
-    "answer": "B) 20"
-  },
-  {
-    "number": 134,
-    "questionId": "a931c685-caee-4368-a223-6b2c739de81d",
-    "question": "What is the minimum height requirement for the medical air intake above ground level?",
-    "answer": "20 ft"
-  },
-  {
-    "number": 135,
-    "questionId": "0cc7e804-ce5b-4202-a869-672c862b1986",
-    "question": "What percentage indicates a pressure increase or decrease for area alarm panels in medical gas systems from normal operating pressure?",
-    "answer": "20"
-  },
-  {
-    "number": 136,
-    "questionId": "f0eafad8-d237-439e-9b31-43aed4bc4129",
-    "question": "What is the test gas used by the installer?",
-    "answer": "Nitrogen NF"
-  },
-  {
-    "number": 137,
-    "questionId": "6bbca101-49a1-43e1-912e-b269b8095bd3",
-    "question": "While brazing medical-gas copper joints, a purge gas shall flow continuously to prevent the formation of copper oxide on the inside surface of the joint. What shall be used as a purge gas?",
-    "answer": "nitrogen NF"
-  },
-  {
-    "number": 138,
-    "questionId": "3b2ad379-2250-4cfc-8caa-6e6db409a246",
-    "question": "Drops to individual station outlets and inlets shall not be less than which NPS?",
-    "answer": "1/2"
-  },
-  {
-    "number": 139,
-    "questionId": "d329a152-43b3-4d80-bcbf-eb0772b93373",
-    "question": "WAGD can be produced by all of the following except which source?",
-    "answer": "Medical air source"
-  },
-  {
-    "number": 140,
-    "questionId": "511067b8-700e-461b-a1b1-2bd83c5b4ca5",
-    "question": "Which valves allow modification of lateral branch piping from a main or riser without shutting down the entire main, riser, or facility?",
-    "answer": "service"
-  },
-  {
-    "number": 141,
-    "questionId": "2ad5be84-31ff-4803-a9f4-fa09a2d11a91",
-    "question": "What type of alarm panel is permitted for category 2 warning systems?",
-    "answer": "single"
-  },
-  {
-    "number": 142,
-    "questionId": "d04020bb-4bd4-4f11-b08f-7336bc819ba1",
-    "question": "What should be monitored to ensure safe operation of medical air systems?",
-    "answer": "Pressure"
-  },
-  {
-    "number": 143,
-    "questionId": "38c34004-8752-4919-a18b-df5f677381a1",
-    "question": "The initial pressure test for positive pressure gases ensures that the system is tested to prevent what kind of issue?",
-    "answer": "leakage"
-  },
-  {
-    "number": 144,
-    "questionId": "880d341a-9fa1-409c-9daf-543faba1a895",
-    "question": "For brazed joints, which temperature in degrees Fahrenheit must the melting temperature of the brazing alloy exceed to maintain piping integrity in a fire?",
-    "answer": "1000"
-  },
-  {
-    "number": 145,
-    "questionId": "5d678db6-b5dc-4347-a794-bf4ca5299480",
-    "question": "In what category is the loss of the piped gas and vacuum systems not likely to cause injury to patients, staff, or visitors, but can cause discomfort?",
-    "answer": "category 3"
-  },
-  {
-    "number": 146,
-    "questionId": "f18bec4b-9fd2-4fd1-892e-96d1425d80f2",
-    "question": "When determining no cross connection exists between various systems, one system is charged with nitrogen NF at what PSI?",
-    "answer": "50"
-  },
-  {
-    "number": 147,
-    "questionId": "751105ed-7482-4965-95d2-e0f511ae6627",
-    "question": "Medical air reconstituted from oxygen USP and nitrogen NF should meet all of the following requirements except?",
-    "answer": "completion of a risk analysis and approval by authority having jurisdiction before use"
-  },
-  {
-    "number": 148,
-    "questionId": "7c837d4c-fbaa-438f-b745-e20253d9bd48",
-    "question": "When using the autogenous orbital welding process, joints shall be continuously what inside and outside with inert gas as qualified with a procedure?",
-    "answer": "purged"
-  },
-  {
-    "number": 149,
-    "questionId": "7c568f95-a485-4592-b9b4-50c60facfd2c",
-    "question": "Pipe labels shall be located at intervals of not more than how many feet?",
-    "answer": "20"
-  },
-  {
-    "number": 150,
-    "questionId": "f0a992b7-8c40-4afb-aee8-3ec7f4e8148c",
-    "question": "If another alarm condition occurs while the audible alarm is silenced, what must happen?",
-    "answer": "The audible signal shall re-initiate"
-  },
-  {
-    "number": 151,
-    "questionId": "5ece5f46-322f-403f-8634-a741857c5bd3",
-    "question": "What pressure drop in the medical-surgical vacuum system triggers the master alarm system?",
-    "answer": "Any value below 12 in. HgV"
-  },
-  {
-    "number": 152,
-    "questionId": "a90745b2-5b89-48ca-9615-9c976fb530e9",
-    "question": "The standing pressure test for positive pressure medical gas piping shall be conducted with the source valve closed at a test pressure of what percentage above normal system operating pressure for 24 hours?",
-    "answer": "20% above normal system operating pressure"
-  },
-  {
-    "number": 153,
-    "questionId": "f04dcf01-dec2-453f-8294-b04a6a1ee86e",
-    "question": "On system renovation where no piping is changed, what type of testing shall be performed to ensure no other equipment in the system has been adversely impacted?",
-    "answer": "functional"
-  },
-  {
-    "number": 154,
-    "questionId": "c2370859-876f-4cf2-8afe-5509888d1085",
-    "question": "What purpose do alarm systems serve in medical gas installations?",
-    "answer": "Monitor conditions"
-  },
-  {
-    "number": 155,
-    "questionId": "015c2a66-7d69-422f-82fe-9b7a9bfeba1e",
-    "question": "During a vacuum piping system test, a test pressure of 12 inches HgV is applied for how long?",
-    "answer": "24 hours"
-  },
-  {
-    "number": 156,
-    "questionId": "732d61ac-02a2-4898-ac78-0078542f22ea",
-    "question": "What should aftercoolers be provided with?",
-    "answer": "Flexible connectors"
-  },
-  {
-    "number": 157,
-    "questionId": "22cf1344-c64f-47e8-9c6a-784fbd8f261c",
-    "question": "Who must ensure that inspection and testing adhere to applicable provisions?",
-    "answer": "documented procedure"
-  },
-  {
-    "number": 158,
-    "questionId": "fd1a5eb6-5029-4d8c-84d7-2da700d9e32f",
-    "question": "Which type of compressor can introduce oil into the medical air system if not configured correctly?",
-    "answer": "Reciprocating compressors"
-  },
-  {
-    "number": 159,
-    "questionId": "2025a9a3-03c4-4dba-9505-b45580e7cc0d",
-    "question": "All pressure relief valves shall be made of brass, bronze, or which other material?",
-    "answer": "Stainless steel"
-  },
-  {
-    "number": 160,
-    "questionId": "fbe0070e-69a6-4682-b21f-defd98ac828b",
-    "question": "Outdoor locations surrounded by impermeable walls, except fire barrier walls, shall have protected ventilation openings at what part of each wall?",
-    "answer": "Base"
-  },
-  {
-    "number": 161,
-    "questionId": "1177150a-a3ff-4fcc-9899-6947743d4d71",
-    "question": "Vacuum piping systems shall be subjected to a 24-hour standing test at a pressure between what measurement of HgV and full vacuum?",
-    "answer": "12 in"
-  },
-  {
-    "number": 162,
-    "questionId": "24262dde-0d9a-495c-956c-3d65700a1293",
-    "question": "What is the acceptable accuracy range of digital indicators as a percentage of the operating pressure?",
-    "answer": "5"
-  },
-  {
-    "number": 163,
-    "questionId": "b224d669-0ea5-4886-b1e9-eaa561b0e59c",
-    "question": "A low-pressure, vacuum insulated vessel containing gas in liquid form is called?",
-    "answer": "container"
-  },
-  {
-    "number": 164,
-    "questionId": "fc970ed7-5b34-4288-bb98-8831de2b0002",
-    "question": "A category 3 moisture indicator shall indicate when the relative humidity of the dental air exceeds _ at line pressure and temperature?",
-    "answer": "40%"
-  },
-  {
-    "number": 165,
-    "questionId": "2ea1a438-5428-4a03-bdc6-149c1326d750",
-    "question": "Threaded joints shall be allowed on the source equipment on which side of the source valve?",
-    "answer": "source"
-  },
-  {
-    "number": 166,
-    "questionId": "cdba8f03-a1da-4424-8a6c-e337a9990273",
-    "question": "Operational shutoff valves are permitted to be installed to isolate or shut off piping for servicing of what?",
-    "answer": "in-line"
-  },
-  {
-    "number": 167,
-    "questionId": "7298d7bc-ac12-4d74-90bd-575c5550a37d",
-    "question": "Gas-specific demand check fittings are not required on which type of indicators?",
-    "answer": "Zone valve pressure"
-  },
-  {
-    "number": 168,
-    "questionId": "9d203a07-c585-4f9c-8345-d54bba059707",
-    "question": "Which aspect is crucial for maintaining safety during medical gas installations?",
-    "answer": "C) Proper venting mechanisms"
-  },
-  {
-    "number": 169,
-    "questionId": "d6f48cef-fd12-474f-a4e5-64b6bf4b8a1a",
-    "question": "Where category 3 medical gas supply systems supply two treatment facilities, each facility shall be provided with an emergency _ valve?",
-    "answer": "shutoff"
-  },
-  {
-    "number": 170,
-    "questionId": "58432740-796f-444d-a6d2-47a6a828f6fa",
-    "question": "Axially swaged fittings that provide a metal to metal seal having pressure and temperature ratings of a brazed joint when complete are?",
-    "answer": "permanent"
-  },
-  {
-    "number": 171,
-    "questionId": "175a148e-efa2-4732-8b27-b81edd56319a",
-    "question": "Flexible connectors, metallic or non-metallic, shall have a minimum burst pressure of how many PSI?",
-    "answer": "1000"
-  },
-  {
-    "number": 172,
-    "questionId": "35280c97-3ce1-4ef1-b1c2-b84e473d23b7",
-    "question": "In a vacuum exhaust system, which of the following cannot be used to isolate the pumps?",
-    "answer": "Grooved joint"
-  },
-  {
-    "number": 173,
-    "questionId": "04f6ba84-ecd1-40a6-bec8-25f4982584be",
-    "question": "Category 2 medical-surgical vacuum systems are permitted to be what configuration?",
-    "answer": "simplex"
-  },
-  {
-    "number": 174,
-    "questionId": "c4908317-5d02-4534-ad91-23604582a020",
-    "question": "Which type of oxygen system location is generally prohibited from having access to open flame areas?",
-    "answer": "Indoor"
-  },
-  {
-    "number": 175,
-    "questionId": "9c9ff3ad-912b-4988-b984-1017434fd1d6",
-    "question": "What type of alarm activates to indicate the operation of the backup compressor in an instrument air source?",
-    "answer": "local"
-  },
-  {
-    "number": 176,
-    "questionId": "59e85105-f37d-4cfe-80ac-05b72fc33fcd",
-    "question": "In a medical air supply system, what is required for dryers, filters, and regulators?",
-    "answer": "At least duplexed"
-  },
-  {
-    "number": 177,
-    "questionId": "b937cfc9-8f30-430c-96e1-ffe2a6c4d18d",
-    "question": "Cylinder and cryogenic liquid container outlet connections shall be designed as to render the attachment point unusable when removal of the outlet connection is attempted. What is the intended design outcome?",
-    "answer": "Unusable"
-  },
-  {
-    "number": 178,
-    "questionId": "af92fe83-e055-49aa-b080-4b79bab0b687",
-    "question": "Which type of gas is not allowed to be stored outdoors according to safety regulations?",
-    "answer": "Medical air"
-  },
-  {
-    "number": 179,
-    "questionId": "badb5f2b-222e-455b-b69a-74531b19e854",
-    "question": "Medical air receivers must allow for what during service?",
-    "answer": "Being filled"
-  },
-  {
-    "number": 180,
-    "questionId": "1134fd8d-301f-498f-917c-68cba38c7b33",
-    "question": "What type of alarm condition does the system provide an indication for?",
-    "answer": "Pressure regulation"
-  },
-  {
-    "number": 181,
-    "questionId": "1189f2d7-59b8-45fc-81ab-5ab371d70011",
-    "question": "A shutoff valve shall be placed at the immediate connection of each source system to what type of system?",
-    "answer": "source"
-  },
-  {
-    "number": 182,
-    "questionId": "c69c301d-9eac-41f5-92aa-059781b3b6dc",
-    "question": "Who is responsible for developing an emergency plan for medical air loss in a category 2 facility?",
-    "answer": "facility staff"
-  },
-  {
-    "number": 183,
-    "questionId": "e500646a-5abf-41e4-95b5-9350a39278ff",
-    "question": "Nitrous oxide and carbon dioxide using cylinders or portable containers shall be prevented from reaching temperatures lower than what degree Fahrenheit?",
-    "answer": "20"
-  },
-  {
-    "number": 184,
-    "questionId": "a230d8a1-4d0e-4809-b27a-83ac3b30d966",
-    "question": "What is a necessary feature of medical air compressor systems regarding airflow?",
-    "answer": "Backflow preventer"
-  },
-  {
-    "number": 185,
-    "questionId": "34d545e9-81d4-465d-8bec-96b415c47a5a",
-    "question": "What is the minimum NPS for mains and branches in a medical gas piping system?",
-    "answer": "1/2"
-  },
-  {
-    "number": 186,
-    "questionId": "3472af35-7836-4bd6-a74e-fe0578c4f94c",
-    "question": "What type of alarm(s) shall activate when the backup or lag compressor is running?",
-    "answer": "Local"
-  },
-  {
-    "number": 187,
-    "questionId": "539044f0-89c4-4b9c-9de8-86029508124e",
-    "question": "What type of alarm does a Category 1 medical-surgical vacuum system activate when the backup pump is running?",
-    "answer": "Local"
-  },
-  {
-    "number": 188,
-    "questionId": "43525e1a-636f-4318-848b-d5e8de9da742",
-    "question": "What type of indicator is required for coalescing filters in oil-employing medical air compressors?",
-    "answer": "An element change"
-  },
-  {
-    "number": 189,
-    "questionId": "2372f5bf-8002-4c10-8002-e43fd1dad504",
-    "question": "In potentially damp locations, hangers or supports that are in contact with the tube shall be what or otherwise electrically insulated from the tube?",
-    "answer": "Plastic-coated"
-  },
-  {
-    "number": 190,
-    "questionId": "a48d1a3e-fa70-4dcc-a5d0-2321601d7556",
-    "question": "Where should medical air filters be located?",
-    "answer": "Final line regulator"
-  },
-  {
-    "number": 191,
-    "questionId": "2cd72efc-8fa3-4553-8bfe-436f9f76eb98",
-    "question": "In-line check valves are not required to have what feature?",
-    "answer": "threaded end connections"
-  },
-  {
-    "number": 192,
-    "questionId": "8d8342b1-caa2-433d-9608-4915fa8150c7",
-    "question": "Metallic flexible joints shall not be permitted in the pipeline for?",
-    "answer": "dielectric breaks"
-  },
-  {
-    "number": 193,
-    "questionId": "988297bb-e276-4210-8640-a33ce0f8e99d",
-    "question": "What is the minimum distance for the medical air intake from all doors, windows, or other openings in a building?",
-    "answer": "10 ft"
-  },
-  {
-    "number": 194,
-    "questionId": "a74ccb87-761f-4ddc-b012-e302bf1245f5",
-    "question": "Who shall provide documentation certifying the performance and successful completion of all pressure testing for a manufactured assembly?",
-    "answer": "manufacturer"
-  },
-  {
-    "number": 195,
-    "questionId": "939f6c70-d3de-450b-8abb-014097917ec8",
-    "question": "Which method is crucial for ensuring each pump can function independently in a common exhaust system?",
-    "answer": "Check valve"
-  },
-  {
-    "number": 196,
-    "questionId": "7142f5c0-c92c-4069-a07e-0ac527e06eb5",
-    "question": "The removal of components within a source system for repair and reinstallation shall be treated as new work for testing whenever work involves?",
-    "answer": "cutting and brazing"
-  },
-  {
-    "number": 197,
-    "questionId": "9a5b464c-9a5f-483a-9751-18ade98b09cc",
-    "question": "At what dew point temperature does the medical air dew point high alarm activate?",
-    "answer": "+35°F"
-  },
-  {
-    "number": 198,
-    "questionId": "40754b13-0f91-41ed-927b-0032a75d4fdb",
-    "question": "What type of alarm system triggers when a manifold bulk system is being utilized?",
-    "answer": "Master alarm system"
-  },
-  {
-    "number": 199,
-    "questionId": "3f968d74-aa51-458e-81e7-3b5467a16a7d",
-    "question": "Threaded joints in medical gas and medical-surgical vacuum systems shall be permitted for all of the following except?",
-    "answer": "check valves in the main line"
-  },
-  {
-    "number": 200,
-    "questionId": "7abc2587-901b-4bf3-9426-b07be5639e18",
-    "question": "Indoor locations for oxygen, nitrous oxide, and mixtures of these gases shall not communicate with any of the following except which?",
-    "answer": "Designated storage area"
-  },
-  {
-    "number": 201,
-    "questionId": "90e77afe-2065-409a-b41e-4985f4efae78",
-    "question": "Nitrogen and instrument air supply systems are considered what type of gasses?",
-    "answer": "C) support"
-  },
-  {
-    "number": 202,
-    "questionId": "b4638763-e7bb-4d4e-8970-cff1992b334a",
-    "question": "What type of valves shall be readily operable from a standing position in the corridor on the same floor they serve?",
-    "answer": "zone"
-  },
-  {
-    "number": 203,
-    "questionId": "27b181fc-c5ae-47ce-9d8e-d5e518f5a7ac",
-    "question": "Additional WAGD producers shall activate how when the operating producer fails to maintain required vacuum?",
-    "answer": "Automatically"
-  },
-  {
-    "number": 204,
-    "questionId": "8af7fcca-4199-493b-a4ad-f01be40befd0",
-    "question": "In patient care areas, medical gas piping must comply with which of the following requirements?",
-    "answer": "Avoid open flame areas"
-  },
-  {
-    "number": 205,
-    "questionId": "4eb95a58-42f5-4fda-b67e-777a9413f5a7",
-    "question": "Piping between the vacuum pump and the source shutoff valve shall not be made of which material?",
-    "answer": "plastic (PVC)"
-  },
-  {
-    "number": 206,
-    "questionId": "cc54b8dd-86ba-430d-86bf-27b99d07d507",
-    "question": "What type of audible indication should all medical gas alarm systems have for each condition monitored?",
-    "answer": "Cancelable"
-  },
-  {
-    "number": 207,
-    "questionId": "35b3b261-047e-41f5-a4cf-47b09ab767a4",
-    "question": "What is the primary function of a manifold in central supply systems?",
-    "answer": "To provide a switching mechanism between gas sources"
-  },
-  {
-    "number": 208,
-    "questionId": "a8fae596-676b-4ccb-8b33-63d660ac1c3b",
-    "question": "Which joining method is acceptable on category 1 medical gas and medical-surgical vacuum distribution pipeline systems?",
-    "answer": "axially swaged fittings"
-  },
-  {
-    "number": 209,
-    "questionId": "612b9fff-e650-4408-ae45-236007e5a3b1",
-    "question": "Where should the pressure in the main line of each medical gas system, and the operation and condition of the source of supply, be monitored?",
-    "answer": "Master alarm"
-  },
-  {
-    "number": 210,
-    "questionId": "a5fa5ec4-aa9d-47dd-a23c-2d0c8bc95aaf",
-    "question": "When a medical-surgical vacuum source is incapable of maintaining the required vacuum, additional pumps shall be activated how?",
-    "answer": "automatically"
-  },
-  {
-    "number": 211,
-    "questionId": "fdccbfeb-e015-45fc-8bfd-5d85f5883bc1",
-    "question": "What should be included in the auxiliary source connection for a medical gas system?",
-    "answer": "Valves"
-  },
-  {
-    "number": 212,
-    "questionId": "54b0c4d1-4e32-427a-8751-1fb864548914",
-    "question": "What type of shutoff valve shall be provided in the main supply line when the source valve is inaccessible from within the building?",
-    "answer": "main"
-  },
-  {
-    "number": 213,
-    "questionId": "603ab9f5-7641-4b9a-b314-042b547ae00c",
-    "question": "Nfpa 99 requires tubing to be cut using a sharp tubing cutter that shall be free from grease, oil, and other lubricants not suitable for oxygen service. After cutting, tubing ends shall be permitted to be?",
-    "answer": "rolled smooth or deburred"
-  },
-  {
-    "number": 214,
-    "questionId": "d72e1626-7ee1-4c4b-983a-530e0a29eadf",
-    "question": "What can substitute one of the alarm panels in a master alarm system?",
-    "answer": "Centralized computer system"
-  },
-  {
-    "number": 215,
-    "questionId": "2afa8521-7dc4-4a91-9796-ad1adc59979d",
-    "question": "An existing system that is not in strict compliance with the provisions of the code shall be permitted to be continued in use as long as the authority having jurisdiction has determined that such use does not constitute a distinct hazard to life. Who is this authority?",
-    "answer": "Authority having jurisdiction"
-  },
-  {
-    "number": 216,
-    "questionId": "80bcc0f9-5c76-4980-864d-120256495831",
-    "question": "At what parts per million (ppm) do local alarms activate for high carbon monoxide levels in a medical air system?",
-    "answer": "10"
-  },
-  {
-    "number": 217,
-    "questionId": "e222fe84-aa21-40ec-bf4f-9b6e4840a1a4",
-    "question": "What percentage of the zones shall be tested at the outlet most remote from the source by the verifier to complete the piping particulate test?",
-    "answer": "A) 25"
-  },
-  {
-    "number": 218,
-    "questionId": "b5f0f2ab-5aa5-4df4-b60b-c016ba12389a",
-    "question": "How many master alarm panels can a single initiating device actuate?",
-    "answer": "Multiple master alarm panels"
-  },
-  {
-    "number": 219,
-    "questionId": "4434539b-6738-4295-b970-4430423c4eab",
-    "question": "What type of sensor should be equipped in air receivers that use liquid ring compressors or water-cooled aftercoolers?",
-    "answer": "High water level"
-  },
-  {
-    "number": 220,
-    "questionId": "a5ee52bd-215f-4c72-aa8b-1d7dcdd8638f",
-    "question": "To facilitate service, testing, or replacement, what should be provided downstream of the source valve?",
-    "answer": "Gas specific demand check fitting"
-  },
-  {
-    "number": 221,
-    "questionId": "b918de95-cca1-4bd6-9c40-e48f0f87c164",
-    "question": "What term describes fittings that ensure gas is delivered as designated in medical systems?",
-    "answer": "Check fitting"
-  },
-  {
-    "number": 222,
-    "questionId": "e1fc5c94-84a5-4b42-a3e3-3e1162f545ba",
-    "question": "What action is not considered a basis for system breach?",
-    "answer": "Alarm testing"
-  },
-  {
-    "number": 223,
-    "questionId": "a4734d7d-a41a-4914-a8be-62eb0dc0f624",
-    "question": "What is the lowest temperature that nitrous oxide and carbon dioxide cylinders should be allowed to reach?",
-    "answer": "20°F"
-  },
-  {
-    "number": 224,
-    "questionId": "482b9365-81f1-40bb-b606-790b95866187",
-    "question": "Manufactured assemblies employing flexible hose shall have a minimum burst pressure of what PSI?",
-    "answer": "1000"
-  },
-  {
-    "number": 225,
-    "questionId": "00bb3f24-35a7-44f7-afc1-517970484293",
-    "question": "What type of gas is indicated for use when charging the system after determining no cross-connection?",
-    "answer": "nitrogen NF"
-  },
-  {
-    "number": 226,
-    "questionId": "0643cc47-29a9-447b-a5e3-30c8ebb9043f",
-    "question": "The maximum allowable concentration of particulate contaminants in instrument air is established to protect what?",
-    "answer": "B) Patient safety"
-  },
-  {
-    "number": 227,
-    "questionId": "586dff6f-2e0c-473c-82b2-b1a0d25d2db8",
-    "question": "Which condition is NOT alarmed in sources with standby headers?",
-    "answer": "low discharge temperature"
-  },
-  {
-    "number": 228,
-    "questionId": "a5f49163-6a6e-4b2e-b26c-35ce8e75e4b0",
-    "question": "Piping for category 3 positive-pressure medical gases shall be cleaned for oxygen service, delivered plugged or capped, and hard drawn, seamless copper ASTM _?",
-    "answer": "B819"
-  },
-  {
-    "number": 229,
-    "questionId": "7c4e0524-60e0-44c3-9f53-058c4316aa4d",
-    "question": "Factory installed inlet tubing on station outlets shall not be less than what NPS?",
-    "answer": "1/4"
-  },
-  {
-    "number": 230,
-    "questionId": "adab85f2-527e-495c-8354-e4c90d7c24f5",
-    "question": "When is it required to perform system blow down in medical gas systems?",
-    "answer": "after initial installation"
-  },
-  {
-    "number": 231,
-    "questionId": "01ada077-da6a-4582-b8b1-256488113f33",
-    "question": "What type of set of wires is permitted to connect a remote initiating device to a junction box?",
-    "answer": "Single"
-  },
-  {
-    "number": 232,
-    "questionId": "a7af11d1-de76-4122-8e55-298690a5ad48",
-    "question": "The installation of medical gas and vacuum systems shall be made by experienced, qualified, and competent installers. The installers shall meet the requirements of?",
-    "answer": "ASSE standard 6010"
-  },
-  {
-    "number": 233,
-    "questionId": "5c0c3493-f02a-47f0-84d3-cad5d4bd2175",
-    "question": "What happens if the medical air pressure decreases to an unacceptable level?",
-    "answer": "The master alarm system activates"
-  },
-  {
-    "number": 234,
-    "questionId": "609be216-7692-4cd4-bc27-e6f208684fc8",
-    "question": "The minimum NPS for drops to station outlets is?",
-    "answer": "1/4"
-  },
-  {
-    "number": 235,
-    "questionId": "74fd0488-9a67-4d96-b5bf-7e2e8e441b99",
-    "question": "A medical-surgical vacuum exhaust must be screened using which type of material?",
-    "answer": "Any non-corroding"
-  },
-  {
-    "number": 236,
-    "questionId": "b1e19e63-041d-473e-80df-4c4dbe8d35e4",
-    "question": "If more than one source equipment location exists, what type of alarms should be at the master panels?",
-    "answer": "Master"
-  },
-  {
-    "number": 237,
-    "questionId": "fdaa9e59-ae58-4605-b30f-4e035530e0b1",
-    "question": "Which of the following can be used for medical air if properly sealed?",
-    "answer": "Reciprocating compressors"
-  },
-  {
-    "number": 238,
-    "questionId": "0319c459-7395-4665-ba19-abc656d40980",
-    "question": "When does the master alarm system activate in a medical gas system supplied by a bulk system?",
-    "answer": "When changeover occurs"
-  },
-  {
-    "number": 239,
-    "questionId": "4349e927-d60b-4500-96ce-3cf7e8a4a28b",
-    "question": "What critical feature do medical air supply systems incorporate to ensure safety during operation?",
-    "answer": "Redundant compressors"
-  },
-  {
-    "number": 240,
-    "questionId": "62aa0c75-ab88-4030-97b8-44ed411fd47d",
-    "question": "Medical air shall be sampled upstream of which component?",
-    "answer": "Source valve"
-  },
-  {
-    "number": 241,
-    "questionId": "fca636d4-4d76-4542-aee4-a4c5883a6634",
-    "question": "The factory installed tuning on station outlets and inlets shall extend no further than how many inches from the body of the terminal?",
-    "answer": "8"
-  },
-  {
-    "number": 242,
-    "questionId": "81abfdaf-9284-425d-9692-402746a81f36",
-    "question": "A medical-surgical vacuum receiver shall be made serviceable by which method?",
-    "answer": "any method to ensure the continuation of service"
-  },
-  {
-    "number": 243,
-    "questionId": "64d46fe7-e0ec-4847-bf03-0d54a8acf3eb",
-    "question": "What must be the status of outlet connections on gas containers when they are being removed?",
-    "answer": "Functional"
-  },
-  {
-    "number": 244,
-    "questionId": "f07fb948-e705-485b-85b4-e3644acb5aed",
-    "question": "Which of the following systems shall not be permitted to be located in an outdoor enclosure?",
-    "answer": "Medical air sources"
-  },
-  {
-    "number": 245,
-    "questionId": "f2bb8f0b-aa6f-4e32-b7ac-2b0a297ed620",
-    "question": "New or replacement valves are not required to be which type?",
-    "answer": "ball type"
-  },
-  {
-    "number": 246,
-    "questionId": "57e1d6fc-a714-4b68-95b9-c97479603d24",
-    "question": "Which of the following NPS is allowed for connecting tubing for alarms?",
-    "answer": "1/4"
-  },
-  {
-    "number": 247,
-    "questionId": "b6d0c262-4d1c-49f5-a6e7-ccac34a976d2",
-    "question": "Which type of gas shall not be used to power the venture of a WAGD system?",
-    "answer": "Medical air"
-  },
-  {
-    "number": 248,
-    "questionId": "3cc448ba-1494-444c-bd2a-c695edefd138",
-    "question": "Where should area alarm pressure sensors be installed in anesthetizing gas delivery areas?",
-    "answer": "Source or patient"
-  },
-  {
-    "number": 249,
-    "questionId": "acf505f9-670a-42e9-a91c-62fe5b0c56c3",
-    "question": "Alarm switches and sensors must be installed to ensure they are what?",
-    "answer": "Removable"
-  },
-  {
-    "number": 250,
-    "questionId": "9a5292c1-d53b-469d-a365-317b55d4846c",
-    "question": "An automatic means in a medical air compressor system is required to prevent what?",
-    "answer": "Backflow"
-  },
-  {
-    "number": 251,
-    "questionId": "6ddb9c7a-749d-4525-88ba-6f614ea5b723",
-    "question": "What is the main purpose of having a pressure relief valve in a medical gas system?",
-    "answer": "B) To prevent system overpressure"
-  },
-  {
-    "number": 252,
-    "questionId": "f198f296-0a2d-49d6-84b3-7befa90db2b3",
-    "question": "What is an incorrect assumption about medical gas pipeline systems?",
-    "answer": "They can operate without relief valves"
-  },
-  {
-    "number": 253,
-    "questionId": "85097844-054d-4a50-b911-90ef95751e1e",
-    "question": "Which component is essential for preventing backflow in a multi-pump vacuum system?",
-    "answer": "Check valve"
-  },
-  {
-    "number": 254,
-    "questionId": "d2e57363-6370-434e-9463-a99733d8e45d",
-    "question": "Cylinders in use and in storage shall be prevented from reaching temperatures in excess of what degree Fahrenheit?",
-    "answer": "125"
-  },
-  {
-    "number": 255,
-    "questionId": "980ae343-940a-4488-96bd-270478fb6567",
-    "question": "Factory installed outlet tubing on station inlets shall not be less than what NPS?",
-    "answer": "3/8"
-  },
-  {
-    "number": 256,
-    "questionId": "aa12e698-8cdc-4f12-a613-f3c635bbb246",
-    "question": "What feature should not be equipped on medical air receivers?",
-    "answer": "A temperature indicator"
-  },
-  {
-    "number": 257,
-    "questionId": "547c66d3-b607-4ddf-9c07-09d0fe109c91",
-    "question": "What minimum efficiency rating is required for medical air filters at 1 micron or greater?",
-    "answer": "98%"
-  },
-  {
-    "number": 258,
-    "questionId": "9ccc00e1-d27e-4308-af2d-bdc97e978e1a",
-    "question": "Intake air for instrument air compressors shall not be drawn from which source?",
-    "answer": "C) medical air intake"
-  },
-  {
-    "number": 259,
-    "questionId": "f7208564-55b0-4a41-9c1b-87209550d47f",
-    "question": "The vacuum exhaust must discharge a minimum of how many feet from any door, window, or air intake?",
-    "answer": "25"
-  },
-  {
-    "number": 260,
-    "questionId": "8281ad0e-35d4-42e5-958c-07cb0574695b",
-    "question": "What are all brazed joints required to be examined for during the initial pressure test?",
-    "answer": "leakage by means of a leak detectant safe for oxygen"
-  },
-  {
-    "number": 261,
-    "questionId": "8cf65923-06c4-4942-9c83-8d7e93f595d5",
-    "question": "Runouts to alarm panels and connecting tubing for gauges and alarm devices shall be permitted to be which NPS?",
-    "answer": "1/4"
-  },
-  {
-    "number": 262,
-    "questionId": "0c8acbaf-7ed0-4ec0-aca7-8a6ca6e82cd0",
-    "question": "Which components are essential for the operation of central supply systems in a medical setting?",
-    "answer": "Check valves and filters"
-  },
-  {
-    "number": 263,
-    "questionId": "bf710994-865f-4b8e-b15a-ccbbc2afe078",
-    "question": "What is the purpose of the master alarm system in a medical gas setup?",
-    "answer": "To signal changes in pressure or system faults"
-  },
-  {
-    "number": 264,
-    "questionId": "ea21355e-0e2b-4fb5-9f46-04dfc3e6505c",
-    "question": "Locations for central supply systems shall have what type of devices protected from physical damage?",
-    "answer": "Electrical"
-  },
-  {
-    "number": 265,
-    "questionId": "89f5d654-de2e-4642-ab5d-2980700ab13c",
-    "question": "Which ASTM standard is NOT applicable to medical-surgical vacuum system piping made from hard-drawn seamless copper tube?",
-    "answer": "ASTM B597"
-  },
-  {
-    "number": 266,
-    "questionId": "c8562121-3af7-46d0-bc0b-b4224acfd68f",
-    "question": "Which document defines the qualifications for installers of medical gas systems?",
-    "answer": "ASSE standard 6010"
-  },
-  {
-    "number": 267,
-    "questionId": "d6d9978d-4850-4014-91ff-6e7dfde25394",
-    "question": "Station outlets that operate at a pressure in excess of what PSI shall be either D.I.S.S. or be designed to relieve pressure prior to removal of adapter?",
-    "answer": "80"
-  },
-  {
-    "number": 268,
-    "questionId": "42490394-872c-4140-a142-04999e3a77bc",
-    "question": "Where should the emergency oxygen supply connection be placed when multiple buildings are served from a single cryogenic liquid oxygen source?",
+    "number": 45,
+    "question": "Indoor locations for oxygen, nitrous oxide and mixtures of these gases shall not communicate with _______ locations.",
+    "options": [
+      "Engines",
+      "Kitchens",
+      "Anesthetizing Locations",
+      "All Of The Above"
+    ],
+    "answer": "All Of The Above"
+  },
+  {
+    "number": 46,
+    "question": "Louvered openings for natural ventilation shall have a minimum free area of _____.",
+    "options": [
+      "60 Sq. Inches",
+      "62 Sq. Inches",
+      "70 Sq. Inches",
+      "72 Sq. Inches"
+    ],
+    "answer": "72 Sq. Inches"
+  },
+  {
+    "number": 47,
+    "question": "Manifolds for gas cylinders without reserve shall consist of ________ equal headers; each with an average day’s supply, but not fewer than ________ connections.",
+    "options": [
+      "Four - Four",
+      "Three - Three",
+      "Two - Two",
+      "One - One"
+    ],
+    "answer": "Two - Two"
+  },
+  {
+    "number": 48,
+    "question": "Manifolds in this category shall have a  _______ signal that visibly indicates the operating status of the equipment and shall activate an indicator at all ________ alarm panels to indicate when or just before changeover from one header to the other.",
+    "options": [
+      "Area - Master",
+      "Master - Local",
+      "Local - Master",
+      "Master - Area"
+    ],
+    "answer": "Local - Master"
+  },
+  {
+    "number": 49,
+    "question": "Medical air reconstituted from oxygen USP and nitrogen NF (synthetic air) produced using proportioning systems shall be required to meet the following.",
+    "options": [
+      "Medical air shall be 19.5% to 23.5% oxygen",
+      "Shall be cleared for marketing and approved by the FDA",
+      "The mixture shall be analyzed continuously and recorded",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "number": 50,
+    "question": "Nitrous oxide and carbon dioxide using cylinders or portable containers shall be prevented from reaching temperatures lower than___________.",
+    "options": [
+      "130 F",
+      "125 F",
+      "20 F",
+      "-20 F"
+    ],
+    "answer": "20 F"
+  },
+  {
+    "number": 51,
+    "question": "The gas produced by evaporation from the secondary header in a cryogenic liquid cylinder system shall enter the supply system ________ of the final line regulator.",
+    "options": [
+      "Upstream",
+      "Downstream",
+      "Upstream Of The Filter",
+      "Not Required"
+    ],
+    "answer": "Upstream"
+  },
+  {
+    "number": 52,
+    "question": "The minimum clearance around the EOSC for a temporary source is ______ ft ?",
+    "options": [
+      "5 Feet",
+      "6 Feet",
+      "2 Feet",
+      "3 Feet"
+    ],
+    "answer": "3 Feet"
+  },
+  {
+    "number": 40,
+    "question": "The reserve header in a cryogenic liquid cylinder system shall have sufficient gas cylinder connections for an average day’s supply, but not fewer than ____connections.",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "number": 54,
+    "question": "When multiple buildings are served from a single cryogenic liquid oxygen source, where is it required to place the emergency oxygen supply connection?",
+    "options": [
+      "Main building only",
+      "Building closest to the source",
+      "Largest building served",
+      "Each building served"
+    ],
     "answer": "Each building served"
   },
   {
-    "number": 269,
-    "questionId": "151e4aa8-2279-4bf8-a455-1baf54726c28",
-    "question": "Where should medical air piping systems at different operating pressures separate?",
-    "answer": "Filters"
+    "number": 55,
+    "question": "Which of the following systems shall not be permitted to be located in an outdoor enclosure?",
+    "options": [
+      "Manifolds for gas cylinders with or without reserve",
+      "Medical Air Sources",
+      "Bulk Cyrogenic Liquid Systems",
+      "Manifolds for cryogenic Liquid Cyclinders"
+    ],
+    "answer": "Medical Air Sources"
   },
   {
-    "number": 270,
-    "questionId": "ff1b2396-1d87-4827-99da-608bd70b7ac2",
-    "question": "Supports in damp locations must be?",
-    "answer": "Plastic-coated"
+    "number": 57,
+    "question": "Category 1 systems shall be permitted to serve spaces identified as ?",
+    "options": [
+      "Category 1",
+      "Category 2",
+      "Category 3",
+      "All of the above"
+    ],
+    "answer": "All of the above"
   },
   {
-    "number": 271,
-    "questionId": "b9d32a65-3938-4608-a8a3-505664f05d7f",
-    "question": "The responsible authority shall review the inspection and testing records prior to the use of all systems to ensure that all findings have been successfully completed. Who is this authority?",
-    "answer": "responsible facility authority"
+    "number": 58,
+    "question": "Which of the following are permitted to be located in the same storage facility as medical gas supply systems?",
+    "options": [
+      "Cylinders containing flammable gases",
+      "Cylinders containing the same medical gas as their perspective central supply",
+      "Station outlet repair parts",
+      "Station outlet repair parts or cylinders containing medical gases"
+    ],
+    "answer": "Cylinders containing the same medical gas as their perspective central supply"
   },
   {
-    "number": 272,
-    "questionId": "635300a2-42cf-4ef4-87e0-d20e6cc429c5",
-    "question": "What type of connectors shall be used to connect the vacuum pumps with their intake and outlet piping?",
-    "answer": "flexible"
+    "number": 59,
+    "question": "Which of the following is a requirement for the protection of oxygen cylinders from damage?",
+    "options": [
+      "Cylinder valves not painted or altered",
+      "Protected from abnormal mechanical shock",
+      "Required to be stored away from elevators",
+      "Only non- reusable shipping containers"
+    ],
+    "answer": "Cylinder valves not painted or altered"
   },
   {
-    "number": 273,
-    "questionId": "d4a668f8-6794-4136-a77e-b04a098973f5",
-    "question": "What is a function of the final line regulator in a medical air system?",
-    "answer": "Monitors the pressure"
+    "number": 60,
+    "question": "In those portions of systems intended to handle oxygen at gauge pressures greater than _______psi, interconnecting hose shall contain no polymeric materials.",
+    "options": [
+      "350",
+      "435",
+      "450",
+      "375"
+    ],
+    "answer": "435"
   },
   {
-    "number": 274,
-    "questionId": "9768df2b-de27-4832-932a-1a51ee3cf25b",
-    "question": "Who must furnish documentation certifying that all installed piping and materials are cleaned for oxygen service?",
-    "answer": "Installer"
+    "number": 61,
+    "question": "All medical gas and vacuum systems shall be provided with a point of access for connection of a temporary or supplemental source of supply. What is this called?",
+    "options": [
+      "EOSC",
+      "IBER",
+      "Emergency reserve",
+      "Auxiliary connection"
+    ],
+    "answer": "Auxiliary connection"
   },
   {
-    "number": 275,
-    "questionId": "929b48d7-21f9-4aff-844e-1ebbe394f4cd",
-    "question": "What type of indicator is required for final line filters for instrument air to show the status of filter life?",
-    "answer": "visual"
+    "number": 62,
+    "question": "Aftercoolers, where required, shall be provided with individual _____________.",
+    "options": [
+      "Shutoff valves",
+      "Flexible connectors",
+      "Condensate traps",
+      "Pressure indicators"
+    ],
+    "answer": "Condensate traps"
   },
   {
-    "number": 276,
-    "questionId": "66064e67-81d1-4505-9c83-c742f84435b6",
-    "question": "Verification testing for medical gas and vacuum pipeline systems must meet the requirements of which standard?",
-    "answer": "ASSE standard 6030"
+    "number": 63,
+    "question": "Carbon monoxide shall activate a local alarms when the CO level exceeds ______.",
+    "options": [
+      "5 ppm",
+      "10 ppm",
+      "15 ppm",
+      "20 ppm"
+    ],
+    "answer": "10 ppm"
   },
   {
-    "number": 277,
-    "questionId": "43e7469f-bb85-4e02-bbe4-88a234afe4d3",
-    "question": "Medical air sources shall only be used for which application?",
+    "number": 64,
+    "question": "Compressors that are monitored for gaseous hydrocarbons shall be monitored on a __________ basis.",
+    "options": [
+      "Annual",
+      "Quarterly",
+      "Monthly",
+      "Daily"
+    ],
+    "answer": "Quarterly"
+  },
+  {
+    "number": 65,
+    "question": "Dew point shall activate the required alarms when the dew point at system pressure exceeds _________.",
+    "options": [
+      "32 F",
+      "35 F",
+      "39 F",
+      "42 F"
+    ],
+    "answer": "35 F"
+  },
+  {
+    "number": 66,
+    "question": "Liquid ring compressor system shall have a reserve medical air standby header (1HR) or a____________.",
+    "options": [
+      "Compressor",
+      "Manifold",
+      "Bulk system",
+      "Condensate traps"
+    ],
+    "answer": "Compressor"
+  },
+  {
+    "number": 67,
+    "question": "Liquid ring compressors, service water and seal water shall be treated to control_________.",
+    "options": [
+      "Waterborne pathogens",
+      "Chlorine",
+      "Hyper chlorination",
+      "Both a & b"
+    ],
+    "answer": "Both a & b"
+  },
+  {
+    "number": 81,
+    "question": "Medical air compressor systems shall have a pressure relief valve set at_______percent above line pressure.",
+    "options": [
+      "20",
+      "30",
+      "40",
+      "50"
+    ],
+    "answer": "50"
+  },
+  {
+    "number": 69,
+    "question": "Medical air compressor systems shall have a(n) _________ means to prevent backflow through all off-cycle compressors.",
+    "options": [
+      "Manual",
+      "Automatic",
+      "Semi-automatic",
+      "All of the above"
+    ],
+    "answer": "Automatic"
+  },
+  {
+    "number": 70,
+    "question": "Medical air compressors shall be provided with a _____ restart function such that the compressors will be restarted after a power interruption.",
+    "options": [
+      "Manual",
+      "Automatic",
+      "Manual or automatic",
+      "None of the above"
+    ],
+    "answer": "Automatic"
+  },
+  {
+    "number": 71,
+    "question": "Medical air compressors that are designed to separate the oil-containing section from the compression chamber shall be provided with a coalescing filter with a ________.",
+    "options": [
+      "Shutoff valve",
+      "Pressure indicator",
+      "Element change indicator",
+      "All of the above"
+    ],
+    "answer": "Element change indicator"
+  },
+  {
+    "number": 72,
+    "question": "Medical air filters shall be located immediately upstream of the ________.",
+    "options": [
+      "After coolers",
+      "Receiver",
+      "Pressure indicator",
+      "Final line regulator"
+    ],
+    "answer": "Final line regulator"
+  },
+  {
+    "number": 73,
+    "question": "Medical air filters shall be sized for 100 percent of the system peak calculated demand and be rated for a minimum of ______ percent efficiency at _______ micron or greater.",
+    "options": [
+      "95% @ .5",
+      "98% @ 1",
+      "100% @ .1",
+      "None of the above"
+    ],
+    "answer": "98% @ 1"
+  },
+  {
+    "number": 74,
+    "question": "Medical air receivers shall be provided with proper valves that allow the receiver to be ________ during service.",
+    "options": [
+      "Painted",
+      "Pressurized",
+      "On line",
+      "Bypassed"
+    ],
+    "answer": "Bypassed"
+  },
+  {
+    "number": 75,
+    "question": "Medical air shall be sampled at a_____ NPS valved sample port downstream of the final line pressure regulator.",
+    "options": [
+      "3/4 inch",
+      "1/2 inch",
+      "1/4 inch",
+      "1/8 inch"
+    ],
+    "answer": "1/4 inch"
+  },
+  {
+    "number": 76,
+    "question": "Medical air sources shall be used only for _______.",
+    "options": [
+      "Human respiratory applications",
+      "Air-operating devices",
+      "Instrument air",
+      "All of the above"
+    ],
     "answer": "Human respiratory applications"
   },
   {
-    "number": 278,
-    "questionId": "900fb9e6-3495-47f4-a642-94b234b86489",
-    "question": "Which of the following is critical for the safe operation of medical gas systems regarding pressure levels?",
-    "answer": "Monitoring at the source"
+    "number": 77,
+    "question": "Medical air supply systems shall be required to _________.",
+    "options": [
+      "Meet the requirements of medical air USP",
+      "Have no dectectable liquid hydrocarbons",
+      "Have less than 25 ppm gaseous hydrocarbons",
+      "All of the above"
+    ],
+    "answer": "All of the above"
   },
   {
-    "number": 279,
-    "questionId": "2ad5be84-31ff-4803-a9f4-fa09a2d11a91",
-    "question": "What type of alarm panel is permitted for category 2 warning systems?",
-    "answer": "single"
+    "number": 78,
+    "question": "Receivers for medical air shall be equipped with _____________.",
+    "options": [
+      "Relief valves",
+      "Automatic and manual drains",
+      "Sight glass",
+      "All of the above"
+    ],
+    "answer": "All of the above"
   },
   {
-    "number": 280,
-    "questionId": "5ece5f46-322f-403f-8634-a741857c5bd3",
-    "question": "What pressure drop in the medical-surgical vacuum system triggers the master alarm system?",
-    "answer": "Any value below 12 in. HgV"
+    "number": 79,
+    "question": "The compressor air intakes shall be located outdoors at a minimum distance of ______ above the ground.",
+    "options": [
+      "40 Feet",
+      "30 Feet",
+      "20 Feet",
+      "10 Feet"
+    ],
+    "answer": "20 Feet"
   },
   {
-    "number": 281,
-    "questionId": "22cf1344-c64f-47e8-9c6a-784fbd8f261c",
-    "question": "Who must ensure that inspection and testing adhere to applicable provisions?",
-    "answer": "documented procedure"
+    "number": 81,
+    "question": "The medical air intake shall be located a minimum of ___ ft from all vehicular exhausts and noxious fumes.",
+    "options": [
+      "20",
+      "25",
+      "15",
+      "10"
+    ],
+    "answer": "25"
   },
   {
-    "number": 282,
-    "questionId": "c7e31f84-1790-4e68-924e-71259035a2b5",
-    "question": "What does a signal from each local alarm system indicate at the master alarm panels?",
-    "answer": "Source equipment issue is present"
+    "number": 81,
+    "question": "The medical air intake shall be minimum 10 ft from all ____________.",
+    "options": [
+      "Doors",
+      "Windows",
+      "Opening in the building",
+      "All of the above"
+    ],
+    "answer": "All of the above"
   },
   {
-    "number": 283,
-    "questionId": "347458be-1511-4aea-a090-1c4780ad7235",
-    "question": "Who is responsible for ensuring that fittings for positive pressure medical gas systems are cleaned for oxygen service before installation?",
-    "answer": "Manufacturer"
+    "number": 82,
+    "question": "Where medical air piping systems at different operating pressures are required, the piping shall separate after the _______.",
+    "options": [
+      "Filters",
+      "Final line regulators",
+      "Relief valve",
+      "Source valve"
+    ],
+    "answer": "Filters"
   },
   {
-    "number": 284,
-    "questionId": "310e2719-fa8b-458e-86a1-f40948fbbd7e",
-    "question": "Category 1 medical-surgical vacuum sources must consist of a minimum of how many vacuum pumps?",
-    "answer": "2"
-  },
-  {
-    "number": 285,
-    "questionId": "38c34004-8752-4919-a18b-df5f677381a1",
-    "question": "The initial pressure test for positive pressure gases ensures that the system is tested to prevent what kind of issue?",
-    "answer": "leakage"
-  },
-  {
-    "number": 286,
-    "questionId": "0d1a6ce0-1b36-4fa4-aba2-ddeefd404caf",
-    "question": "Area alarms shall be tested to verify an alarm condition if the pressure in the piping system increases or decreases by what percentage?",
-    "answer": "B) 20"
-  },
-  {
-    "number": 287,
-    "questionId": "015c2a66-7d69-422f-82fe-9b7a9bfeba1e",
-    "question": "During a vacuum piping system test, a test pressure of 12 inches HgV is applied for how long?",
-    "answer": "24 hours"
-  },
-  {
-    "number": 288,
-    "questionId": "655f36cd-a9b1-4fb7-9b11-50263b8d809e",
-    "question": "How are manifold control systems maintained to ensure they operate effectively?",
-    "answer": "Regular cleaning and inspection"
-  },
-  {
-    "number": 289,
-    "questionId": "d8941f59-b1ad-4974-85b0-cb30dac334bd",
-    "question": "Where should the master alarm panel be located for the individual responsible for the maintenance of the medical gas piping system?",
-    "answer": "Office or work space of the individual"
-  },
-  {
-    "number": 290,
-    "questionId": "5de768ca-0b2e-4d81-b82c-55af008e4668",
-    "question": "Underground piping buried outside of buildings shall have an installation procedure to what while being backfilled?",
-    "answer": "Protect"
-  },
-  {
-    "number": 291,
-    "questionId": "2cc00a34-84b8-4450-b8b0-9f105d28774d",
-    "question": "Medical air compressors that are oil-based require what type of filter?",
-    "answer": "Coalescing filters"
-  },
-  {
-    "number": 292,
-    "questionId": "f46d3113-7245-4928-8ee6-35ff57f6d203",
-    "question": "What piping material is permitted for field-installed medical-surgical vacuum distribution systems?",
-    "answer": "Stainless steel pipe"
-  },
-  {
-    "number": 293,
-    "questionId": "0cc7e804-ce5b-4202-a869-672c862b1986",
-    "question": "What percentage indicates a pressure increase or decrease for area alarm panels in medical gas systems from normal operating pressure?",
-    "answer": "20"
-  },
-  {
-    "number": 294,
-    "questionId": "b224d669-0ea5-4886-b1e9-eaa561b0e59c",
-    "question": "A low-pressure, vacuum insulated vessel containing gas in liquid form is called?",
-    "answer": "container"
-  },
-  {
-    "number": 295,
-    "questionId": "592a0aaa-cd10-4e97-985e-fe74cc9d9ce5",
-    "question": "What is the consequence if a brazer does not perform brazing for a duration exceeding 6 months?",
-    "answer": "Qualifying period resets"
-  },
-  {
-    "number": 296,
-    "questionId": "2025a9a3-03c4-4dba-9505-b45580e7cc0d",
-    "question": "All pressure relief valves shall be made of brass, bronze, or which other material?",
-    "answer": "Stainless steel"
-  },
-  {
-    "number": 297,
-    "questionId": "646da960-4f72-4d14-9be5-13a45460ec68",
-    "question": "The labeling shall be what for all components of the system?",
-    "answer": "D) verified"
-  },
-  {
-    "number": 298,
-    "questionId": "3c66a1ec-31dc-40c7-aea1-e463e6da210c",
-    "question": "What is the maximum allowable pressure for a vacuum source in dental systems?",
-    "answer": "25 psi"
-  },
-  {
-    "number": 299,
-    "questionId": "1177150a-a3ff-4fcc-9899-6947743d4d71",
-    "question": "Vacuum piping systems shall be subjected to a 24-hour standing test at a pressure between what measurement of HgV and full vacuum?",
-    "answer": "12 in"
-  },
-  {
-    "number": 300,
-    "questionId": "45111e66-e42d-4b89-9f29-6737938506ce",
-    "question": "How often should medical gas systems undergo testing for compliance and safety?",
-    "answer": "A) Annually"
-  },
-  {
-    "number": 301,
-    "questionId": "7254f9dc-e922-4042-b1df-4c373502ce37",
-    "question": "What is the minimum clearance around EOSC for a temporary source of supply?",
-    "answer": "3 ft"
-  },
-  {
-    "number": 302,
-    "questionId": "2ea1a438-5428-4a03-bdc6-149c1326d750",
-    "question": "Threaded joints shall be allowed on the source equipment on which side of the source valve?",
-    "answer": "source"
-  },
-  {
-    "number": 303,
-    "questionId": "36945be4-d24c-4263-a969-f3329f5ba60d",
-    "question": "A system shall be deemed breached as a result of all of the following except?",
-    "answer": "alarm testing"
-  },
-  {
-    "number": 304,
-    "questionId": "71e6ea2c-f631-4011-9be2-0cdd015531bc",
-    "question": "What is the scale range of vacuum indicators measured in inches of HgV?",
-    "answer": "30"
-  },
-  {
-    "number": 305,
-    "questionId": "5d678db6-b5dc-4347-a794-bf4ca5299480",
-    "question": "In what category is the loss of the piped gas and vacuum systems not likely to cause injury to patients, staff, or visitors, but can cause discomfort?",
-    "answer": "category 3"
-  },
-  {
-    "number": 306,
-    "questionId": "87784ff7-1652-402e-b242-562cecc3b7c8",
-    "question": "Cylinders in use must not exceed a temperature of which specified degree Fahrenheit?",
-    "answer": "125"
-  },
-  {
-    "number": 307,
-    "questionId": "e3bf403e-7ded-49c2-9e7d-b11331423b39",
-    "question": "What is the maximum permitted interval for spacing pipe labels?",
-    "answer": "20 feet"
-  },
-  {
-    "number": 308,
-    "questionId": "1189f2d7-59b8-45fc-81ab-5ab371d70011",
-    "question": "A shutoff valve shall be placed at the immediate connection of each source system to what type of system?",
-    "answer": "source"
-  },
-  {
-    "number": 309,
-    "questionId": "732d61ac-02a2-4898-ac78-0078542f22ea",
-    "question": "What should aftercoolers be provided with?",
-    "answer": "Flexible connectors"
-  },
-  {
-    "number": 310,
-    "questionId": "d69ed1ff-885e-4973-bd3c-e7c0bb3a3e64",
-    "question": "What kind of indicators shall all master, area, and local alarm systems include for each condition monitored?",
-    "answer": "Visual, audible"
-  },
-  {
-    "number": 311,
-    "questionId": "fc970ed7-5b34-4288-bb98-8831de2b0002",
-    "question": "A category 3 moisture indicator shall indicate when the relative humidity of the dental air exceeds _ at line pressure and temperature?",
-    "answer": "40%"
-  },
-  {
-    "number": 312,
-    "questionId": "01e33b41-9bb3-44ee-a1cd-6e8adf94e8dd",
-    "question": "What type of signal is required to indicate the operating status of manifolds for gas cylinders?",
+    "number": 83,
+    "question": "Where liquid ring compressors with air-water separators are used, when the liquid level is above the design level, a sensor activates a(n) _______ alarm indicator.",
+    "options": [
+      "Local",
+      "Area",
+      "Master",
+      "All of the above"
+    ],
     "answer": "Local"
   },
   {
-    "number": 313,
-    "questionId": "22807c58-2d60-4508-b6d4-4d6e493c8c94",
-    "question": "Why is it important for the master alarm panel to be monitored continuously?",
-    "answer": "To ensure rapid response to any issues"
+    "number": 84,
+    "question": "Where liquid ring compressors or water-cooled aftercoolers are used, air receivers shall be equipped with a_____ sensor.",
+    "options": [
+      "High temperature",
+      "Low temperature",
+      "High water level",
+      "Low water level"
+    ],
+    "answer": "High water level"
   },
   {
-    "number": 314,
-    "questionId": "511067b8-700e-461b-a1b1-2bd83c5b4ca5",
-    "question": "Which valves allow modification of lateral branch piping from a main or riser without shutting down the entire main, riser, or facility?",
-    "answer": "service"
+    "number": 85,
+    "question": "Where Liquid ring air compressors, and compressors having water-cooled heads, or water-cooled aftercoolers are used. They shall have a high water level alarm sensors located in the _____ and ______that will shut down the compressor systems and activate a local alarm.",
+    "options": [
+      "Air receivers and water systems",
+      "Air receivers and air-water separator",
+      "Air-water separators and air receiver drain",
+      "Any of the above"
+    ],
+    "answer": "Air receivers and air-water separator"
   },
   {
-    "number": 315,
-    "questionId": "8db4c9a8-0e47-4915-be70-7da670e3b17b",
-    "question": "Which of the following filler metals shall be used to braze copper-to-copper joints in medical gas and vacuum distribution piping?",
-    "answer": "BCuP series"
+    "number": 86,
+    "question": "When the backup or lag compressor is running, a(n) _______ alarm shall activate.",
+    "options": [
+      "Master",
+      "Area",
+      "Local",
+      "All of the above"
+    ],
+    "answer": "Local"
   },
   {
-    "number": 316,
-    "questionId": "5b4941ce-1535-42a7-ab08-3dacd444c3ce",
-    "question": "A continuous tape or marker placed immediately above the buried pipe must clearly identify the pipeline by what?",
-    "answer": "Specific name"
+    "number": 87,
+    "question": "What type of connection should be used to connect the medical air compressors or vacuum pumps to their intake and outlet piping?",
+    "options": [
+      "Di-electric",
+      "Flexible",
+      "Compression fittings",
+      "Insulation"
+    ],
+    "answer": "Flexible"
   },
   {
-    "number": 317,
-    "questionId": "880d341a-9fa1-409c-9daf-543faba1a895",
-    "question": "For brazed joints, which temperature in degrees Fahrenheit must the melting temperature of the brazing alloy exceed to maintain piping integrity in a fire?",
-    "answer": "1000"
+    "number": 89,
+    "question": "NFPA 99 code, states medical air may be supplied from except which of the following?",
+    "options": [
+      "Instrument air compressors",
+      "Bulk containers",
+      "Medical air compressors",
+      "Reconstituted from oxygen USP and oil-free, dry nitrogen NF"
+    ],
+    "answer": "Instrument air compressors"
   },
   {
-    "number": 318,
-    "questionId": "c2370859-876f-4cf2-8afe-5509888d1085",
-    "question": "What purpose do alarm systems serve in medical gas installations?",
-    "answer": "Monitor conditions"
+    "number": 90,
+    "question": "Medical air dryers shall be provided with a __________ downstream of each dryer for maintenance",
+    "options": [
+      "Sample port",
+      "Relief port",
+      "Bleed off valve",
+      "None of the above"
+    ],
+    "answer": "Sample port"
   },
   {
-    "number": 319,
-    "questionId": "37f8aaeb-4db3-4809-9a35-0319c42b179d",
-    "question": "Piping shall be labeled by?",
-    "answer": "stenciling or adhesive markers"
+    "number": 91,
+    "question": "A WAGD source system shall activate the _________ alarm when the backup or lag producer is running.",
+    "options": [
+      "Local",
+      "Area",
+      "Master",
+      "Local and master"
+    ],
+    "answer": "Local"
   },
   {
-    "number": 320,
-    "questionId": "af92fe83-e055-49aa-b080-4b79bab0b687",
-    "question": "Which type of gas is not allowed to be stored outdoors according to safety regulations?",
-    "answer": "Medical air"
+    "number": 91,
+    "question": "A category 1 dedicated WAGD source shall consist    of ________ or more producers, each shall be sufficient to serve the peak calculated demand.",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "All of the above"
+    ],
+    "answer": "2"
   },
   {
-    "number": 321,
-    "questionId": "7c837d4c-fbaa-438f-b745-e20253d9bd48",
-    "question": "When using the autogenous orbital welding process, joints shall be continuously what inside and outside with inert gas as qualified with a procedure?",
-    "answer": "purged"
-  },
-  {
-    "number": 322,
-    "questionId": "1a0118dc-63d8-432e-8680-fab0bb6c50c7",
-    "question": "Inspection and testing shall be performed on all new piped gas systems to ensure all applicable provisions have been adhered to and system integrity has been achieved or maintained through a?",
-    "answer": "documented procedure"
-  },
-  {
-    "number": 323,
-    "questionId": "fd1a5eb6-5029-4d8c-84d7-2da700d9e32f",
-    "question": "Which type of compressor can introduce oil into the medical air system if not configured correctly?",
-    "answer": "Reciprocating compressors"
-  },
-  {
-    "number": 324,
-    "questionId": "3b2ad379-2250-4cfc-8caa-6e6db409a246",
-    "question": "Drops to individual station outlets and inlets shall not be less than which NPS?",
-    "answer": "1/2"
-  },
-  {
-    "number": 325,
-    "questionId": "d7c587a3-fa75-49e1-84d2-901d3809167a",
-    "question": "What qualification is required to install a category 2 medical gas system?",
-    "answer": "ASSE 6010"
-  },
-  {
-    "number": 326,
-    "questionId": "92288a18-6d7b-41c0-9f7c-2a3564e87783",
-    "question": "In what category is the loss of piped gas likely to cause minor injury?",
-    "answer": "category 2"
-  },
-  {
-    "number": 327,
-    "questionId": "28baada5-1a31-4953-bd26-804b7419ad3d",
-    "question": "A standard gauge pressure of 160-185 psi applies to which of the following?",
-    "answer": "instrument air"
-  },
-  {
-    "number": 328,
-    "questionId": "24262dde-0d9a-495c-956c-3d65700a1293",
-    "question": "What is the acceptable accuracy range of digital indicators as a percentage of the operating pressure?",
-    "answer": "5"
-  },
-  {
-    "number": 329,
-    "questionId": "8af7fcca-4199-493b-a4ad-f01be40befd0",
-    "question": "In patient care areas, medical gas piping must comply with which of the following requirements?",
-    "answer": "Avoid open flame areas"
-  },
-  {
-    "number": 330,
-    "questionId": "8584b907-6fd8-47c9-89ae-2267220a4646",
-    "question": "Who shall conduct the verification testing?",
-    "answer": "a party other than the installing contractor"
-  },
-  {
-    "number": 331,
-    "questionId": "68504129-3a3f-4b4e-b601-f6b4ce170e3f",
-    "question": "The initial pressure test for positive pressure gases and vacuum systems shall have a test pressure of 1.5 times the system working pressure, but not less than what PSI?",
-    "answer": "150"
-  },
-  {
-    "number": 332,
-    "questionId": "988297bb-e276-4210-8640-a33ce0f8e99d",
-    "question": "What is the minimum distance for the medical air intake from all doors, windows, or other openings in a building?",
-    "answer": "10 ft"
-  },
-  {
-    "number": 333,
-    "questionId": "46f5dd0f-3d1c-4980-9273-3203213668de",
-    "question": "The minimum backfilled cover above the top of the pipe or its enclosure shall be 36 inches, except that the minimum cover shall be permitted to be reduced to how many inches where there is no potential damage from surface loads or surface conditions?",
-    "answer": "18"
-  },
-  {
-    "number": 334,
-    "questionId": "b937cfc9-8f30-430c-96e1-ffe2a6c4d18d",
-    "question": "Cylinder and cryogenic liquid container outlet connections shall be designed as to render the attachment point unusable when removal of the outlet connection is attempted. What is the intended design outcome?",
-    "answer": "Unusable"
-  },
-  {
-    "number": 335,
-    "questionId": "d04020bb-4bd4-4f11-b08f-7336bc819ba1",
-    "question": "What should be monitored to ensure safe operation of medical air systems?",
-    "answer": "Pressure"
-  },
-  {
-    "number": 336,
-    "questionId": "54b0c4d1-4e32-427a-8751-1fb864548914",
-    "question": "What type of shutoff valve shall be provided in the main supply line when the source valve is inaccessible from within the building?",
-    "answer": "main"
-  },
-  {
-    "number": 337,
-    "questionId": "cc54b8dd-86ba-430d-86bf-27b99d07d507",
-    "question": "What type of audible indication should all medical gas alarm systems have for each condition monitored?",
-    "answer": "Cancelable"
-  },
-  {
-    "number": 338,
-    "questionId": "badb5f2b-222e-455b-b69a-74531b19e854",
-    "question": "Medical air receivers must allow for what during service?",
-    "answer": "Being filled"
-  },
-  {
-    "number": 339,
-    "questionId": "b4638763-e7bb-4d4e-8970-cff1992b334a",
-    "question": "What type of valves shall be readily operable from a standing position in the corridor on the same floor they serve?",
-    "answer": "zone"
-  },
-  {
-    "number": 340,
-    "questionId": "d8d87af7-141a-4936-b68f-41652911e1bd",
-    "question": "What is the required relief setting for valves in central supply systems for positive pressure gases above normal working operating pressure?",
-    "answer": "50%"
-  },
-  {
-    "number": 341,
-    "questionId": "d6f48cef-fd12-474f-a4e5-64b6bf4b8a1a",
-    "question": "Where category 3 medical gas supply systems supply two treatment facilities, each facility shall be provided with an emergency _ valve?",
-    "answer": "shutoff"
-  },
-  {
-    "number": 342,
-    "questionId": "41753799-9ec2-4ae0-89cc-cd044b1c7146",
-    "question": "A medical-surgical vacuum system should always aim to minimize what?",
-    "answer": "Back pressure"
-  },
-  {
-    "number": 343,
-    "questionId": "75cacf2e-8cc2-42f9-935b-baf6113361b7",
-    "question": "Liquids drained from a category 3 vacuum source shall discharge _ to a sanitary drainage system?",
-    "answer": "indirectly"
-  },
-  {
-    "number": 344,
-    "questionId": "b1c194f4-0d19-4639-8171-550263c47edd",
-    "question": "Which valves should not be located in a room with station outlets or inlets that they control?",
-    "answer": "zone"
-  },
-  {
-    "number": 345,
-    "questionId": "fdccbfeb-e015-45fc-8bfd-5d85f5883bc1",
-    "question": "What should be included in the auxiliary source connection for a medical gas system?",
-    "answer": "Valves"
-  },
-  {
-    "number": 346,
-    "questionId": "676bcd6f-d5a9-441e-b6bc-ca0aba928afa",
-    "question": "What type of material is recommended for the piping of category 3 medical gases?",
-    "answer": "seamless copper"
-  },
-  {
-    "number": 347,
-    "questionId": "500cc72b-cfc0-49a2-b17c-88613c3c0b0e",
-    "question": "Station outlets and inlets of manufactured assemblies that employ hose or flexible connections to the piping system that are not fully and immediately accessible shall use what type of connectors?",
-    "answer": "D.I.S.S."
-  },
-  {
-    "number": 348,
-    "questionId": "386165b4-2738-4b2f-9187-35561e9fd2b4",
-    "question": "Pressure relief valves for dental air systems having less than _ ft3 at STP shall be permitted to discharge locally indoors?",
-    "answer": "3000"
-  },
-  {
-    "number": 349,
-    "questionId": "7c568f95-a485-4592-b9b4-50c60facfd2c",
-    "question": "Pipe labels shall be located at intervals of not more than how many feet?",
-    "answer": "20"
-  },
-  {
-    "number": 350,
-    "questionId": "2cd72efc-8fa3-4553-8bfe-436f9f76eb98",
-    "question": "In-line check valves are not required to have what feature?",
-    "answer": "threaded end connections"
-  },
-  {
-    "number": 351,
-    "questionId": "e222fe84-aa21-40ec-bf4f-9b6e4840a1a4",
-    "question": "What percentage of the zones shall be tested at the outlet most remote from the source by the verifier to complete the piping particulate test?",
-    "answer": "A) 25"
-  },
-  {
-    "number": 352,
-    "questionId": "fb92503a-adf2-4939-9c8c-dd585ca45496",
-    "question": "Where instrument air systems are provided with a standby header, the header shall have how many cylinders attached?",
-    "answer": "A) a sufficient amount for one hour of normal operation"
-  },
-  {
-    "number": 353,
-    "questionId": "fbe0070e-69a6-4682-b21f-defd98ac828b",
-    "question": "Outdoor locations surrounded by impermeable walls, except fire barrier walls, shall have protected ventilation openings at what part of each wall?",
-    "answer": "Base"
-  },
-  {
-    "number": 354,
-    "questionId": "21b115b9-117e-477b-9612-45c4ad06b3d3",
-    "question": "What should a medical air compressor system's pressure relief valve be set at above line pressure?",
-    "answer": "50 percent"
-  },
-  {
-    "number": 355,
-    "questionId": "9c9ff3ad-912b-4988-b984-1017434fd1d6",
-    "question": "What type of alarm activates to indicate the operation of the backup compressor in an instrument air source?",
-    "answer": "local"
-  },
-  {
-    "number": 356,
-    "questionId": "37c40592-fec9-4028-b780-72fea45a3549",
-    "question": "Joints shall be brazed within how many hours after surfaces are cleaned for brazing?",
-    "answer": "8"
-  },
-  {
-    "number": 357,
-    "questionId": "c3169618-9d5f-4555-9a5e-049ccdc1147a",
-    "question": "Performance qualification of brazers shall remain in effect indefinitely unless the brazer does not braze with the qualified procedure for a period exceeding how many months?",
-    "answer": "6"
-  },
-  {
-    "number": 358,
-    "questionId": "e500646a-5abf-41e4-95b5-9350a39278ff",
-    "question": "Nitrous oxide and carbon dioxide using cylinders or portable containers shall be prevented from reaching temperatures lower than what degree Fahrenheit?",
-    "answer": "20"
-  },
-  {
-    "number": 359,
-    "questionId": "205e1828-2870-4ff2-9280-1705d03a2e18",
-    "question": "The scale range of positive pressure analog indicators shall have the normal operating pressure fall within which part of the gauge scale?",
-    "answer": "Middle third"
-  },
-  {
-    "number": 360,
-    "questionId": "43525e1a-636f-4318-848b-d5e8de9da742",
-    "question": "What type of indicator is required for coalescing filters in oil-employing medical air compressors?",
-    "answer": "An element change"
-  },
-  {
-    "number": 361,
-    "questionId": "e3dd60bd-c1d2-4546-a6c2-c400471e7796",
-    "question": "All positive pressure supply systems shall be provided with duplex line pressure regulators piped in which configuration?",
-    "answer": "Parallel"
-  },
-  {
-    "number": 362,
-    "questionId": "41d7af66-3f5e-4290-b8a7-e8f2220e3a02",
-    "question": "Mains and branches in medical gas piping systems shall be not less than which NPS?",
-    "answer": "1/2"
-  },
-  {
-    "number": 363,
-    "questionId": "c4908317-5d02-4534-ad91-23604582a020",
-    "question": "Which type of oxygen system location is generally prohibited from having access to open flame areas?",
-    "answer": "Indoor"
-  },
-  {
-    "number": 364,
-    "questionId": "d8aeb6d5-9ab7-4a1d-a860-944ff171f333",
-    "question": "Each station outlet/inlet for medical gases and vacuums shall be what type?",
-    "answer": "gas-specific"
-  },
-  {
-    "number": 365,
-    "questionId": "8672e109-6fb9-4dd9-9d0b-442dfd8afae1",
-    "question": "Regardless of how many zone valve boxes are installed on a lateral branch off a riser, only one what type of valve is required for each branch?",
-    "answer": "service"
-  },
-  {
-    "number": 366,
-    "questionId": "f0eafad8-d237-439e-9b31-43aed4bc4129",
-    "question": "What is the test gas used by the installer?",
-    "answer": "Nitrogen NF"
-  },
-  {
-    "number": 367,
-    "questionId": "4eb95a58-42f5-4fda-b67e-777a9413f5a7",
-    "question": "Piping between the vacuum pump and the source shutoff valve shall not be made of which material?",
-    "answer": "plastic (PVC)"
-  },
-  {
-    "number": 368,
-    "questionId": "35280c97-3ce1-4ef1-b1c2-b84e473d23b7",
-    "question": "In a vacuum exhaust system, which of the following cannot be used to isolate the pumps?",
-    "answer": "Grooved joint"
-  },
-  {
-    "number": 369,
-    "questionId": "d72e1626-7ee1-4c4b-983a-530e0a29eadf",
-    "question": "What can substitute one of the alarm panels in a master alarm system?",
-    "answer": "Centralized computer system"
-  },
-  {
-    "number": 370,
-    "questionId": "27b181fc-c5ae-47ce-9d8e-d5e518f5a7ac",
-    "question": "Additional WAGD producers shall activate how when the operating producer fails to maintain required vacuum?",
+    "number": 93,
+    "question": "Additional WAGD producers shall be ______ activated when the producer(s) in operation is (are) incapable of maintaining the required vacuum",
+    "options": [
+      "Manually",
+      "Automatically",
+      "Either a or b",
+      "None of the above"
+    ],
     "answer": "Automatically"
   },
   {
-    "number": 371,
-    "questionId": "e1fc5c94-84a5-4b42-a3e3-3e1162f545ba",
-    "question": "What action is not considered a basis for system breach?",
-    "answer": "Alarm testing"
+    "number": 94,
+    "question": "Category 1 medical-surgical vacuum sources shall consist of an automatic means to prevent  ______ through any off-cycle vacuum pump.",
+    "options": [
+      "Vacuum",
+      "Back pressure",
+      "Backflow",
+      "All of the above"
+    ],
+    "answer": "Backflow"
   },
   {
-    "number": 372,
-    "questionId": "2372f5bf-8002-4c10-8002-e43fd1dad504",
-    "question": "In potentially damp locations, hangers or supports that are in contact with the tube shall be what or otherwise electrically insulated from the tube?",
-    "answer": "Plastic-coated"
+    "number": 91,
+    "question": "Category 1 medical-surgical vacuum sources shall, at a minimum, consist of _______ or more vacuum pumps.",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
   },
   {
-    "number": 373,
-    "questionId": "9a5b464c-9a5f-483a-9751-18ade98b09cc",
-    "question": "At what dew point temperature does the medical air dew point high alarm activate?",
-    "answer": "+35°F"
+    "number": 96,
+    "question": "Category 1 medical-surgical vacuum systems shall activate which alarm when the backup or lag pump is running?",
+    "options": [
+      "Master",
+      "Area",
+      "Local",
+      "All of the above"
+    ],
+    "answer": "Local"
   },
   {
-    "number": 374,
-    "questionId": "04f6ba84-ecd1-40a6-bec8-25f4982584be",
-    "question": "Category 2 medical-surgical vacuum systems are permitted to be what configuration?",
-    "answer": "simplex"
+    "number": 97,
+    "question": "If WAGD is produced by the medical surgical vacuum source, the total concentration of oxidizers of oxygen (%O2) shall be maintained below ______ percent.",
+    "options": [
+      "19.5%",
+      "15.5%",
+      "23.6%",
+      "21.5%"
+    ],
+    "answer": "23.6%"
   },
   {
-    "number": 375,
-    "questionId": "603ab9f5-7641-4b9a-b314-042b547ae00c",
-    "question": "Nfpa 99 requires tubing to be cut using a sharp tubing cutter that shall be free from grease, oil, and other lubricants not suitable for oxygen service. After cutting, tubing ends shall be permitted to be?",
-    "answer": "rolled smooth or deburred"
-  },
-  {
-    "number": 376,
-    "questionId": "80bcc0f9-5c76-4980-864d-120256495831",
-    "question": "At what parts per million (ppm) do local alarms activate for high carbon monoxide levels in a medical air system?",
-    "answer": "10"
-  },
-  {
-    "number": 377,
-    "questionId": "a5f49163-6a6e-4b2e-b26c-35ce8e75e4b0",
-    "question": "Piping for category 3 positive-pressure medical gases shall be cleaned for oxygen service, delivered plugged or capped, and hard drawn, seamless copper ASTM _?",
-    "answer": "B819"
-  },
-  {
-    "number": 378,
-    "questionId": "3ee31404-2656-43be-81ec-85fdfd36fa9b",
-    "question": "Which standard is NOT a requirement for the quality of medical air?",
-    "answer": "Be filtered to .01 microns"
-  },
-  {
-    "number": 379,
-    "questionId": "e184268a-ebe7-47b6-86b2-0fc0661d2926",
-    "question": "Which of the following does NOT represent an indicator in the alarm system?",
-    "answer": "Mock signal"
-  },
-  {
-    "number": 380,
-    "questionId": "c8e128a9-f317-40f0-b9d7-a2ae3d5b1aaf",
-    "question": "In a vacuum system, what occurs when not enough vacuum is maintained?",
-    "answer": "Air entry"
-  },
-  {
-    "number": 381,
-    "questionId": "e1fcc402-a5fe-4f1a-a3e9-209a1a345d82",
-    "question": "The manufacturer is allowed a decay of less than what percentage in 24 hours during the standing pressure test?",
-    "answer": "1.0"
-  },
-  {
-    "number": 382,
-    "questionId": "7837acc4-9022-45ae-b002-6a55cda1b269",
-    "question": "What treatment is required for water used in liquid ring compressors to prevent pathogens and chlorine?",
-    "answer": "Hypochlorination"
-  },
-  {
-    "number": 383,
-    "questionId": "8850a6b1-1e15-4982-8a8b-86f1938799eb",
-    "question": "WAGD producers designed for operation at vacuums below how many inches of HgV shall only be used for WAGD service?",
+    "number": 98,
+    "question": "If the WAGD system is joined with the medical surgical vacuum piping, it shall be connected at a minimum distance of ______ feet from any vacuum inlet.",
+    "options": [
+      "5.5",
+      "6",
+      "3",
+      "5"
+    ],
     "answer": "5"
   },
   {
-    "number": 384,
-    "questionId": "9411e0b2-fca4-4cc7-839b-492dbe94a6c2",
-    "question": "What is the initial pressure test pressure for a category 2 system?",
-    "answer": "1.5 but not less than 150 psi"
+    "number": 99,
+    "question": "Medical surgical vacuum receivers shall be made of what kind of materials ______ ?",
+    "options": [
+      "Ferrous",
+      "Non Ferrous",
+      "Deemed by the manufacturer",
+      "All of the above"
+    ],
+    "answer": "Deemed by the manufacturer"
   },
   {
-    "number": 385,
-    "questionId": "58432740-796f-444d-a6d2-47a6a828f6fa",
-    "question": "Axially swaged fittings that provide a metal to metal seal having pressure and temperature ratings of a brazed joint when complete are?",
-    "answer": "permanent"
-  },
-  {
-    "number": 386,
-    "questionId": "00bb3f24-35a7-44f7-afc1-517970484293",
-    "question": "What type of gas is indicated for use when charging the system after determining no cross-connection?",
-    "answer": "nitrogen NF"
-  },
-  {
-    "number": 387,
-    "questionId": "a74ccb87-761f-4ddc-b012-e302bf1245f5",
-    "question": "Who shall provide documentation certifying the performance and successful completion of all pressure testing for a manufactured assembly?",
-    "answer": "manufacturer"
-  },
-  {
-    "number": 388,
-    "questionId": "586dff6f-2e0c-473c-82b2-b1a0d25d2db8",
-    "question": "Which condition is NOT alarmed in sources with standby headers?",
-    "answer": "low discharge temperature"
-  },
-  {
-    "number": 389,
-    "questionId": "482b9365-81f1-40bb-b606-790b95866187",
-    "question": "Manufactured assemblies employing flexible hose shall have a minimum burst pressure of what PSI?",
-    "answer": "1000"
-  },
-  {
-    "number": 390,
-    "questionId": "a4b38e60-a9de-4ae9-9e90-be2d4a172e3d",
-    "question": "How many seals must separate the oil-containing section from the compression chamber in reciprocating compressors for medical air?",
-    "answer": "1"
-  },
-  {
-    "number": 391,
-    "questionId": "1bf5ad9f-22fe-446b-88eb-57ec25ef390a",
-    "question": "Mains and branches in medical-surgical vacuum systems shall not be less than which NPS?",
-    "answer": "3/4"
-  },
-  {
-    "number": 392,
-    "questionId": "bff9e90b-81bc-4e0b-aa69-48de9ac6460b",
-    "question": "What is the purpose of performing a standing pressure test?",
-    "answer": "Ensure system integrity"
-  },
-  {
-    "number": 393,
-    "questionId": "6b576d1d-4983-4d27-8226-d12abbfa7801",
-    "question": "Which of the following is NOT a requirement for the quality of instrument air?",
-    "answer": "A) dry to a dew point of 35*F"
-  },
-  {
-    "number": 394,
-    "questionId": "c784a886-eb27-4e3e-8ef5-e1f7899f83bb",
-    "question": "Who must witness a 24-hour standing pressure test?",
-    "answer": "designee of the authority having jurisdiction"
-  },
-  {
-    "number": 395,
-    "questionId": "ca8f715d-86c7-423d-8a91-0c53adecfcc8",
-    "question": "How many connections should manifolds for gas cylinders have at a minimum?",
-    "answer": "2"
-  },
-  {
-    "number": 396,
-    "questionId": "07063fc8-f3da-4ebb-bce0-e6932632d7a5",
-    "question": "When the dew point at system pressure exceeds what temperature in Fahrenheit, an alarm is activated?",
-    "answer": "-22"
-  },
-  {
-    "number": 397,
-    "questionId": "9a9fd8ae-2496-4fc2-b846-a3fdd94628f9",
-    "question": "When should the dew point monitor activate alarms in the medical air system?",
-    "answer": "When dew point exceeds 35°F"
-  },
-  {
-    "number": 398,
-    "questionId": "517a88cc-671b-4d24-872a-3136848a960b",
-    "question": "A Category 1 dedicated WAGD source must consist of how many producers to serve the peak calculated demand?",
-    "answer": "2"
-  },
-  {
-    "number": 399,
-    "questionId": "74fd0488-9a67-4d96-b5bf-7e2e8e441b99",
-    "question": "A medical-surgical vacuum exhaust must be screened using which type of material?",
-    "answer": "Any non-corroding"
-  },
-  {
-    "number": 400,
-    "questionId": "5fafa9bd-a854-4933-8571-453a338e8a42",
-    "question": "When multiple vacuum pumps are joined to a common exhaust, the common exhaust must be sized to achieve what?",
+    "number": 100,
+    "question": "Multiple vacuum pumps shall be permitted to be joined together to one common exhaust provided the common exhaust is sized to ______.",
+    "options": [
+      "Prevent backflow",
+      "Minimize back pressure",
+      "Peak calculated demand",
+      "Manufacturers recommendations"
+    ],
     "answer": "Minimize back pressure"
+  },
+  {
+    "number": 101,
+    "question": "The WAGD Source shall be permitted to be located near the _______.",
+    "options": [
+      "Intakes",
+      "Exhausts",
+      "Outlets",
+      "Inlets"
+    ],
+    "answer": "Inlets"
+  },
+  {
+    "number": 102,
+    "question": "The medical-surgical vacuum exhaust shall be turned down and screened.  The screening shall be fabricated using what type of material?",
+    "options": [
+      "Steel Mesh",
+      "Stell wire",
+      "Any non-corroding material",
+      "Any of the above"
+    ],
+    "answer": "Any non-corroding material"
+  },
+  {
+    "number": 103,
+    "question": "The medical-surgical vacuum receiver shall be made serviceable without shutting down the system by _______.",
+    "options": [
+      "An isolation valve where tee’d into main line",
+      "Being valved at the end of the main line",
+      "a three valve bypass",
+      "Any method to ensure continuation of service"
+    ],
+    "answer": "Any method to ensure continuation of service"
+  },
+  {
+    "number": 100,
+    "question": "The vacuum exhaust shall be at least ____ feet from any doors, windows, air intake and shall not discharge in a place of public assembly.",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "answer": "25"
+  },
+  {
+    "number": 105,
+    "question": "To determine the type of WAGD sources and systems shall be chosen by consultation with _______ having knowledge of the requirements to determine the type of system, number and placement of terminals and other required safety and operating devices.",
+    "options": [
+      "Engineer",
+      "Verifier",
+      "Medical staff",
+      "Maintenance staff"
+    ],
+    "answer": "Medical staff"
+  },
+  {
+    "number": 106,
+    "question": "Vacuum exhausts from multiple pumps joined together to one common exhaust shall be permitted provided each pump can be isolated by __________.",
+    "options": [
+      "Blind flange",
+      "Manual Valve",
+      "Check valve",
+      "Any of the above"
+    ],
+    "answer": "Any of the above"
+  },
+  {
+    "number": 107,
+    "question": "Vacuum producers (e.g., fans or blowers) designed for operations at vacuum below 130 mm (5in.) HgV shall be as follows",
+    "options": [
+      "Interconnected via piping",
+      "Ductwork",
+      "Determined by the manufacturer",
+      "Any of the above"
+    ],
+    "answer": "Any of the above"
+  },
+  {
+    "number": 108,
+    "question": "Vacuum receivers shall be capable of withstanding a gauge vacuum of _______ inches of mercury.",
+    "options": [
+      "29”",
+      "29.9”",
+      "30”",
+      "All of the above"
+    ],
+    "answer": "30”"
+  },
+  {
+    "number": 109,
+    "question": "WAGD vacuum producers designed for operation at vacuums below _____ inches Hg/V shall be used only for WAGD service and not employed for other services.",
+    "options": [
+      "2”",
+      "3”",
+      "4”",
+      "5”"
+    ],
+    "answer": "5”"
+  },
+  {
+    "number": 110,
+    "question": "What source shall not be used to power the venturi of a WAGD system?",
+    "options": [
+      "Instrument air",
+      "Medical air",
+      "Inert gas",
+      "All of the above"
+    ],
+    "answer": "Medical air"
+  },
+  {
+    "number": 111,
+    "question": "When the medical-surgical vacuum pump(s) in operation is (are) incapable of adequately maintaining the required vacuum, additional pumps shall be _______ activated.",
+    "options": [
+      "Manually",
+      "Automatically",
+      "Manually or automatically",
+      "None of the above"
+    ],
+    "answer": "Automatically"
+  },
+  {
+    "number": 112,
+    "question": "Filters shall be efficient to _______ and 99.7 percent HEPA or better, per DOE-STD-3020",
+    "options": [
+      "0.3",
+      "0.01",
+      "0.05",
+      "0.02"
+    ],
+    "answer": "0.3"
+  },
+  {
+    "number": 189,
+    "question": "For each oxygen concentrator a local alarm to indicate low oxygen concentration when a concentration lower than _____ percent is observed",
+    "options": [
+      "99",
+      "95",
+      "93",
+      "91"
+    ],
+    "answer": "91"
+  },
+  {
+    "number": 185,
+    "question": "The monitor shall be capable of monitoring _____ percent oxygen concentration with 1 percent accuracy",
+    "options": [
+      "95",
+      "93",
+      "97",
+      "99"
+    ],
+    "answer": "99"
+  },
+  {
+    "number": 115,
+    "question": "Oxygen concentrator supply units for use with medical gas pipelines shall produce oxygen meeting the requirements of?",
+    "options": [
+      "Oxygen 93 USP",
+      "Medical air USP",
+      "Oxygen USP",
+      "Both a and c"
+    ],
+    "answer": "Both a and c"
+  },
+  {
+    "number": 116,
+    "question": "On an oxygen for each concentrator unit used in the oxygen central supply system, an alarm indicating that oxygen concentration is below 91% shall activate what alarm?",
+    "options": [
+      "Master alarm",
+      "Local alarm",
+      "Area Alarm",
+      "Local and master alarm"
+    ],
+    "answer": "Local and master alarm"
+  },
+  {
+    "number": 180,
+    "question": "Vacuum filtration shall be sized for _____ percent of the peak calculated demand while one filter or filter bundle is isolated.",
+    "options": [
+      "90",
+      "95",
+      "100",
+      "99"
+    ],
+    "answer": "100"
+  },
+  {
+    "number": 118,
+    "question": "Vacuum filtration shall be located on the ____ side of the vacuum producer",
+    "options": [
+      "Upstream",
+      "Downstream",
+      "Patient side",
+      "All of the above"
+    ],
+    "answer": "Patient side"
+  },
+  {
+    "number": 119,
+    "question": "Vacuum filtration shall be at least _____ to allow one filter to be exchanged without impairing the vacuum system.",
+    "options": [
+      "Simplex",
+      "Duplex",
+      "No requirements",
+      "As many as you want"
+    ],
+    "answer": "Duplex"
+  },
+  {
+    "number": 120,
+    "question": "Use of oxygen concentrator supply systems as all three sources shall only be permitted after documented risk analysis by the ______ of the health care facility indidcating understanding of the inherent risks and defining how those risks shall be mitigated",
+    "options": [
+      "AHJ",
+      "Governing authority",
+      "Governing body",
+      "Not allowed"
+    ],
+    "answer": "Governing authority"
+  },
+  {
+    "number": 190,
+    "question": "A shutoff valve shall be placed at the immediate connection of each ________ system to the distribution piping system. What is the name given to the valve?",
+    "options": [
+      "Main",
+      "Supply",
+      "Source",
+      "Isolation"
+    ],
+    "answer": "Source"
+  },
+  {
+    "number": 191,
+    "question": "A shutoff valve shall be provided in the _______ supply line when the source valve is not accessible from within the building being served. What is the name given to this valve?",
+    "options": [
+      "Main",
+      "Supply",
+      "Service",
+      "Zone"
+    ],
+    "answer": "Main"
+  },
+  {
+    "number": 192,
+    "question": "All valves except valves zone valve box assemblies shall be secured by any of the following means ________________.",
+    "options": [
+      "Located in secure areas",
+      "Locked or latched in their operating positions",
+      "Located above ceiling, but remaining accessible and not obstructed",
+      "Any of the above"
+    ],
+    "answer": "Any of the above"
+  },
+  {
+    "number": 193,
+    "question": "Immediately outside each vital life-support, critical care and anesthetizing location of moderate sedation, deep sedation, or general anesthesia there shall be located a (n) _____________ in each medical gas, or vacuum line or both.",
+    "options": [
+      "Area alarm",
+      "Zone valve",
+      "Relief valve",
+      "Fire extinguisher"
+    ],
+    "answer": "Zone valve"
+  },
+  {
+    "number": 194,
+    "question": "In-line check valves shall not have threaded connections but shall have____________________.",
+    "options": [
+      "Brazed extensions",
+      "In-line serviceability",
+      "Threaded purge port",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "number": 195,
+    "question": "New or replacement shutoff valves for medical gas pressure piping systems shall be permitted to be any type as long as they meet the following: ___________________ .",
+    "options": [
+      "They have a minimum CV factor",
+      "Quarter turn to off",
+      "Constructed of material suitable",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "number": 196,
+    "question": "Service valve shall be placed in the branch piping prior to any ______________ on that branch.",
+    "options": [
+      "In line valve",
+      "Valves for future",
+      "Zone valve",
+      "Source valve"
+    ],
+    "answer": "Zone valve"
+  },
+  {
+    "number": 197,
+    "question": "Shutoff valves for positive pressure gases shall ______________.",
+    "options": [
+      "Provided with copper tube extensions for brazing",
+      "Permit in-line serviceability",
+      "be cleaned for oxygen service by the manufacturer",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "number": 198,
+    "question": "The main line valve shall be located on which side of the source valve, when the main line valve enters the building.",
+    "options": [
+      "Downstream of the source valve",
+      "Upstream of the source valve",
+      "Facility side of the source valve",
+      "Main line valve upstream of the service valve"
+    ],
+    "answer": "Facility side of the source valve"
+  },
+  {
+    "number": 199,
+    "question": "There shall be a zone valve immediately outside of anesthetizing location of__________________?",
+    "options": [
+      "Moderate sedation",
+      "Deep sedation",
+      "General anesthesia",
+      "All or any of the above"
+    ],
+    "answer": "All or any of the above"
+  },
+  {
+    "number": 200,
+    "question": "What is the name given to the shutoff valve installed on all lateral branch piping from a main or riser?",
+    "options": [
+      "Riser",
+      "Service",
+      "Zone",
+      "Main"
+    ],
+    "answer": "Service"
+  },
+  {
+    "number": 201,
+    "question": "What valve is permitted to be installed to isolate or shut off piping for servicing of individual rooms or areas?",
+    "options": [
+      "Service valve",
+      "In line valve",
+      "Future valve",
+      "Riser valve"
+    ],
+    "answer": "In line valve"
+  },
+  {
+    "number": 202,
+    "question": "What valves shall be readily operable from a standing position in the corridor on the same floor they serve?",
+    "options": [
+      "Zone",
+      "Service",
+      "Riser",
+      "Main"
+    ],
+    "answer": "Zone"
+  },
+  {
+    "number": 203,
+    "question": "With the approval of the authority having jurisdiction, in what areas shall the shutoff valves be permitted to be secured to prevent inappropriate access?",
+    "options": [
+      "Critical care",
+      "Maternity",
+      "Anesthetizing",
+      "Physchiatric or pediatric"
+    ],
+    "answer": "Physchiatric or pediatric"
+  },
+  {
+    "number": 204,
+    "question": "Bulk cryogenic liquid system require 3 ft clearance around three sides of the following:________.",
+    "options": [
+      "Storage container",
+      "Vaporizer",
+      "Manifolds for maintenance",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "number": 205,
+    "question": "The minimum clearance around the EOSC for a temporary source is ______ ft ?",
+    "options": [
+      "5 Feet",
+      "6 Feet",
+      "2 Feet",
+      "3 Feet"
+    ],
+    "answer": "3 Feet"
+  },
+  {
+    "number": 206,
+    "question": "The ______ valve shall be the line separating the applicability betweenNFPA 55Links to an external site.and this code.",
+    "options": [
+      "Source",
+      "Main",
+      "In line",
+      "None of the above"
+    ],
+    "answer": "Source"
+  },
+  {
+    "number": 208,
+    "question": "Seals necessary for the operation of the valve and prevention of leaks  are __________?",
+    "options": [
+      "Replaceable",
+      "Removable",
+      "Gas specific",
+      "None of the above"
+    ],
+    "answer": "Replaceable"
+  },
+  {
+    "number": 209,
+    "question": "In patient care spaces that are not anesthetizing locations, they shall be installed immediately outside the _________ being controlled.",
+    "options": [
+      "Area",
+      "Zone",
+      "Both A and B",
+      "Space"
+    ],
+    "answer": "Both A and B"
+  },
+  {
+    "number": 210,
+    "question": "The auxiliary source connection shall be ________ and secured.",
+    "options": [
+      "Always closed",
+      "Normally closed",
+      "Normally open",
+      "None of the above"
+    ],
+    "answer": "Normally closed"
   }
 ]
