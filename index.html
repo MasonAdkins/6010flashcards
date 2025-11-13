@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Medical Gas Installer 6010 Flashcards</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         * {
             margin: 0;
@@ -258,6 +259,10 @@
             color: #667eea;
             min-width: 182px;
             max-width: 182px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
         }
 
         .btn-prev {
@@ -420,22 +425,22 @@
     <div class="controls">
         <div class="controls-row">
             <button class="btn-prev" onclick="previousCard()">
-                <span class="btn-text-full">← Previous</span>
-                <span class="btn-text-short">←</span>
+                <span class="btn-text-full"><i class="fas fa-arrow-left"></i> Previous</span>
+                <span class="btn-text-short"><i class="fas fa-arrow-left"></i></span>
             </button>
             <button class="btn-flip" onclick="flipCard()">
-                <span class="btn-text-full">Flip Card</span>
-                <span class="btn-text-short">🔄</span>
+                <span class="btn-text-full"><i class="fas fa-sync-alt"></i> Flip Card</span>
+                <span class="btn-text-short"><i class="fas fa-sync-alt"></i></span>
             </button>
             <button class="btn-next" onclick="nextCard()">
-                <span class="btn-text-full">Next →</span>
-                <span class="btn-text-short">→</span>
+                <span class="btn-text-full">Next <i class="fas fa-arrow-right"></i></span>
+                <span class="btn-text-short"><i class="fas fa-arrow-right"></i></span>
             </button>
         </div>
         <div class="controls-row">
             <button class="btn-shuffle" onclick="shuffleCards()">
-                <span class="btn-text-full">🔀 Shuffle</span>
-                <span class="btn-text-short">🔀</span>
+                <span class="btn-text-full"><i class="fas fa-random"></i> Shuffle</span>
+                <span class="btn-text-short"><i class="fas fa-random"></i></span>
             </button>
         </div>
     </div>
