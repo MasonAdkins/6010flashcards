@@ -42,11 +42,13 @@
             width: 100%;
             max-width: 700px;
             margin-bottom: 30px;
+            position: relative;
         }
 
         .card {
             width: 100%;
-            height: 400px;
+            min-height: 400px;
+            height: auto;
             position: relative;
             transform-style: preserve-3d;
             transition: transform 0.6s, opacity 0.3s;
@@ -64,14 +66,18 @@
 
         .card-face {
             position: absolute;
+            top: 0;
+            left: 0;
             width: 100%;
-            height: 100%;
+            min-height: 400px;
+            height: auto;
             backface-visibility: hidden;
             border-radius: 15px;
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
-            padding: 40px;
+            padding: 60px 40px 60px 40px;
             box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
         }
 
@@ -87,9 +93,48 @@
 
         .card-content {
             text-align: center;
-            font-size: 1.82rem;
+            font-size: 1.5rem;
             line-height: 1.6;
             font-weight: bold;
+            width: 100%;
+            max-width: 600px;
+        }
+
+        .card-content.with-options {
+            text-align: left;
+            font-size: 1.1rem;
+        }
+
+        .question-text {
+            margin-bottom: 20px;
+            font-weight: bold;
+            text-align: left;
+            font-size: 1.2rem;
+        }
+
+        .options-list {
+            list-style: none;
+            padding: 0;
+            width: 100%;
+        }
+
+        .options-list li {
+            padding: 12px 15px;
+            margin: 10px 0;
+            background: rgba(102, 126, 234, 0.1);
+            border-radius: 8px;
+            border: 2px solid rgba(102, 126, 234, 0.3);
+            font-weight: 500;
+            font-size: 1rem;
+            line-height: 1.5;
+            word-wrap: break-word;
+        }
+
+        .options-list li::before {
+            content: attr(data-letter) ". ";
+            font-weight: bold;
+            color: #667eea;
+            margin-right: 8px;
         }
 
         .card-number {
@@ -257,16 +302,46 @@
             }
 
             .card {
-                height: 350px;
+                min-height: 350px;
+            }
+
+            .card-face {
+                padding: 50px 25px 50px 25px;
+                min-height: 350px;
             }
 
             .card-content {
-                font-size: 1.54rem;
+                font-size: 1.2rem;
+            }
+
+            .card-content.with-options {
+                font-size: 0.95rem;
+            }
+
+            .question-text {
+                font-size: 1rem;
+                margin-bottom: 15px;
+            }
+
+            .options-list li {
+                padding: 10px 12px;
+                margin: 8px 0;
+                font-size: 0.9rem;
+            }
+
+            .section-container {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 5px;
+            }
+
+            .section-input {
+                width: 120px;
             }
 
             button {
                 padding: 12px 20px;
-                font-size: 1.2rem;
+                font-size: 1rem;
                 min-width: auto;
             }
 
@@ -512,7 +587,25 @@
                 
                 document.getElementById('card-number-front').textContent = cardNumber;
                 document.getElementById('card-number-back').textContent = cardNumber;
-                document.getElementById('question').textContent = card.question;
+                
+                // Display question with options if available
+                const questionElement = document.getElementById('question');
+                if (card.options && Array.isArray(card.options) && card.options.length > 0) {
+                    questionElement.classList.add('with-options');
+                    const letters = ['A', 'B', 'C', 'D', 'E', 'F'];
+                    questionElement.innerHTML = `
+                        <div class="question-text">${card.question}</div>
+                        <ul class="options-list">
+                            ${card.options.map((option, i) => 
+                                `<li data-letter="${letters[i]}">${option}</li>`
+                            ).join('')}
+                        </ul>
+                    `;
+                } else {
+                    questionElement.classList.remove('with-options');
+                    questionElement.textContent = card.question;
+                }
+                
                 document.getElementById('answer').textContent = card.answer;
                 document.getElementById('current').textContent = currentIndex + 1;
                 document.getElementById('total').textContent = flashcards.length;
@@ -528,14 +621,28 @@
                 document.getElementById('section-input-front').value = sectionValue;
                 document.getElementById('section-input-back').value = sectionValue;
                 
-                // Reset flip state
-                if (isFlipped) {
-                    flipCard();
-                }
+                // Note: We don't reset flip state here anymore, it's handled in navigation functions
 
                 // Remove animation class
                 cardElement.classList.remove('changing');
+                
+                // Adjust card height to fit content
+                adjustCardHeight();
             }, 150);
+        }
+
+        function adjustCardHeight() {
+            const cardElement = document.getElementById('flashcard');
+            const frontFace = document.querySelector('.card-front');
+            const backFace = document.querySelector('.card-back');
+            
+            // Get the height of both faces
+            const frontHeight = frontFace.scrollHeight;
+            const backHeight = backFace.scrollHeight;
+            
+            // Set card height to the maximum of both faces
+            const maxHeight = Math.max(frontHeight, backHeight);
+            cardElement.style.height = maxHeight + 'px';
         }
 
         function flipCard() {
@@ -547,13 +654,33 @@
         function nextCard() {
             currentIndex = (currentIndex + 1) % flashcards.length;
             saveCurrentPosition();
-            loadCard();
+            
+            // If card is flipped, unflip it first, then load new content
+            if (isFlipped) {
+                flipCard();
+                // Wait for flip animation to complete before loading new card
+                setTimeout(() => {
+                    loadCard();
+                }, 600); // Match the card flip transition duration
+            } else {
+                loadCard();
+            }
         }
 
         function previousCard() {
             currentIndex = (currentIndex - 1 + flashcards.length) % flashcards.length;
             saveCurrentPosition();
-            loadCard();
+            
+            // If card is flipped, unflip it first, then load new content
+            if (isFlipped) {
+                flipCard();
+                // Wait for flip animation to complete before loading new card
+                setTimeout(() => {
+                    loadCard();
+                }, 600); // Match the card flip transition duration
+            } else {
+                loadCard();
+            }
         }
 
         function shuffleCards() {
