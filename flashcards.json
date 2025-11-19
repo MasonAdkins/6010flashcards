@@ -2517,5 +2517,566 @@
       "20"
     ],
     "answer": "10"
+  },
+  {
+    "number": 301,
+    "question": "After a final tie-In on an active vacuum system, each vacuum joints shall be tested with a _____________ leak detector or other means that will allow detectant on an active vacuum system.",
+    "options": [
+      "Vacuum gauge",
+      "Ultrasonic",
+      "Pressure gauge",
+      "A tracer gas"
+    ],
+    "answer": "Ultrasonic"
+  },
+  {
+    "number": 302,
+    "question": "After the final Tie-In each joint shall be leak tested by the source gas. New work and the existing system at the normal operating pressure shall be leak check with a leak detectant that is safe for use with oxygen and does NOTcontain ___________.",
+    "options": [
+      "Acetone",
+      "Ammonia",
+      "Chlorine",
+      "Freon"
+    ],
+    "answer": "Ammonia"
+  },
+  {
+    "number": 303,
+    "question": "After the piping system, the blow down test shall be done. Then the Installer must perform which of the following test?",
+    "options": [
+      "Initial pressure test",
+      "Initial cross connection",
+      "Initial piping purge test",
+      "All of the above"
+    ],
+    "answer": "Initial pressure test"
+  },
+  {
+    "number": 304,
+    "question": "Alarm panels and shutoff valves labeling shall be __________ when modification are made, changing the areas serviced.",
+    "options": [
+      "Backdated",
+      "Monthly",
+      "Yearly",
+      "Updated"
+    ],
+    "answer": "Updated"
+  },
+  {
+    "number": 305,
+    "question": "Area alarms shall be tested to verify the warning signals for all vital life support and critical care areas if the pressure in the piping system increases or decreases by ____________.",
+    "options": [
+      "60%",
+      "40%",
+      "20%",
+      "10%"
+    ],
+    "answer": "20%"
+  },
+  {
+    "number": 306,
+    "question": "At the sample port a demand of approximated 25 % percent load shall be created to cause the compressors to cycle on and off continuously and the dryers to operate for the _________ period.",
+    "options": [
+      "24 hour",
+      "10 hour",
+      "12.5 hour",
+      "12.0 hour"
+    ],
+    "answer": "12.0 hour"
+  },
+  {
+    "number": 307,
+    "question": "Before the piping system is put into use, who is responsible for theascertaining that the gas delivered to the outlet/inlet has the proper labels and connecting fittings.",
+    "options": [
+      "Installers",
+      "Maintenance staff",
+      "Facility Authority",
+      "Any of the above"
+    ],
+    "answer": "Facility Authority"
+  },
+  {
+    "number": 308,
+    "question": "Breached portions of the systems subject to inspection and testing shall be confined to only the specific altered zone or area that is downstream for pressure gases at the point of intrusion. Where a system shall be declared breached?",
+    "options": [
+      "Physical seperation of pipeline",
+      "System component removal",
+      "Repalcement or addition of system components",
+      "Any of the above"
+    ],
+    "answer": "Any of the above"
+  },
+  {
+    "number": 309,
+    "question": "Distribution piping for support gas systems (nitrogen and instrument air) shall be __________ type “L” copper tube.",
+    "options": [
+      "ASTM B88",
+      "ASTM B280",
+      "ASTM B819",
+      "Any of the above"
+    ],
+    "answer": "ASTM B819"
+  },
+  {
+    "number": 310,
+    "question": "During the initial pressure test, the source shutoff valve shall remain closed and the test pressure for pressure gases shall be 1.5 times the system working pressure, but not less than _____________.",
+    "options": [
+      "200 psi",
+      "150 psi",
+      "100 psi",
+      "75 psi"
+    ],
+    "answer": "150 psi"
+  },
+  {
+    "number": 311,
+    "question": "Final line filters for instrument air shall be rated for a minimum of ________ efficiency at __________ micron.",
+    "options": [
+      "98% at .1",
+      "100% at .1",
+      "98% at .01",
+      "100% at .01"
+    ],
+    "answer": "98% at .01"
+  },
+  {
+    "number": 312,
+    "question": "In Category 2 piped gas or piped vacuum systems shall be permitted to administrate moderate sedation, minimal sedation. If a patient is put into a deep sedation or general anesthesia then the risk assessment would most likely place the user in what category?",
+    "options": [
+      "Category 2",
+      "Category 3",
+      "Category 1",
+      "Category 4"
+    ],
+    "answer": "Category 1"
+  },
+  {
+    "number": 313,
+    "question": "Initial piping purge test the Installer shall use the appropriate adapters and purge with an intermittent high volume flow of test gas until the purge produces ___________in a clean white cloth.",
+    "options": [
+      "No yellow dust",
+      "No yellow grit",
+      "No white coloration",
+      "No discoloration"
+    ],
+    "answer": "No discoloration"
+  },
+  {
+    "number": 314,
+    "question": "Inspection and testing shall be performed on all new piped gas systems, additions, renovations, temporary installations or repaired systems to assure the facility that all applicable provisions of NFPA 99C have been adhered to and system integrity has been achieved or maintained. What is required of the individual doing the testing or inspecting?",
+    "options": [
+      "Have two years experience",
+      "Have a documented procedure",
+      "Be a certified tester",
+      "None of the above"
+    ],
+    "answer": "Have a documented procedure"
+  },
+  {
+    "number": 315,
+    "question": "Installer shall create a form indicating that the standing pressure test has been performed and witnessed, a copy shall be provided to the _____________.",
+    "options": [
+      "Doctors",
+      "Nurses",
+      "Verifier",
+      "Any of the above"
+    ],
+    "answer": "Verifier"
+  },
+  {
+    "number": 316,
+    "question": "Instrument Air system that employ a standby header shall be permitted to have a simplex cooler and dryer. Where a standby header is provide a ___________ shall be installed to prevent backflow.",
+    "options": [
+      "One way valve",
+      "Isolation valve",
+      "Check valve",
+      "Two way check valve"
+    ],
+    "answer": "Check valve"
+  },
+  {
+    "number": 317,
+    "question": "Instrument air sources shall produce air at not less than a gauge pressure of __________.",
+    "options": [
+      "100 psi",
+      "50 psi",
+      "200 psi",
+      "250 psi"
+    ],
+    "answer": "50 psi"
+  },
+  {
+    "number": 318,
+    "question": "Instrument air systems shall activate the alarm systems when the dew point at system pressure exceeds ______________.",
+    "options": [
+      "-20F",
+      "-22F",
+      "22F",
+      "-26F"
+    ],
+    "answer": "-22F"
+  },
+  {
+    "number": 319,
+    "question": "Intake air for instrument air compressors shall be permitted to be drawn from what location?",
+    "options": [
+      "Equipment location",
+      "Outside",
+      "Ducted air",
+      "Any of the above"
+    ],
+    "answer": "Any of the above"
+  },
+  {
+    "number": 320,
+    "question": "Medical air purity for compressor systems shall be analyzed prior to the source valve being opened. Samples taken at the system sample port for carbon monoxide shall not exceed ___________.",
+    "options": [
+      "2 ppm",
+      "10 ppm",
+      "25 ppm",
+      "500 ppm"
+    ],
+    "answer": "10 ppm"
+  },
+  {
+    "number": 321,
+    "question": "Nitrogen and instrument air supply systems are not to be used for patient care, but are used for powering pneumatic devices and should be considered ________ gases.",
+    "options": [
+      "Hazrdous",
+      "Medical",
+      "Support",
+      "All of the above"
+    ],
+    "answer": "Support"
+  },
+  {
+    "number": 322,
+    "question": "Persons maintaining medical gas and vacuum systems shall have appropriate qualification by demonstrated one of the following:",
+    "options": [
+      "A documented training program acceptable by the health care facility",
+      "Credentialing to ASSE 6040, technically competent",
+      "Credentialing to ASSE 6030, technically competent",
+      "Any of the above"
+    ],
+    "answer": "Any of the above"
+  },
+  {
+    "number": 323,
+    "question": "Support gases system are subject to the same hazards as, present in any piped medical gas system with the additional hazard of_________________.",
+    "options": [
+      "Asphyxiations",
+      "More highly expolsive",
+      "Elevated pressures",
+      "Hazards are no different than any other piped medical gas"
+    ],
+    "answer": "Elevated pressures"
+  },
+  {
+    "number": 324,
+    "question": "The 24-hour standing pressure test shall be witnessed by the AHJ or its _____________.",
+    "options": [
+      "Staff",
+      "Doctors",
+      "Designee",
+      "Verifier"
+    ],
+    "answer": "Designee"
+  },
+  {
+    "number": 325,
+    "question": "The air quality tests shall be conducted after the medical air source system has been operating normally, but with the source valve closed under a simulated load for an elapsed time at least _________.",
+    "options": [
+      "24 hours",
+      "10 hours",
+      "12.5 hours",
+      "12.0 hours"
+    ],
+    "answer": "12.0 hours"
+  },
+  {
+    "number": 326,
+    "question": "The initial pressure test for a vacuum system shall be 1.5 times the working pressure but not less than___________.",
+    "options": [
+      "150 psi",
+      "100 psi",
+      "50 psi",
+      "50 to 55 psi"
+    ],
+    "answer": "150 psi"
+  },
+  {
+    "number": 327,
+    "question": "The initial pressure test for the piping of a medical gas and vacuum system shall be maintained ________.",
+    "options": [
+      "For 24 hours",
+      "Until 25% of the joints have been examined for leaks",
+      "For 8 hours",
+      "Until 100% of the joints have been examined for leaks"
+    ],
+    "answer": "Until 100% of the joints have been examined for leaks"
+  },
+  {
+    "number": 328,
+    "question": "The installer shall determine that no cross connection exists between the various medical gas and vacuum piping systems. With all systems reduced to atmospheric pressure, the one system being tested shall be charged with ____________ at a gage pressure of ________________.",
+    "options": [
+      "Source gas @ 150 psi",
+      "Oil free dry air @100 psi",
+      "Oil free dry nitrogen NF @ 50 psi",
+      "None of the above"
+    ],
+    "answer": "Oil free dry nitrogen NF @ 50 psi"
+  },
+  {
+    "number": 329,
+    "question": "The quality of instrument air shall be dry to a dew point of _______________.",
+    "options": [
+      "-40F",
+      "40F",
+      "35F",
+      "32F"
+    ],
+    "answer": "-40F"
+  },
+  {
+    "number": 330,
+    "question": "The quality of the instrument air shall be _____________.",
+    "options": [
+      "Filtered to .01 micron",
+      "Compliant with instrument air",
+      "Free of hydrocarbons vapors",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "number": 331,
+    "question": "The standing pressure test for positive pressure medical gas piping shall be conducted with the source valve closed and the piping system subjected to a pressure of _______.",
+    "options": [
+      "150 psi for 8 hours",
+      "20% above operating pressure for 8 hours",
+      "150 psi for 24 hours",
+      "20% above operating pressure for 24 hours"
+    ],
+    "answer": "20% above operating pressure for 24 hours"
+  },
+  {
+    "number": 332,
+    "question": "The standing pressure test for vacuum systems shall be conducted after installation of all components and the piping system shall be subjected to a test pressure of ____________.",
+    "options": [
+      "29.9” HG for 8 hours",
+      "20” above operating pressure for 24 hours",
+      "12.9” HG for 8 hours",
+      "12” HG/V for 24 hours"
+    ],
+    "answer": "12” HG/V for 24 hours"
+  },
+  {
+    "number": 333,
+    "question": "The test required by the installer shall be performed and documented prior to the system verification. The test gas shall be ___________.",
+    "options": [
+      "Source gas",
+      "Oil free dry nitrogen NF",
+      "Compressed oil free dry air",
+      "Any of the above"
+    ],
+    "answer": "Oil free dry nitrogen NF"
+  },
+  {
+    "number": 334,
+    "question": "Verification testing shall be conducted by a party who is technically competent and experienced in the field of medical gas and vacuum pipeline testing, and meets the requirements of _____________.",
+    "options": [
+      "ASSE standard 6010",
+      "ASME section IX",
+      "ASSE standard 6030",
+      "ASSE standard 6020"
+    ],
+    "answer": "ASSE standard 6030"
+  },
+  {
+    "number": 335,
+    "question": "What alarm shall the instrument air activate to indicate when or just before the backup compressor (if provided) is in operation?",
+    "options": [
+      "Master",
+      "Area",
+      "Local",
+      "All of the above"
+    ],
+    "answer": "Local"
+  },
+  {
+    "number": 336,
+    "question": "What percent of the zones shall be tested at the outlet most remote from the source to verify the piping particulate test?",
+    "options": [
+      "100%",
+      "75%",
+      "50%",
+      "25%"
+    ],
+    "answer": "25%"
+  },
+  {
+    "number": 337,
+    "question": "Where instrument air systems are provided with a standby header, the header shall have how many cylinders attached?",
+    "options": [
+      "4 cyclinders",
+      "3 cyclinders",
+      "An average days supply",
+      "One-hour of normal operation"
+    ],
+    "answer": "One-hour of normal operation"
+  },
+  {
+    "number": 338,
+    "question": "Which group or agency shall review the inspection and testing records prior to the use of all systems to assure that all findings and results of the inspection and testing have been successfully completed?",
+    "options": [
+      "Responsible Facility authority",
+      "Maintenance supervisor",
+      "Head nurse",
+      "Any of the above"
+    ],
+    "answer": "Responsible Facility authority"
+  },
+  {
+    "number": 339,
+    "question": "Who shall be responsible for developing an emergency plan in the event of medical air loss at a Category 2 facility?",
+    "options": [
+      "Authority having jurisdiction",
+      "Head of maintenance",
+      "Facility staff",
+      "Cheif engineer"
+    ],
+    "answer": "Facility staff"
+  },
+  {
+    "number": 340,
+    "question": "The person(s) designated as the Responsible Facility Authority shall be qualified to interpret, implement and advise on this Code.They shall be required to be qualified to?",
+    "options": [
+      "Program exceptable to the health care facility",
+      "ASSE 6020",
+      "ASSE 6030",
+      "Any of the above"
+    ],
+    "answer": "Any of the above"
+  },
+  {
+    "number": 301,
+    "question": "Cayegory 2 & 3 medical gas systems are required to have how many alarm panels?",
+    "options": [
+      "1",
+      "3",
+      "5",
+      "None of the above"
+    ],
+    "answer": "1"
+  },
+  {
+    "number": 303,
+    "question": "Medical–surgical vacuum inlets shall draw 85 Nl/min (_____ SCFM) without reducing the vacuum pressure below 300 mm (12 in.) gauge HgV at any adjacent station inlet.",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "2"
+    ],
+    "answer": "3"
+  },
+  {
+    "number": 303,
+    "question": "A minimum of 1000 L (35 ft3) of gas shall be filtered through a clean, white _____ micron filter at a minimum flow rate of 100 Nl/min (3.5 SCFM).",
+    "options": [
+      "0.5",
+      "0.45",
+      "0.55",
+      "0.47"
+    ],
+    "answer": "0.45"
+  },
+  {
+    "number": 344,
+    "question": "The moisture concentration of the outlet test shall not exceed ____ ppm or an equivalent pressure dew point of -12°C (10°F) at a gauge pressure of 345 kPa (50 psi).",
+    "options": [
+      "150",
+      "300",
+      "500",
+      "600"
+    ],
+    "answer": "500"
+  },
+  {
+    "number": 303,
+    "question": "Oxygen and medical air outlets serving Category 1 space shall allow a transient flow rate of 100 SLPM (____ SCFM) for 3 seconds.",
+    "options": [
+      "3",
+      "3.5",
+      "7",
+      "5"
+    ],
+    "answer": "3.5"
+  },
+  {
+    "number": 308,
+    "question": "The appropriate adapter shall be obtained from the facility or manufacturer, and high purge rates of at least 225 Nl/min (_____ SCFM) shall be put on each outlet.",
+    "options": [
+      "8",
+      "9",
+      "5",
+      "3"
+    ],
+    "answer": "8"
+  },
+  {
+    "number": 347,
+    "question": "The filter shall accrue no more than 0.001 g (_____ mg) of matter from any outlet tested.",
+    "options": [
+      "0.1",
+      "1",
+      "1.2",
+      "0.001"
+    ],
+    "answer": "1"
+  },
+  {
+    "number": 348,
+    "question": "Category 1 facility, testing and calibration procedures shall be established to ensure carbon monoxide monitors are calibrated _____",
+    "options": [
+      "Annually or more often, if recommended by the manufacturer",
+      "As directed by the administrator of the facility",
+      "At least once, every 18 months",
+      "By an independent calibration/ testing company"
+    ],
+    "answer": "Annually or more often, if recommended by the manufacturer"
+  },
+  {
+    "number": 349,
+    "question": "Vacuum systems deemed breached shall be subject to inspection and testing to the specific area located _____ of the point of intrusion.",
+    "options": [
+      "Downstream",
+      "Near the surrounding area",
+      "Upstream",
+      "All of the above"
+    ],
+    "answer": "Upstream"
+  },
+  {
+    "number": 350,
+    "question": "Which is true of instrument air sources?",
+    "options": [
+      "They shall be permited to include at least two compressors",
+      "A standby header is not permitted",
+      "Can be capable of interconnection with medical air",
+      "They shall not produce air less than 200 psi pressure"
+    ],
+    "answer": "They shall be permited to include at least two compressors"
+  },
+  {
+    "number": 351,
+    "question": "New medical gas and vacuum pipeline distribution systems shall not be connected to the existing in-use systems until which installer preformed tests have been completed?",
+    "options": [
+      "All",
+      "No required tests",
+      "Intial pressure",
+      "Standing pressure"
+    ],
+    "answer": "Intial pressure"
   }
 ]
