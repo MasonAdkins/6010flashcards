@@ -1,0 +1,2092 @@
+[
+  {
+    "number": 1,
+    "question": "An existing system that is not in strict compliance with the provisions of this code shall be permitted to be continued in use as long as the _______ has determined that such use does not constitute a distinct hazard to life.",
+    "options": [
+      "architect",
+      "authority having jurisdiction",
+      "engineer",
+      "nursing staff"
+    ],
+    "answer": "authority having jurisdiction"
+  },
+  {
+    "number": 2,
+    "question": "Cylinder and cryogenic liquid container outlet connections shall be affixed in such a manner as to be intregal to the valve, unremovable with ordinary tools or so designed as to render the attachment point ________ when removal of the outlet connection is attempted.",
+    "options": [
+      "reusable",
+      "unusable",
+      "unsuitable",
+      "universal"
+    ],
+    "answer": "unusable"
+  },
+  {
+    "number": 3,
+    "question": "Which of the following systems shall not be permitted to be located in an outdoor enclosure?",
+    "options": [
+      "Manifolds for gas cylinders",
+      "Medical air compressor sources",
+      "Bulk cryogenic liquid systems",
+      "Manifolds for cryogenic liquid containers"
+    ],
+    "answer": "Medical air compressor sources"
+  },
+  {
+    "number": 4,
+    "question": "What is required of the alarm system if another alarm condition occurs while the audible alarm is manually silenced?",
+    "options": [
+      "Nothing, the visual indicator is still active",
+      "The visual indicator must blink",
+      "The audible signal will beep",
+      "Re-initiation of the audible signal"
+    ],
+    "answer": "Re-initiation of the audible signal"
+  },
+  {
+    "number": 5,
+    "question": "Cylinders in use and in storage shall be prevented from reaching temperatures in excess of ____________.",
+    "options": [
+      "120ºF",
+      "125ºF",
+      "130ºF",
+      "150ºF"
+    ],
+    "answer": "125ºF"
+  },
+  {
+    "number": 6,
+    "question": "Locations for central supply systems shall have electrical devices protected from ___________.",
+    "options": [
+      "moisture",
+      "freezing temperatures",
+      "physical damage",
+      "unauthorized use"
+    ],
+    "answer": "physical damage"
+  },
+  {
+    "number": 7,
+    "question": "Mechanical exhaust for central supply locations shall not be more than ____.",
+    "options": [
+      "50 cfm",
+      "72 cfm",
+      "100 cfm",
+      "500 cfm"
+    ],
+    "answer": "500 cfm"
+  },
+  {
+    "number": 8,
+    "question": "For purposes of this code, an oxygen enriched atmosphere is an atmosphere where to total concentration of oxygen exceeds _______ by volume.",
+    "options": [
+      "23.5%",
+      "23.6%",
+      "19.5%",
+      "93%"
+    ],
+    "answer": "23.5%"
+  },
+  {
+    "number": 9,
+    "question": "Final line pressure regulators, when used for bulk cryogenic liquid systems shall be of a ________ design.",
+    "options": [
+      "straight through",
+      "parallel",
+      "balanced",
+      "none of the above"
+    ],
+    "answer": "balanced"
+  },
+  {
+    "number": 10,
+    "question": "The pressure in the main line of each medical gas system, the operation and condition of the source of supply and the reserve source (if any) shall be monitored at the _______ alarm",
+    "options": [
+      "local",
+      "area",
+      "master",
+      "all of the above"
+    ],
+    "answer": "master"
+  },
+  {
+    "number": 11,
+    "question": "The instrument air dew point high alarm from each compressor site will indicate at the master alarm panels when the line pressure dew point is greater than _______.",
+    "options": [
+      "-44ºF",
+      "-22ºF",
+      "-32ºF",
+      "-39ºF"
+    ],
+    "answer": "-22ºF"
+  },
+  {
+    "number": 12,
+    "question": "Brazed joints shall be made using a brazing alloy that exhibits a melting temperature in excess of _________ to retain the integrity of the piping system in the event of fire.",
+    "options": [
+      "800º F",
+      "1000º F",
+      "1200º F",
+      "2400º F"
+    ],
+    "answer": "1000º F"
+  },
+  {
+    "number": 13,
+    "question": "Manifolds for gas cylinders shall consist of ______ equal headers; each with one average day’s supply, but not fewer than _______ connections.",
+    "options": [
+      "four – four",
+      "three – three",
+      "two – two",
+      "one – one"
+    ],
+    "answer": "two – two"
+  },
+  {
+    "number": 14,
+    "question": "Manifolds for gas cylinders shall actuate a(n) ___________ signal and shall activate an indicator at all _______ alarm panels to indicate when or just before changeover from one header to the other.",
+    "options": [
+      "area – master",
+      "master – local",
+      "local – master",
+      "master – area"
+    ],
+    "answer": "local – master"
+  },
+  {
+    "number": 15,
+    "question": "In a medical gas system with emergency reserve, which alarm system(s) will activate when, or just before, the changeover to the reserve supply occurs?",
+    "options": [
+      "local",
+      "area",
+      "master",
+      "local and master"
+    ],
+    "answer": "master"
+  },
+  {
+    "number": 16,
+    "question": "The gas produced by evaporation from the secondary header in a cryogenic liquid container system shall enter the supply system __________ of the final line regulator.",
+    "options": [
+      "upstream",
+      "downstream",
+      "upstream of the filter",
+      "not required"
+    ],
+    "answer": "upstream"
+  },
+  {
+    "number": 1,
+    "question": "A facility is in the planning stages of installing an emergency oxygen supply connection (EOSC). How many feet is the minimum clearance around this connection ?",
+    "options": [
+      "1",
+      "3",
+      "5",
+      "clearance must be 1.5x the width of the auxiliary source for service to the system"
+    ],
+    "answer": "3"
+  },
+  {
+    "number": 18,
+    "question": "A(n) ___________ can be used as a substitute for the EOSC at a category 1 facility.",
+    "options": [
+      "main line valve",
+      "in-building emergency reserve",
+      "bulk oxygen source",
+      "emergency plan"
+    ],
+    "answer": "in-building emergency reserve"
+  },
+  {
+    "number": 19,
+    "question": "Final line pressure controls shall be sized to ___ of the peak calculated demand.",
+    "options": [
+      "50%",
+      "100%",
+      "110%",
+      "Not specified"
+    ],
+    "answer": "100%"
+  },
+  {
+    "number": 20,
+    "question": "Bulk cryogenic liquid systems shall be installed in accordance with ______.",
+    "options": [
+      "NFPA 45",
+      "NFPA 55",
+      "CGA 50",
+      "CGA 55"
+    ],
+    "answer": "NFPA 55"
+  },
+  {
+    "number": 21,
+    "question": "Central supply systems for nitrous oxide and carbon dioxide using cylinders or portable containers shall be prevented from reaching temperatures lower than ___°F.",
+    "options": [
+      "125",
+      "32",
+      "20",
+      "–20"
+    ],
+    "answer": "20"
+  },
+  {
+    "number": 22,
+    "question": "Installers of Category 1 medical gas piping systems must be qualified to ASSE 6010. What is the certification requirement for installers of a Category 3 system?",
+    "options": [
+      "6010",
+      "6020",
+      "6030",
+      "Category 3 does not require certification"
+    ],
+    "answer": "6010"
+  },
+  {
+    "number": 23,
+    "question": "When is the initial pressure test conducted by the installer?",
+    "options": [
+      "after installation of the alarm sensors",
+      "before blowdown of the distribution piping",
+      "after blowdown of the distribution piping",
+      "before installation of station rough-in assemblies"
+    ],
+    "answer": "after blowdown of the distribution piping"
+  },
+  {
+    "number": 10,
+    "question": "The master alarm system shall activate when the pressure in the main supply lines increase or decrease by __________ percent.",
+    "options": [
+      "10",
+      "20",
+      "40",
+      "50"
+    ],
+    "answer": "20"
+  },
+  {
+    "number": 25,
+    "question": "When designing and constructing central supply systems, the storage shall __________.",
+    "options": [
+      "have a minimum of two entry/exits if outdoors",
+      "secure all cylinders",
+      "have a minimum 1-hour fire resistance rating",
+      "all of the above"
+    ],
+    "answer": "all of the above"
+  },
+  {
+    "number": 26,
+    "question": "The medical air dew point high alarm from each compressor site will indicate at the master alarm panels when the line pressure dew point is greater than ____________.",
+    "options": [
+      "-35ºF",
+      "-22ºF",
+      "+32ºF",
+      "+35°F"
+    ],
+    "answer": "+35°F"
+  },
+  {
+    "number": 27,
+    "question": "Which source shall NOT be used to power the venturri of a WAGD system?",
+    "options": [
+      "inert gas",
+      "instrument air",
+      "medical air",
+      "water"
+    ],
+    "answer": "medical air"
+  },
+  {
+    "number": 28,
+    "question": "For medical-surgical vacuum systems, piping shall be hard-drawn, seamless copper tube type _________.",
+    "options": [
+      "ASTM B88",
+      "ASTM B819",
+      "ASTM B 280",
+      "any of the above"
+    ],
+    "answer": "any of the above"
+  },
+  {
+    "number": 29,
+    "question": "Which type of connectors shall connect the medical air compressors with their intake and outlet piping?",
+    "options": [
+      "compression",
+      "dielectric",
+      "flexible",
+      "insulated"
+    ],
+    "answer": "flexible"
+  },
+  {
+    "number": 30,
+    "question": "Medical air filters shall be sized for 100% of the system peak calculated demand and be rated for a minimum of ______ efficiency at _______ micron or greater.",
+    "options": [
+      "95% @ .5",
+      "98% @ .1",
+      "100% @ .1",
+      "none of the above"
+    ],
+    "answer": "none of the above"
+  },
+  {
+    "number": 31,
+    "question": "Where compressors that separate the oil containing section from the compression chamber are used, each compressor shall be monitored for which of the following?",
+    "options": [
+      "gaseous hydrocarbons",
+      "high temperature",
+      "liquid hydrocarbons",
+      "both A & B"
+    ],
+    "answer": "both A & B"
+  },
+  {
+    "number": 32,
+    "question": "Joints shall be brazed within _______ hours after the surfaces are cleaned for brazing.",
+    "options": [
+      "one",
+      "four",
+      "eight",
+      "twenty-four"
+    ],
+    "answer": "eight"
+  },
+  {
+    "number": 20,
+    "question": "Medical air compressor systems shall have a pressure relief valve set at ______percent above line pressure.",
+    "options": [
+      "20",
+      "30",
+      "40",
+      "50"
+    ],
+    "answer": "50"
+  },
+  {
+    "number": 34,
+    "question": "Underground piping buried outside of buildings shall be installed below the local level of frost penetration and shall be protected by a(n) _____________.",
+    "options": [
+      "conduit",
+      "enclosure",
+      "cover",
+      "any of the above"
+    ],
+    "answer": "any of the above"
+  },
+  {
+    "number": 35,
+    "question": "What is the standard gauge pressure (psi) for nitrogen gas service?",
+    "options": [
+      "15 – 30",
+      "50 – 55",
+      "160 – 185",
+      "It varies with system type."
+    ],
+    "answer": "160 – 185"
+  },
+  {
+    "number": 36,
+    "question": "Receivers for medical air shall be equipped with _____________.",
+    "options": [
+      "relief valves",
+      "automatic and manual drains",
+      "sight glass",
+      "all of the above"
+    ],
+    "answer": "all of the above"
+  },
+  {
+    "number": 37,
+    "question": "A wireless communication device is employed in a medical gas or vacuum warning system. Which type of supervision is required for this device?",
+    "options": [
+      "A visual indicator shall be located in the maintenance/engineering department.",
+      "The device shall be installed at the medical gas or vacuum source",
+      "The device shall be located at a nurse’s station",
+      "It will be supervised such that failure of communication shall initiate an alarm."
+    ],
+    "answer": "It will be supervised such that failure of communication shall initiate an alarm."
+  },
+  {
+    "number": 2,
+    "question": "How many hours must the medical air compressor system be operating normally before air quality test can be performed?",
+    "options": [
+      "2",
+      "8",
+      "12",
+      "24"
+    ],
+    "answer": "12"
+  },
+  {
+    "number": 39,
+    "question": "Where medical gas systems operate at pressures other that the standard gauge pressures, which of these is required to be listed on the station outlet identification?",
+    "options": [
+      "Gas registration number and a toll-free number to call for information",
+      "Name of the gas",
+      "Nonstandard operating pressure",
+      "Both B and C"
+    ],
+    "answer": "Both B and C"
+  },
+  {
+    "number": 40,
+    "question": "Brazing procedures and brazer performance for the installation of medical gas and vacuum piping shall be qualified in accordance with _______________.",
+    "options": [
+      "ASME Section IX",
+      "ASSE 6010",
+      "AWS B31.3",
+      "none of the above"
+    ],
+    "answer": "ASME Section IX"
+  },
+  {
+    "number": 41,
+    "question": "In a non-anesthetizing area, on which side of a zone valve shall the area alarm pressure/vacuum sensor be located?",
+    "options": [
+      "source",
+      "station outlet/inlet",
+      "upstream side",
+      "NFPA 99 does not specify a requirement"
+    ],
+    "answer": "station outlet/inlet"
+  },
+  {
+    "number": 42,
+    "question": "Medical air compressor air intake shall be located outdoors a minimum distance of ________ above the ground level.",
+    "options": [
+      "10 ft",
+      "20 ft",
+      "25 ft",
+      "There is no height requirement"
+    ],
+    "answer": "20 ft"
+  },
+  {
+    "number": 43,
+    "question": "Which of the following conditions must be met where medical gas and vacuum systems are installed by non-certified personnel?",
+    "options": [
+      "An installer certified to ASSE 6010 must be present to oversee the installation",
+      "An ASSE 6020 inspector is present on the job sit to inspect the installation",
+      "The installer must be an employee of an authorized Medical Gas contractor",
+      "Installation by anyone other than 6010 certified personnel is NOT permitted"
+    ],
+    "answer": "Installation by anyone other than 6010 certified personnel is NOT permitted"
+  },
+  {
+    "number": 44,
+    "question": "Central supply systems for medical vacuum shall be equipped with filtration sized for _________ of peak calculated demand while one is isolated.",
+    "options": [
+      "50%",
+      "100%",
+      "150%",
+      "200%"
+    ],
+    "answer": "100%"
+  },
+  {
+    "number": 45,
+    "question": "Wooden rack for cylinder storage may be permitted under which conditions?",
+    "options": [
+      "The wood must be painted",
+      "They are permitted with NO set conditions",
+      "They must be located in an area with a fire suppression system",
+      "Wooden racks are no longer permitted"
+    ],
+    "answer": "Wooden racks are no longer permitted"
+  },
+  {
+    "number": 46,
+    "question": "NFPA 99 specifies that the medical gas piping system shall be protected against all EXCEPT which of the following?",
+    "options": [
+      "Combustible liquids",
+      "Corrosion",
+      "Freezing",
+      "Physical damage"
+    ],
+    "answer": "Combustible liquids"
+  },
+  {
+    "number": 47,
+    "question": "What percent of the zones shall be tested at the outlet most remote from the source to verify the piping particulate test?",
+    "options": [
+      "100%",
+      "75%",
+      "50%",
+      "25%"
+    ],
+    "answer": "25%"
+  },
+  {
+    "number": 48,
+    "question": "Which of these is an NFPA 99 requirement for the labeling of pipes in a medical gas system?",
+    "options": [
+      "Color coding",
+      "Fixed label width",
+      "Label shall wrap completely around the pipe",
+      "Reflective label"
+    ],
+    "answer": "Color coding"
+  },
+  {
+    "number": 49,
+    "question": "A tool is allowed to be used by the installer to mechanically limit the makeup depth of the fitting to be brazed. Under what conditions is this method permitted for the installation of medical gas piping?",
+    "options": [
+      "Only on final line connections",
+      "Only on vacuum systems",
+      "Only where BCuP 5 brazing rod is used",
+      "Where limited depth is not less than the minimum cup depth per ANSI/ASME"
+    ],
+    "answer": "Where limited depth is not less than the minimum cup depth per ANSI/ASME"
+  },
+  {
+    "number": 50,
+    "question": "Liquid ring compressors, service water and seal water shall be treated to control_________.",
+    "options": [
+      "waterborne pathogens",
+      "chlorine",
+      "hyper chlorination",
+      "all of the above"
+    ],
+    "answer": "all of the above"
+  },
+  {
+    "number": 51,
+    "question": "Liquid ring compressor system shall have a reserve medical air standby header (1HR) or a____________ as backup.",
+    "options": [
+      "compressor",
+      "manifold",
+      "bulk system",
+      "condensate trap"
+    ],
+    "answer": "compressor"
+  },
+  {
+    "number": 52,
+    "question": "The medical air intake shall be located a minimum of _____ from all vehicular exhausts and noxious fumes.",
+    "options": [
+      "10 ft",
+      "15 ft",
+      "20 ft",
+      "25 ft"
+    ],
+    "answer": "25 ft"
+  },
+  {
+    "number": 53,
+    "question": "The medical air intake shall be located a minimum of _____ from all doors, windows or other openings in the building.",
+    "options": [
+      "10 ft",
+      "15 ft",
+      "20 ft",
+      "25 ft"
+    ],
+    "answer": "10 ft"
+  },
+  {
+    "number": 1,
+    "question": "In a facility where medical gas or vacuum systems are present and the failure of such equipment or system is likely to cause imminent major injury or death to patients or caregivers, the system shall be designed to meet which Category of requirements?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "number": 55,
+    "question": "Category 1 medical-surgical vacuum sources shall, at a minimum, consist of ____________ or more vacuum pumps.",
+    "options": [
+      "one",
+      "two",
+      "three",
+      "four"
+    ],
+    "answer": "two"
+  },
+  {
+    "number": 56,
+    "question": "Who shall be responsible for developing an emergency plan in the event of medical air loss at a Category 2 facility?",
+    "options": [
+      "Authority having jurisdiction",
+      "Head of maintenance",
+      "Facility staff",
+      "Chief engineer"
+    ],
+    "answer": "Facility staff"
+  },
+  {
+    "number": 57,
+    "question": "Piping between the vacuum pump and the source shutoff valve shall be permitted to be _______.",
+    "options": [
+      "brass pipe",
+      "galvanized steel pipe",
+      "black steel pipe",
+      "all of the above"
+    ],
+    "answer": "all of the above"
+  },
+  {
+    "number": 58,
+    "question": "Computer systems used as a master alarm shall be continuously attended or shall provide remote signaling of responsible parties through _________.",
+    "options": [
+      "pagers",
+      "telephone",
+      "cell phone",
+      "any of the above"
+    ],
+    "answer": "any of the above"
+  },
+  {
+    "number": 59,
+    "question": "ASSE 6000 Annex J provides “Recommended Guidelines for Conducting Planned Medical Gas Systems Shutdown and Temporary Backfeed”.  Annex J guidelines do NOT include a list of responsibilities for which types of worker?",
+    "options": [
+      "Installer",
+      "Medical Gas Generalist",
+      "Shutdown Coordinator",
+      "Verifier"
+    ],
+    "answer": "Medical Gas Generalist"
+  },
+  {
+    "number": 60,
+    "question": "An assembly of equipment that holds a capacity of oxygen greater than _____________is defined as a Bulk Oxygen System.",
+    "options": [
+      "3000 ft3",
+      "10,000 ft3",
+      "20,000 ft3",
+      "28,000 ft3"
+    ],
+    "answer": "20,000 ft3"
+  },
+  {
+    "number": 61,
+    "question": "The medical-surgical vacuum exhaust shall be turned down and screened. The screening shall be fabricated using what type of material?",
+    "options": [
+      "steel mesh",
+      "steel wire",
+      "any non-corroding material",
+      "all of the above"
+    ],
+    "answer": "any non-corroding material"
+  },
+  {
+    "number": 62,
+    "question": "Compressed gas cylinders must meet which of the following criteria in order to be acceptable for use in an acute health care facility?",
+    "options": [
+      "Be appropriately color coded in accordance with U.S.D.A. requirements",
+      "Be appropriately identified by labels or stencils in accordance with CGA C-7 criteria",
+      "Be constructed in accordance with specifications and regulations of OSHA",
+      "Utilize gas specific CGA connections"
+    ],
+    "answer": "Be appropriately identified by labels or stencils in accordance with CGA C-7 criteria"
+  },
+  {
+    "number": 63,
+    "question": "Who shall witness the installer perform the standing pressure test?",
+    "options": [
+      "Installation contractor superintendent",
+      "Medical gas verifier",
+      "The authority having jurisdiction or its designee",
+      "B and C"
+    ],
+    "answer": "B and C"
+  },
+  {
+    "number": 64,
+    "question": "A patient care space is any space of a health care facility wherein patients are intended to be __________.",
+    "options": [
+      "admitted or discharged",
+      "examined or treated",
+      "interviewed",
+      "sent for X-rays"
+    ],
+    "answer": "examined or treated"
+  },
+  {
+    "number": 65,
+    "question": "Stainless tube may be joined by any methods EXCEPT which of the following?",
+    "options": [
+      "Gas tungsten arc welding (GTAW)",
+      "Metal inert gas (MIG)",
+      "Solder",
+      "Tungsten inert gas(TIG)"
+    ],
+    "answer": "Solder"
+  },
+  {
+    "number": 66,
+    "question": "Excluding outdoor locations, which of these is an NFPA 99 requirement for the wiring of each of the two mandatory master alarms?",
+    "options": [
+      "Alarms shall be sent to the area alarm panel in the emergency room",
+      "Common conductors",
+      "Wired independently to the initiating device(s) for each signal",
+      "Without any splices"
+    ],
+    "answer": "Wired independently to the initiating device(s) for each signal"
+  },
+  {
+    "number": 67,
+    "question": "Which of the following is true of Category 1 support gases?",
+    "options": [
+      "Permitted to power medical – surgical tools",
+      "Subject to greater hazards than present in other piped gases",
+      "Used for respiration",
+      "Both A and B"
+    ],
+    "answer": "Both A and B"
+  },
+  {
+    "number": 68,
+    "question": "WAGD networks shall provide a WAGD inlet in all locations where __________ is intended to be administered.",
+    "options": [
+      "Medical Air",
+      "Nitrogen",
+      "Nitrous Oxide",
+      "Oxygen"
+    ],
+    "answer": "Nitrous Oxide"
+  },
+  {
+    "number": 69,
+    "question": "If a nonmetallic flexible connector is being used in a Category 1 health care facility to connect the manifold to the gas distribution piping, what is the maximum length (feet) permitted for the flexible connector?",
+    "options": [
+      "3 ft",
+      "5 ft",
+      "They shall be no longer than necessary",
+      "The use of flexible connectors is not permitted"
+    ],
+    "answer": "They shall be no longer than necessary"
+  },
+  {
+    "number": 70,
+    "question": "Inspection and testing shall be performed on all new piped gas systems, additions, renovations, temporary installations or repaired systems to assure the facility that all applicable provisions of NFPA 99C have been adhered to and system integrity has been achieved or maintained. What is required of the individual doing the testing or inspecting?",
+    "options": [
+      "Have two years experience",
+      "Have a documented procedure",
+      "Be a certified tester",
+      "none of the above"
+    ],
+    "answer": "Have a documented procedure"
+  },
+  {
+    "number": 71,
+    "question": "Liquid containers shall have additional product identification (such as a 360 degree wrap-a-round tape for medical liquid containers) visible from all directions with a minimum of ________high letters.",
+    "options": [
+      "1”",
+      "2”",
+      "3”",
+      "none of the above"
+    ],
+    "answer": "2”"
+  },
+  {
+    "number": 72,
+    "question": "Vacuum piping for ____________ shall be connected separately from the medical surgical system directly to the receiver tank through its own isolation valve and fluid trap located at the receiver.",
+    "options": [
+      "A teaching laboratory",
+      "A location requiring seismic restraint",
+      "The standing vacuum test",
+      "Each WAGD system"
+    ],
+    "answer": "A teaching laboratory"
+  },
+  {
+    "number": 73,
+    "question": "The vacuum exhaust shall not discharge ______________.",
+    "options": [
+      "in a place of public assembly",
+      "outside",
+      "on a roof",
+      "at a different level from air intakes"
+    ],
+    "answer": "in a place of public assembly"
+  },
+  {
+    "number": 74,
+    "question": "Which of these operations would NOT breach the vacuum system?",
+    "options": [
+      "Addition of a system component",
+      "Removal of system component",
+      "Replacement of system component with an identical one",
+      "Testing a system component with a leak detecting solution"
+    ],
+    "answer": "Testing a system component with a leak detecting solution"
+  },
+  {
+    "number": 75,
+    "question": "Which is a permitted use of the medical-surgical vacuum system?",
+    "options": [
+      "Liquid or debris disposal",
+      "Non-medical or non-surgical applications",
+      "Vacuum steam condensate return",
+      "Waste anesthetic gas disposal"
+    ],
+    "answer": "Waste anesthetic gas disposal"
+  },
+  {
+    "number": 76,
+    "question": "Which of the following is an instrument air quality requirement?",
+    "options": [
+      "It shall be filtered to .7 micron",
+      "It shall be dry to a dew point of -30oF",
+      "It shall be compliant with instrument Air section in ANSI/ISA S-7.0.01",
+      "It shall be compliant with medical air USP"
+    ],
+    "answer": "It shall be compliant with instrument Air section in ANSI/ISA S-7.0.01"
+  },
+  {
+    "number": 77,
+    "question": "The standing pressure test for positive pressure medical gas piping shall be conducted with the source valve closed and the piping system subjected to which test time and pressure?",
+    "options": [
+      "8 hours at 150 psi",
+      "8 hours at 20% above operating pressure",
+      "24 hours at 150 psi",
+      "24 hours at 20% above normal operating pressure"
+    ],
+    "answer": "24 hours at 20% above normal operating pressure"
+  },
+  {
+    "number": 78,
+    "question": "Instrument air systems shall be permitted to interconnect with the medical air system provided the system has __________.",
+    "options": [
+      "at least two or more compressors",
+      "separate source valves for each system",
+      "been approved by the manufacturer",
+      "interconnection is prohibited"
+    ],
+    "answer": "interconnection is prohibited"
+  },
+  {
+    "number": 79,
+    "question": "A standard gauge pressure of 160-185 psi applies to which of the following?",
+    "options": [
+      "Instrument air",
+      "Laboratory air",
+      "Laboratory vacuum",
+      "Non-medical air"
+    ],
+    "answer": "Instrument air"
+  },
+  {
+    "number": 80,
+    "question": "All fittings for medical gas work shall be kept separate from other tools, and kept free of grease or oil. If cleaned, only a degreaser such as ____________ is permitted.",
+    "options": [
+      "A natural citrus solvent cleaner-degreaser",
+      "Goop or GoJo hand cleaner",
+      "Trisodium phosphate or sodium carbonate",
+      "Water"
+    ],
+    "answer": "Trisodium phosphate or sodium carbonate"
+  },
+  {
+    "number": 81,
+    "question": "To prevent damage when testing outlets/inlets, you must use which of these components?",
+    "options": [
+      "Gas-specific adapters as described by the manufacturer",
+      "Interchangeable outlet/inlet adapters",
+      "Miscellaneous fittings as required",
+      "O-rings/seals"
+    ],
+    "answer": "Gas-specific adapters as described by the manufacturer"
+  },
+  {
+    "number": 82,
+    "question": "Final line filters for instrument air shall be rated for a minimum of ____ percent efficiency at ____ micron.",
+    "options": [
+      "98% @ .10",
+      "100% @ .10",
+      "98% @ .01",
+      "100% @ .01"
+    ],
+    "answer": "98% @ .01"
+  },
+  {
+    "number": 83,
+    "question": "A signal from each _______ system shall be connected to the master alarm panels to indicate that a problem is present with the source equipment.",
+    "options": [
+      "local alarm",
+      "pressure switch",
+      "area alarm",
+      "anesthetizing"
+    ],
+    "answer": "local alarm"
+  },
+  {
+    "number": 84,
+    "question": "Station outlets/inlets shall be identified as to the  _________ for the specific gas or vacuum provided.",
+    "options": [
+      "Chemical symbol",
+      "Name",
+      "Name or Chemical symbol",
+      "Piping Type"
+    ],
+    "answer": "Name or Chemical symbol"
+  },
+  {
+    "number": 85,
+    "question": "Final line filters for instrument air shall be equipped with a _______ visual indicator showing the status of the filter element life.",
+    "options": [
+      "alternating",
+      "continuous",
+      "optional",
+      "pulsating"
+    ],
+    "answer": "continuous"
+  },
+  {
+    "number": 86,
+    "question": "Which of these is a requirement for area alarm panels?",
+    "options": [
+      "Located at a nurses station and in the engineering department",
+      "Monitored 24/7 continuously",
+      "Provide visual and audible indication",
+      "None of the above"
+    ],
+    "answer": "Provide visual and audible indication"
+  },
+  {
+    "number": 87,
+    "question": "A valve installed in each medical gas and vacuum piping system shall be tested to verify which of the following?",
+    "options": [
+      "Date of installation",
+      "Pressure Range",
+      "Flow and pressure drops",
+      "Proper operation and rooms or areas of control"
+    ],
+    "answer": "Proper operation and rooms or areas of control"
+  },
+  {
+    "number": 88,
+    "question": "Manifolds for gas cylinders shall actuate a(an) _______ signal and shall activate an indicator at all _______ alarm panels to indicate when or just before changeover from one header to the other.",
+    "options": [
+      "Area; Master",
+      "Local; Master",
+      "Master; Area",
+      "Master; Local"
+    ],
+    "answer": "Local; Master"
+  },
+  {
+    "number": 89,
+    "question": "All valves except zone valve box assemblies shall be __________.",
+    "options": [
+      "located in a secure area",
+      "locked or latched in the operating position",
+      "labeled indicating contents and location served",
+      "all of the above"
+    ],
+    "answer": "all of the above"
+  },
+  {
+    "number": 90,
+    "question": "With the approval of the authority having jurisdiction, in what areas shall the shutoff valves be permitted to be secured to prevent inappropriate access?",
+    "options": [
+      "critical care",
+      "maternity",
+      "anesthetizing",
+      "psychiatric or pediatric"
+    ],
+    "answer": "psychiatric or pediatric"
+  },
+  {
+    "number": 91,
+    "question": "New or replacement shutoff valves for medical gas pressure piping systems shall ______________.",
+    "options": [
+      "be quarter turn valves",
+      "be of brass or bronze construction",
+      "have extensions for brazing",
+      "all of the above"
+    ],
+    "answer": "all of the above"
+  },
+  {
+    "number": 1,
+    "question": "The reserve header in a cryogenic liquid cylinder manifold system shall have sufficient cylinder connections for an average day’s supply, but NOT fewer than how many connections?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3"
+  },
+  {
+    "number": 93,
+    "question": "In central supply systems using gas cylinders, each header shall have a ________ valve to prevent backflow and to permit service to the header.",
+    "options": [
+      "Ball",
+      "Bypass",
+      "Check",
+      "Relief"
+    ],
+    "answer": "Check"
+  },
+  {
+    "number": 94,
+    "question": "Those sections or portions of the piping system that serve a room or group of rooms on the same story of the facility.  This is the definition of which of the following?",
+    "options": [
+      "Branch (lateral) lines",
+      "Main lines",
+      "Risers",
+      "Vent Lines"
+    ],
+    "answer": "Branch (lateral) lines"
+  },
+  {
+    "number": 95,
+    "question": "The vertical pipes connecting the system main line(s) with the branch lines on the various levels of the facility.  This is the definition of which of the following?",
+    "options": [
+      "Branch (lateral) lines",
+      "Main lines",
+      "Risers",
+      "Vent Lines"
+    ],
+    "answer": "Risers"
+  },
+  {
+    "number": 4,
+    "question": "Only one service valve is required for each branch off the riser, unless the number of zone valves on that branch exceeds ______ valves.",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "there is no maximum"
+    ],
+    "answer": "there is no maximum"
+  },
+  {
+    "number": 97,
+    "question": "What valves shall be readily operable from a standing position in the corridor on the same floor they serve?",
+    "options": [
+      "Zone valves",
+      "Service valves",
+      "Isolation valves",
+      "In-line shutoff valves"
+    ],
+    "answer": "Zone valves"
+  },
+  {
+    "number": 98,
+    "question": "Immediately outside each Category 1 space and anesthetizing location, there shall be located a(n)_____________ for each medical gas, vacuum and WAGD system.",
+    "options": [
+      "area alarm",
+      "zone valve",
+      "relief valve",
+      "fire extinguisher"
+    ],
+    "answer": "zone valve"
+  },
+  {
+    "number": 99,
+    "question": "The final connection between new piping and an existing system may be tested with the system gas and must be checked with a leak detectant that does NOT contain which of these agents?",
+    "options": [
+      "Acetone",
+      "Ammonia",
+      "Chlorine",
+      "Freon"
+    ],
+    "answer": "Ammonia"
+  },
+  {
+    "number": 100,
+    "question": "While brazing medical-gas copper joints, a purge gas shall flow continuously to prevent the formation of copper oxide on the inside surface of the joint. What shall be used as a purge gas?",
+    "options": [
+      "oil-free, dry Argon MD",
+      "oil-less, dry Nitrogen NF",
+      "oil-free, dry Nitrogen NF",
+      "any inert gas"
+    ],
+    "answer": "oil-free, dry Nitrogen NF"
+  },
+  {
+    "number": 101,
+    "question": "Pipe labels shall be located at a maximum interval of how many feet?",
+    "options": [
+      "10 ft",
+      "15 ft",
+      "20 ft",
+      "25 ft"
+    ],
+    "answer": "20 ft"
+  },
+  {
+    "number": 102,
+    "question": "Audible and visual alarm indicators shall meet which of the following requirements?",
+    "options": [
+      "CGA C-7",
+      "Individual indicators shall NOT be less than DN20 size",
+      "Testing to determine indicator function should be scheduled periodically and records maintained between testing.",
+      "The staff should be trained to operate the test button periodically and report malfunctions."
+    ],
+    "answer": "Testing to determine indicator function should be scheduled periodically and records maintained between testing."
+  },
+  {
+    "number": 103,
+    "question": "Station outlets that operate at pressures other than standard gauge pressure (50-55 psi or 160-185 psi for nitrogen), what is required of the outlet labeling?",
+    "options": [
+      "be covered to limit access",
+      "be located away from other outlets",
+      "include the operating pressure along with the name of the gas",
+      "none of the above"
+    ],
+    "answer": "include the operating pressure along with the name of the gas"
+  },
+  {
+    "number": 1,
+    "question": "In compliance with NFPA 70, the new alarm wiring is being run installed underground from the initiating device at the source to a junction box located where the wiring first enters the building.  NFPA 99 permits what minimum number of sets of wires to connect the initiating device with the junction box for each signal?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "number": 105,
+    "question": "Which of the following filler metals shall be used to braze copper-to-copper joints in medical gas/vacuum distribution piping?",
+    "options": [
+      "BAg series",
+      "BAu series",
+      "BCuP series",
+      "BNi series"
+    ],
+    "answer": "BCuP series"
+  },
+  {
+    "number": 106,
+    "question": "NFPA 99 requires tubing to be cut square using a sharp tubing cutter that shall be free from grease, oil or other lubricants not suitable for oxygen service. What sort of treatment is permitted of the tube ends before brazing?",
+    "options": [
+      "May be reamed",
+      "May be deburred or rolled smooth",
+      "May be re-cleaned",
+      "none of the above"
+    ],
+    "answer": "May be deburred or rolled smooth"
+  },
+  {
+    "number": 107,
+    "question": "To assure that all ambient air has been removed from the pipeline prior to brazing, a/an ______ shall be used to verify the effectiveness of the nitrogen purge.",
+    "options": [
+      "oxygen analyzer",
+      "nitrogen analyzer",
+      "air analyzer",
+      "breathalyzer"
+    ],
+    "answer": "oxygen analyzer"
+  },
+  {
+    "number": 108,
+    "question": "Factory installed tubes on station inlets shall be NOT less than ________ with 0.4 inch minimum inside diameter.",
+    "options": [
+      "1/4 NPS",
+      "3/8 NPS",
+      "1/2 NPS",
+      "1/8 NPS"
+    ],
+    "answer": "3/8 NPS"
+  },
+  {
+    "number": 109,
+    "question": "The minimum backfilled cover for buried piping shall be 36 in., except that a minimum cover shall be reduced to ___________ where physical damage is otherwise prevented.",
+    "options": [
+      "24 in",
+      "20 in",
+      "18 in",
+      "16 in"
+    ],
+    "answer": "18 in"
+  },
+  {
+    "number": 110,
+    "question": "The installation of medical gas and vacuum systems shall be made by experienced, qualified and competent installers. The installers shall meet the requirements of ___________.",
+    "options": [
+      "ASME Section IX",
+      "ASSE Standard 6010",
+      "AWS B31.3",
+      "none of the above"
+    ],
+    "answer": "ASSE Standard 6010"
+  },
+  {
+    "number": 111,
+    "question": "After completion of all installer-performed tests which of the following methods shall be used to determine that no cross-connection exists?",
+    "options": [
+      "Individual pressurization",
+      "Pressure differential",
+      "Both A and B",
+      "Either A or B"
+    ],
+    "answer": "Individual pressurization"
+  },
+  {
+    "number": 112,
+    "question": "In an Emergency Oxygen Supply Connection the check valves are required to be constructed of which of the following materials?",
+    "options": [
+      "Brass, bronze or stainless steel",
+      "Brass or bronze",
+      "Materials per the EOSC manufacturer’s recommendations",
+      "NFPA 99 does NOT establish any material requirements for these check valves"
+    ],
+    "answer": "Brass or bronze"
+  },
+  {
+    "number": 113,
+    "question": "Which of these is a requirement for each station inlet?",
+    "options": [
+      "A main vacuum line",
+      "A primary optional in-line",
+      "A primary valve",
+      "A secondary demand valve"
+    ],
+    "answer": "A primary valve"
+  },
+  {
+    "number": 114,
+    "question": "Medical gas central supply systems are NOT permitted to be located where?",
+    "options": [
+      "In an unlocked location",
+      "In the same storage facility as medical gas cylinders",
+      "Outdoors",
+      "Remote from the medical gas system use points"
+    ],
+    "answer": "In an unlocked location"
+  },
+  {
+    "number": 115,
+    "question": "Fittings, valves, and other components for oxygen use in a Category 1 distribution system shall be ___________ until prepared for installation.",
+    "options": [
+      "Delivered sealed, labeled, and kept sealed",
+      "Kept at a minimum inventory level",
+      "Plugged or capped by the manufacturer",
+      "Stored in a locked room or secure facility"
+    ],
+    "answer": "Delivered sealed, labeled, and kept sealed"
+  },
+  {
+    "number": 116,
+    "question": "The purpose of the NFPA 99 Code is to provide minimum requirements for the  ________ for facilities, material, equipment, and appliances, including other hazards associated with the primary hazards.",
+    "options": [
+      "Engineering and architecture",
+      "Maintenance and testing",
+      "Performance and safe practices",
+      "Both B and C"
+    ],
+    "answer": "Both B and C"
+  },
+  {
+    "number": 117,
+    "question": "The scale range of positive pressure analog indicators shall have the normal reading fall within the _________ percentage of the gauge scale.",
+    "options": [
+      "1/4",
+      "1/3",
+      "1/2",
+      "2/3"
+    ],
+    "answer": "2/3"
+  },
+  {
+    "number": 118,
+    "question": "What does it mean when equipment, material, or services are shown as “listed”?",
+    "options": [
+      "They are identified and published by an organization that is acceptable to the authority having jurisdiction.",
+      "They have been found tolerable for the purpose described in the manufacturer’s specifications.",
+      "They have been tested and approved by the construction supervisor",
+      "They have been tested by a medical gas verifier"
+    ],
+    "answer": "They are identified and published by an organization that is acceptable to the authority having jurisdiction."
+  },
+  {
+    "number": 119,
+    "question": "To facilitate service, testing or replacement, all pressure switches and mainline gauges downstream of the source valve shall be provided with a ________________.",
+    "options": [
+      "Check valve",
+      "Shutoff valve",
+      "Demand check fitting",
+      "D.I.S.S. fitting"
+    ],
+    "answer": "Demand check fitting"
+  },
+  {
+    "number": 120,
+    "question": "Manufactured assemblies employing flexible hose shall not be labeled with ______.",
+    "options": [
+      "System name or symbol",
+      "Color code",
+      "Standard pressure",
+      "Date of installation"
+    ],
+    "answer": "Standard pressure"
+  },
+  {
+    "number": 2,
+    "question": "The accuracy of digital indicators shall be +/- ____ % of the operating pressure at which they are used.",
+    "options": [
+      "2",
+      "1",
+      "4",
+      "5"
+    ],
+    "answer": "5"
+  },
+  {
+    "number": 122,
+    "question": "A medical gas master or area alarm panel should be set to actuate a(an) __________ indicator when the communication with an alarm-initiating device is disconnected.",
+    "options": [
+      "Audible",
+      "Audible and visual",
+      "High and low",
+      "Visual"
+    ],
+    "answer": "Audible and visual"
+  },
+  {
+    "number": 123,
+    "question": "Area alarms shall monitor _________ in the area served.",
+    "options": [
+      "high pressure in positive pressure medical gas lines",
+      "low pressure in positive pressure medical gas lines",
+      "low vacuum pressure in medical-surgical vacuum lines",
+      "all of the above"
+    ],
+    "answer": "all of the above"
+  },
+  {
+    "number": 124,
+    "question": "Communication devices that do not use electrical wiring for signal transmission can use _____.",
+    "options": [
+      "fiber optic",
+      "wireless",
+      "A & B",
+      "none of the above"
+    ],
+    "answer": "A & B"
+  },
+  {
+    "number": 125,
+    "question": "Fittings for positive pressure medical gas systems shall be cleaned for oxygen service by _________ in accordance with CGA G-4.1.",
+    "options": [
+      "the manufacturer",
+      "a supplier",
+      "a third party agency other than the manufacturer",
+      "all of the above"
+    ],
+    "answer": "all of the above"
+  },
+  {
+    "number": 126,
+    "question": "It is the responsibility of the _____ to furnish documentation certifying that all installed piping materials are cleaned for oxygen service.",
+    "options": [
+      "authority having jurisdiction",
+      "installer",
+      "contractor",
+      "verifier"
+    ],
+    "answer": "installer"
+  },
+  {
+    "number": 127,
+    "question": "A low-pressure, vacuum-insulated vessel containing gases in liquid form. This is an NFPA 99 definition for which of the following.",
+    "options": [
+      "Appliance",
+      "Container",
+      "Cylinder",
+      "Safety Can"
+    ],
+    "answer": "Container"
+  },
+  {
+    "number": 128,
+    "question": "Which of the following fittings is NOT permitted for joining vacuum distribution pipeline systems?",
+    "options": [
+      "Non-removable push-fit",
+      "Axially swaged",
+      "Memory metal",
+      "Welded"
+    ],
+    "answer": "Non-removable push-fit"
+  },
+  {
+    "number": 129,
+    "question": "Copper tube hangers for medical gas and vacuum distribution piping shall be ________.",
+    "options": [
+      "supported from the building structure",
+      "sized for copper tube",
+      "plastic coated in potentially damp locations",
+      "all of the above"
+    ],
+    "answer": "all of the above"
+  },
+  {
+    "number": 130,
+    "question": "Where existing, the portion of the supply equipment that automatically supplies the system when the primary and secondary are unable.",
+    "options": [
+      "Emergency supply",
+      "Reserve supply",
+      "Secondary source",
+      "Back-up source"
+    ],
+    "answer": "Reserve supply"
+  },
+  {
+    "number": 131,
+    "question": "A chemical element that, at normal atmospheric temperatures and pressures, exists as a colorless, odorless and tasteless gas and comprises about 21% of the earth’s atmosphere by volume.",
+    "options": [
+      "nitrogen",
+      "oxygen",
+      "nitrous oxide",
+      "helium"
+    ],
+    "answer": "oxygen"
+  },
+  {
+    "number": 132,
+    "question": "A method used to provide a source of drainage, aspiration and suction in order to remove bodily fluids from patients.",
+    "options": [
+      "WAGD",
+      "medical-surgical vacuum",
+      "negative pressure",
+      "anesthesia"
+    ],
+    "answer": "medical-surgical vacuum"
+  },
+  {
+    "number": 133,
+    "question": "Heating, cooling, ventilating and process systems serving spaces or providing healthcare functions shall be provided in accordance with ______.",
+    "options": [
+      "NFPA 99",
+      "NFPA 55",
+      "ASHRAE 170",
+      "ASSE 6000"
+    ],
+    "answer": "ASHRAE 170"
+  },
+  {
+    "number": 134,
+    "question": "A ______ is an extensive compilation of provisions covering broad subject matter or that is suitable for adoption into law independently.",
+    "options": [
+      "code",
+      "standard",
+      "guide",
+      "none of the above"
+    ],
+    "answer": "code"
+  },
+  {
+    "number": 135,
+    "question": "Metallic flexible joints are being used in the pipeline for vibration control.  Which of the following is NOT required of such joints?",
+    "options": [
+      "Able to withstand 1000oF",
+      "Provided with extensions for brazing",
+      "Received on the jobsite with certification of cleanliness",
+      "Suitable for service at 150 psig or above"
+    ],
+    "answer": "Suitable for service at 150 psig or above"
+  },
+  {
+    "number": 136,
+    "question": "Performance qualification of brazers shall remain in effect indefinitely unless the brazer does NOT braze with the qualified procedure for longer than what period of time?",
+    "options": [
+      "6 months",
+      "12 months",
+      "2 years",
+      "Brazing certs do not expire"
+    ],
+    "answer": "6 months"
+  },
+  {
+    "number": 137,
+    "question": "Mock Exam Diagram 1.pdfRefer to Drawing #1. Area 2 would be classified as a _________.",
+    "options": [
+      "general patient care area",
+      "anesthetizing area",
+      "critical care area",
+      "none of the above"
+    ],
+    "answer": "general patient care area"
+  },
+  {
+    "number": 138,
+    "question": "Mock Exam Diagram 1.pdfRefer to Drawing #1. Valve #1 is a _______.",
+    "options": [
+      "zone valve",
+      "future valve",
+      "service valve",
+      "dead end valve"
+    ],
+    "answer": "future valve"
+  },
+  {
+    "number": 139,
+    "question": "Mock Exam Diagram 1.pdfRefer to Drawing #1. Valve #7 is the _________ where the main line enters the building.",
+    "options": [
+      "source valve",
+      "main line valve",
+      "emergency shut-off valve",
+      "service valve"
+    ],
+    "answer": "main line valve"
+  },
+  {
+    "number": 140,
+    "question": "Mock Exam Diagram 1.pdfRefer to Drawing #1. Valves #5, 6 & 13 are _______.",
+    "options": [
+      "service valves",
+      "riser valves",
+      "isolation valves",
+      "zone valves"
+    ],
+    "answer": "zone valves"
+  },
+  {
+    "number": 141,
+    "question": "Mock Exam Diagram 1.pdfRefer to Drawing #1. The sensor indicated at #8 is the ______.",
+    "options": [
+      "master alarm sensor",
+      "local alarm sensor",
+      "area alarm sensor",
+      "none of the above"
+    ],
+    "answer": "master alarm sensor"
+  },
+  {
+    "number": 142,
+    "question": "Mock Exam Diagram 1.pdfRefer to Drawing #1. Items 2 and 12 would be best described as ________.",
+    "options": [
+      "pressure indicators",
+      "area alarm sensors",
+      "master alarm sensors",
+      "zone valve sensors"
+    ],
+    "answer": "area alarm sensors"
+  },
+  {
+    "number": 143,
+    "question": "Mock Exam Diagram 1.pdfRefer to Drawing #1. Item #10 is a ______ valve.",
+    "options": [
+      "in-line shutoff",
+      "service",
+      "riser",
+      "main line"
+    ],
+    "answer": "riser"
+  },
+  {
+    "number": 144,
+    "question": "Mock Exam Diagram 1.pdfRefer to Drawing #1. Item #4 is a ______ valve.",
+    "options": [
+      "in-line shutoff",
+      "service",
+      "riser",
+      "main line"
+    ],
+    "answer": "service"
+  },
+  {
+    "number": 145,
+    "question": "Mock Exam Diagram 2.pdfRefer to Drawing #2. The minimum distance requirement at #4 is",
+    "options": [
+      "10 ft",
+      "15 ft",
+      "20 ft",
+      "25 ft"
+    ],
+    "answer": "20 ft"
+  },
+  {
+    "number": 146,
+    "question": "Mock Exam Diagram 2.pdfRefer to Drawing #2. The minimum distance requirement at #3 is",
+    "options": [
+      "10 ft",
+      "15 ft",
+      "20 ft",
+      "25 ft"
+    ],
+    "answer": "25 ft"
+  },
+  {
+    "number": 147,
+    "question": "Mock Exam Diagram 2.pdfRefer to Drawing #2. The minimum distance requirement at #2 is",
+    "options": [
+      "10 ft",
+      "15 ft",
+      "20 ft",
+      "25 ft"
+    ],
+    "answer": "10 ft"
+  },
+  {
+    "number": 148,
+    "question": "Mock Exam Diagram 2.pdfRefer to Drawing #2. The minimum distance requirement at #1 is",
+    "options": [
+      "10 ft",
+      "15 ft",
+      "20 ft",
+      "25 ft"
+    ],
+    "answer": "10 ft"
+  },
+  {
+    "number": 149,
+    "question": "Mock Exam Diagram 3.pdfRefer to Drawing #3. Item 4 is a  ______.",
+    "options": [
+      "Relief valve",
+      "Filter",
+      "Demand check",
+      "Sensor"
+    ],
+    "answer": "Relief valve"
+  },
+  {
+    "number": 8,
+    "question": "The appropriate adapter shall be obtained from the facility or manufacturer, and high purge rates of at least 225 Nl/min (_____ SCFM) shall be put on each outlet.",
+    "options": [
+      "8",
+      "9",
+      "5",
+      "3"
+    ],
+    "answer": "8"
+  },
+  {
+    "number": 152,
+    "question": "The moisture concentration of the outlet test shall not exceed ____ ppm or an equivalent pressure dew point of -12°C (10°F) at a gauge pressure of 345 kPa (50 psi).",
+    "options": [
+      "150",
+      "300",
+      "500",
+      "600"
+    ],
+    "answer": "500"
+  },
+  {
+    "number": 153,
+    "question": "The filter shall accrue no more than 0.001 g (_____ mg) of matter from any outlet tested.",
+    "options": [
+      "0.1",
+      "1",
+      "1.2",
+      "0.001"
+    ],
+    "answer": "1"
+  },
+  {
+    "number": 3,
+    "question": "A minimum of 1000 L (35 ft3) of gas shall be filtered through a clean, white _____ micron filter at a minimum flow rate of 100 Nl/min (3.5 SCFM).",
+    "options": [
+      "0.5",
+      "0.45",
+      "0.55",
+      "0.47"
+    ],
+    "answer": "0.45"
+  },
+  {
+    "number": 3,
+    "question": "Oxygen and medical air outlets serving Category 1 space shall allow a transient flow rate of 170 SLPM (____ SCFM) for 3 seconds.",
+    "options": [
+      "3",
+      "6",
+      "7",
+      "5"
+    ],
+    "answer": "6"
+  },
+  {
+    "number": 3,
+    "question": "Medical–surgical vacuum inlets shall draw 85 Nl/min (_____ SCFM) without reducing the vacuum pressure below 300 mm (12 in.) gauge HgV at any adjacent station inlet.",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "2"
+    ],
+    "answer": "3"
+  },
+  {
+    "number": 158,
+    "question": "A bulk nitrous oxide system has a storage capacity of more than _____ pounds of nitrous oxide",
+    "options": [
+      "20,000",
+      "3200",
+      "16,000",
+      "5000"
+    ],
+    "answer": "3200"
+  },
+  {
+    "number": 159,
+    "question": "A chemical process of oxidation that occurs at a rate fast enough to produce heat and usually light in the form of either a glow or flame.What is this the definition of?",
+    "options": [
+      "Combustion",
+      "Combustible",
+      "Friction",
+      "Ignition"
+    ],
+    "answer": "Combustion"
+  },
+  {
+    "number": 160,
+    "question": "A low-pressure, vacuum-insulated vessel containing gases in liquid form.What is the definition for?",
+    "options": [
+      "Appliance",
+      "Container",
+      "Cylinder",
+      "Double insulated appliance"
+    ],
+    "answer": "Container"
+  },
+  {
+    "number": 161,
+    "question": "A valve, usually a needle valve, that precisely controls flow of gas.What is the definition for?",
+    "options": [
+      "Flow control valve",
+      "Frequency control valve",
+      "Regulator valve",
+      "Throttling valve"
+    ],
+    "answer": "Flow control valve"
+  },
+  {
+    "number": 162,
+    "question": "According to Annex D in the ASSE 6000 sufficient spare parts should be maintained to ___ parts",
+    "options": [
+      "Accomodate replacement of expendable",
+      "Alow for a one month supply",
+      "Allow for a one year supply",
+      "There is no requirement to maintain spare parts"
+    ],
+    "answer": "Accomodate replacement of expendable"
+  },
+  {
+    "number": 163,
+    "question": "According to the ASSE 6000, Which is likely to clogg vacuum piping?",
+    "options": [
+      "Activation of reserve supply",
+      "Filter changes",
+      "New valve parts",
+      "Dust or bodily fluids"
+    ],
+    "answer": "Dust or bodily fluids"
+  },
+  {
+    "number": 164,
+    "question": "An assembly of equipment for supplying compressed gas (consisting of, but not limited to, storage containers, pressure regulators, pressure relief devices, vaporizers, manifolds, and interconnecting piping) that terminates where the gas, at service pressure, first enters the main line. The storage containers are either stationary or movable and include unconnected reserves on hand at the site, and the source gas is stored as a compressed gas or cryogenic fluid.What type of system is this?",
+    "options": [
+      "Bulk system",
+      "Compressed air system",
+      "Vacuum system",
+      "Medical gas system"
+    ],
+    "answer": "Bulk system"
+  },
+  {
+    "number": 165,
+    "question": "Category 1 facility, testing and calibration procedures shall be established to ensure carbon monoxide monitors are calibrated _____",
+    "options": [
+      "Annually or more often, if recommended by the manufacturer",
+      "As directed by the administrator of the facility",
+      "At least once, every 18 months",
+      "By an independent calibration/ testing company"
+    ],
+    "answer": "Annually or more often, if recommended by the manufacturer"
+  },
+  {
+    "number": 166,
+    "question": "Equipment, materials, or services included in a list published by an organization that is acceptable to the authority having jurisdiction and concerned with evaluation of products or services, that maintains periodic inspection of production of listed equipment or materials or periodic evaluation of services, and whose listing states that either the equipment, material, or service meets appropriate designated standards or has been tested and found suitable for a specified purpose.",
+    "options": [
+      "Approved",
+      "Listed",
+      "Tested",
+      "Accepted"
+    ],
+    "answer": "Listed"
+  },
+  {
+    "number": 8,
+    "question": "Exists at cryogenic temperature, approximately −184.4°C (−300°F) at atmospheric pressure. It retains all of the properties of gaseous oxygen, but, in addition, when allowed to warm to room temperature at atmospheric pressure, it will evaporate and expand to fill a volume _____ times its liquid volume.",
+    "options": [
+      "8",
+      "86",
+      "100",
+      "Greater than 800"
+    ],
+    "answer": "Greater than 800"
+  },
+  {
+    "number": 168,
+    "question": "Medical gas system maintenance person shall be required to demonstrate a basic working knowledge of all _____ listed in ASSE standard 6001, as used in the NFPA 99.",
+    "options": [
+      "Braze requirements",
+      "Dental equipment",
+      "Installation methods",
+      "Terminology"
+    ],
+    "answer": "Terminology"
+  },
+  {
+    "number": 169,
+    "question": "Medical gas systems maintenance personnel shall be able to describe the precautions and hazards during maintenance and testing related to____?",
+    "options": [
+      "Confined space",
+      "workarounds",
+      "evacuation of systems",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "number": 170,
+    "question": "NFPA 99 code, states medical air may be supplied from except which of the following?",
+    "options": [
+      "Instrument air compressors",
+      "Bulk containers",
+      "Medical air compressors",
+      "Reconstituted from oxygen USP and oil-free, dry nitrogen NF"
+    ],
+    "answer": "Instrument air compressors"
+  },
+  {
+    "number": 171,
+    "question": "NFPA 99 requires station outlet/inlet to be identified as to the _____ for the specific gas or vacuum provided.",
+    "options": [
+      "Chemical symbol",
+      "Name",
+      "Name or chemical symbol",
+      "Piping type"
+    ],
+    "answer": "Name or chemical symbol"
+  },
+  {
+    "number": 172,
+    "question": "Piping systems for patient gas/vacuum shall ___ used for distribution of flammable anesthetic gases.",
+    "options": [
+      "Be cleaned after",
+      "be tagged while",
+      "Not be",
+      "Be replaced after being"
+    ],
+    "answer": "Not be"
+  },
+  {
+    "number": 173,
+    "question": "Regular preventive maintenance shall be scheduled to check the vacuum pressure performanceof each medical-surgical vacuum station inlet. This schedule shall be as determined by the ____ ?",
+    "options": [
+      "AHJ",
+      "Medical gas inspector",
+      "Medical gas verifier",
+      "Facility maintenance staff"
+    ],
+    "answer": "Facility maintenance staff"
+  },
+  {
+    "number": 174,
+    "question": "Service manuals, procedures and instructions provided by the _____ shall be used in the maintenance of equipment",
+    "options": [
+      "Manufacturer",
+      "ASSE",
+      "AHJ",
+      "None of the above"
+    ],
+    "answer": "Manufacturer"
+  },
+  {
+    "number": 175,
+    "question": "Source equipment serving vacuum systems shall be labeled or tagged to identify the vacuum system and also include",
+    "options": [
+      "non-standard operating pressure",
+      "medical gas or support gas color code",
+      "emergency contact information",
+      "None of the above"
+    ],
+    "answer": "emergency contact information"
+  },
+  {
+    "number": 176,
+    "question": "Spare parts shall be maintained for all except which of the following?",
+    "options": [
+      "Valves",
+      "Outlets",
+      "Alarms",
+      "Brazed fittings"
+    ],
+    "answer": "Brazed fittings"
+  },
+  {
+    "number": 177,
+    "question": "The cutting and brazing of medical gas piping shalle be preformed by what medical gas credential?",
+    "options": [
+      "6010",
+      "6020",
+      "6030",
+      "6040"
+    ],
+    "answer": "6010"
+  },
+  {
+    "number": 178,
+    "question": "Vacuum systems deemed breached shall be subject to inspection and testing to the specific area located _____ of the point of intrusion.",
+    "options": [
+      "Downstream",
+      "Near the surrounding area",
+      "Upstream",
+      "All of the above"
+    ],
+    "answer": "Upstream"
+  },
+  {
+    "number": 179,
+    "question": "What is the permitted use of the medical-surgical vacuum system?",
+    "options": [
+      "Patient suction",
+      "Cleaning of scopes",
+      "Liquid or debris disposal",
+      "vacuum steam condensate return"
+    ],
+    "answer": "Patient suction"
+  },
+  {
+    "number": 180,
+    "question": "Which is true of instrument air sources?",
+    "options": [
+      "They shal be permited to include at least two compressors",
+      "A standby header is not permitted",
+      "Can be capable of interconnection with medical air",
+      "They shall not produce air less than 200 psi pressure"
+    ],
+    "answer": "They shal be permited to include at least two compressors"
+  },
+  {
+    "number": 181,
+    "question": "Which of the following are permitted to be located in the same storage facility as medical gas supply systems?",
+    "options": [
+      "Cylinders containing flammable gases",
+      "Cylinders containing the same medical gas as their perspective central supply",
+      "Station outlet repair parts",
+      "Station outlet repair parts or cylinders containing medical gases"
+    ],
+    "answer": "Cylinders containing the same medical gas as their perspective central supply"
+  },
+  {
+    "number": 182,
+    "question": "Which of the following is a requirement for the protection of oxygen cylinders from damage?",
+    "options": [
+      "Cylinder valves not painted or altered",
+      "Protected from abnormal mechanical shock",
+      "Required to be stored away from elevators",
+      "Only non- reusable shipping containers"
+    ],
+    "answer": "Cylinder valves not painted or altered"
+  },
+  {
+    "number": 183,
+    "question": "Which ASSE publication covers the design of medical gas systems?",
+    "options": [
+      "6015",
+      "6030",
+      "6010",
+      "6060"
+    ],
+    "answer": "6060"
+  },
+  {
+    "number": 184,
+    "question": "Which NFPA code should you refer to for Life Safety?",
+    "options": [
+      "101",
+      "90A",
+      "170",
+      "45"
+    ],
+    "answer": "101"
+  },
+  {
+    "number": 185,
+    "question": "In those portions of systems intended to handle oxygen at gauge pressures greater than _______psi, interconnecting hose shall contain no polymeric materials.",
+    "options": [
+      "350",
+      "435",
+      "450",
+      "375"
+    ],
+    "answer": "435"
+  },
+  {
+    "number": 186,
+    "question": "Medical air dryers shall be provided with a __________ downstream of each dryer for maintenance",
+    "options": [
+      "Sample port",
+      "Relief port",
+      "Bleed off valve",
+      "None of the above"
+    ],
+    "answer": "Sample port"
+  },
+  {
+    "number": 187,
+    "question": "Seals necessary for the operation of the valve and prevention of leaks  are __________?",
+    "options": [
+      "Replaceable",
+      "Removable",
+      "Gas specific",
+      "None of the above"
+    ],
+    "answer": "Replaceable"
+  },
+  {
+    "number": 188,
+    "question": "The ______ valve shall be the line separating the applicability betweenNFPA 55and this code.",
+    "options": [
+      "Source",
+      "Main",
+      "In line",
+      "None of the above"
+    ],
+    "answer": "Source"
+  },
+  {
+    "number": 189,
+    "question": "The auxiliary source connection shall be ________ and secured.",
+    "options": [
+      "Always closed",
+      "Normally closed",
+      "Normally open",
+      "None of the above"
+    ],
+    "answer": "Normally closed"
+  },
+  {
+    "number": 190,
+    "question": "Fittings with internal seals shall be permitted where they meet all of the following requirements",
+    "options": [
+      "Shall be brass or bronze",
+      "Shall be cleaned for oxygen service  when used in patient gases or support gases",
+      "Shall be installed only where visible and accessible, allowing for testing and servicing",
+      "Both B and C"
+    ],
+    "answer": "Both B and C"
+  },
+  {
+    "number": 25,
+    "question": "The system designer shall size the piping such that calculated pressure or vacuum losses across the piping as designed do not exceed ____ percent of the intended operating pressure or vacuum at the source valve.",
+    "options": [
+      "25",
+      "10",
+      "15",
+      "20"
+    ],
+    "answer": "10"
+  },
+  {
+    "number": 192,
+    "question": "New medical gas and vacuum pipeline distribution systems shall not be connected to the existing in-use systems until which installer preformed tests have been completed?",
+    "options": [
+      "All",
+      "No required tests",
+      "Intial pressure",
+      "Standing pressure"
+    ],
+    "answer": "Intial pressure"
+  }
+]

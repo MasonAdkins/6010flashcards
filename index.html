@@ -87,9 +87,20 @@
         }
 
         .card-back {
+            background: white;
+            color: #333;
+            transform: rotateY(180deg);
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .card-back.back-correct {
             background: #4CAF50;
             color: white;
-            transform: rotateY(180deg);
+        }
+
+        .card-back.back-wrong {
+            background: #f44336;
+            color: white;
         }
 
         .card-content {
@@ -119,7 +130,9 @@
             width: 100%;
         }
 
-        .options-list li {
+        .option-btn {
+            display: block;
+            width: 100%;
             padding: 12px 15px;
             margin: 10px 0;
             background: rgba(102, 126, 234, 0.1);
@@ -129,10 +142,22 @@
             font-size: 1rem;
             line-height: 1.5;
             word-wrap: break-word;
+            text-align: left;
+            cursor: pointer;
+            transition: background-color 0.2s, border-color 0.2s, transform 0.1s;
         }
 
-        .options-list li::before {
-            content: attr(data-letter) ". ";
+        .option-btn:hover {
+            background: rgba(102, 126, 234, 0.25);
+            border-color: #667eea;
+            transform: translateX(5px);
+        }
+
+        .option-btn:active {
+            transform: translateX(2px);
+        }
+
+        .option-btn .option-letter {
             font-weight: bold;
             color: #667eea;
             margin-right: 8px;
@@ -148,6 +173,11 @@
         }
 
         .card-back .card-number {
+            color: #999;
+        }
+
+        .card-back.back-correct .card-number,
+        .card-back.back-wrong .card-number {
             color: rgba(255, 255, 255, 0.6);
         }
 
@@ -167,6 +197,11 @@
         }
 
         .card-back .section-label {
+            color: #999;
+        }
+
+        .card-back.back-correct .section-label,
+        .card-back.back-wrong .section-label {
             color: rgba(255, 255, 255, 0.6);
         }
 
@@ -191,6 +226,11 @@
         }
 
         .card-back .section-input {
+            background: white;
+        }
+
+        .card-back.back-correct .section-input,
+        .card-back.back-wrong .section-input {
             background: rgba(255, 255, 255, 0.9);
         }
 
@@ -280,6 +320,35 @@
             color: #333;
         }
 
+        .deck-select {
+            padding: 12px 20px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            background: white;
+            color: #667eea;
+            min-width: 200px;
+            text-align: center;
+            appearance: none;
+            -webkit-appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23667eea' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 15px center;
+            padding-right: 40px;
+        }
+
+        .deck-select:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .deck-select:focus {
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5);
+        }
+
         .instructions {
             margin-top: 30px;
             color: white;
@@ -328,7 +397,7 @@
                 margin-bottom: 15px;
             }
 
-            .options-list li {
+            .option-btn {
                 padding: 10px 12px;
                 margin: 8px 0;
                 font-size: 0.9rem;
@@ -443,6 +512,12 @@
                 <span class="btn-text-short"><i class="fas fa-random"></i></span>
             </button>
         </div>
+        <div class="controls-row">
+            <select id="deck-selector" class="deck-select" onchange="changeDeck(this.value)">
+                <option value="flashcards.json">Quiz Cards</option>
+                <option value="mocktest.json">Mock Test</option>
+            </select>
+        </div>
     </div>
 
     <div class="instructions">
@@ -457,6 +532,8 @@
         let currentIndex = 0;
         let isFlipped = false;
         let saveTimeout = null;
+        let selectedAnswer = null; // 'correct', 'wrong', or null
+        let currentDeck = 'flashcards.json';
 
         // Load sections from localStorage
         function loadSections() {
@@ -469,32 +546,42 @@
             localStorage.setItem('flashcard-sections', JSON.stringify(sections));
         }
 
-        // Load shuffle order from localStorage
+        // Load shuffle order from localStorage (per deck)
         function loadShuffleOrder() {
-            const stored = localStorage.getItem('shuffle-order');
+            const stored = localStorage.getItem(`shuffle-order-${currentDeck}`);
             return stored ? JSON.parse(stored) : null;
         }
 
-        // Save shuffle order to localStorage
+        // Save shuffle order to localStorage (per deck)
         function saveShuffleOrder(order) {
-            localStorage.setItem('shuffle-order', JSON.stringify(order));
+            localStorage.setItem(`shuffle-order-${currentDeck}`, JSON.stringify(order));
         }
 
-        // Save current position
+        // Save current position (per deck)
         function saveCurrentPosition() {
-            localStorage.setItem('current-position', currentIndex.toString());
+            localStorage.setItem(`current-position-${currentDeck}`, currentIndex.toString());
         }
 
-        // Load current position
+        // Load current position (per deck)
         function loadCurrentPosition() {
-            const stored = localStorage.getItem('current-position');
+            const stored = localStorage.getItem(`current-position-${currentDeck}`);
             return stored ? parseInt(stored) : 0;
         }
 
         // Clear shuffle order
         function clearShuffleOrder() {
-            localStorage.removeItem('shuffle-order');
-            localStorage.removeItem('current-position');
+            localStorage.removeItem(`shuffle-order-${currentDeck}`);
+            localStorage.removeItem(`current-position-${currentDeck}`);
+        }
+
+        // Load selected deck from localStorage
+        function loadSelectedDeck() {
+            return localStorage.getItem('selected-deck') || 'flashcards.json';
+        }
+
+        // Save selected deck to localStorage
+        function saveSelectedDeck(deck) {
+            localStorage.setItem('selected-deck', deck);
         }
 
         // Handle section input with 1 second delay and green border
@@ -539,8 +626,14 @@
             event.stopPropagation();
         }
 
-        // Fetch the flashcards.json file
-        fetch('flashcards.json')
+        // Load deck from URL or fetch
+        function loadDeck(deckFile) {
+            currentDeck = deckFile;
+            
+            // Update dropdown to match
+            document.getElementById('deck-selector').value = deckFile;
+            
+            fetch(deckFile)
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Could not load flashcards.json');
@@ -571,8 +664,29 @@
             .catch(error => {
                 console.error('Error loading flashcards:', error);
                 document.getElementById('question').textContent = 
-                    'Error: Could not load flashcards.json. Make sure the file is in the same directory as this HTML file.';
+                    `Error: Could not load ${deckFile}. Make sure the file is in the same directory as this HTML file.`;
             });
+        }
+
+        // Change deck when dropdown changes
+        function changeDeck(deckFile) {
+            // Reset flip state if flipped
+            if (isFlipped) {
+                const card = document.getElementById('flashcard');
+                card.classList.remove('flipped');
+                isFlipped = false;
+            }
+            
+            // Save deck preference
+            saveSelectedDeck(deckFile);
+            
+            // Load the new deck
+            loadDeck(deckFile);
+        }
+
+        // Initialize with saved deck preference
+        const savedDeck = loadSelectedDeck();
+        loadDeck(savedDeck);
 
         function loadCard() {
             if (flashcards.length === 0) {
@@ -600,12 +714,18 @@
                     const letters = ['A', 'B', 'C', 'D', 'E', 'F'];
                     questionElement.innerHTML = `
                         <div class="question-text">${card.question}</div>
-                        <ul class="options-list">
+                        <div class="options-list">
                             ${card.options.map((option, i) => 
-                                `<li data-letter="${letters[i]}">${option}</li>`
+                                `<button class="option-btn" data-option="${option}"><span class="option-letter">${letters[i]}.</span> ${option}</button>`
                             ).join('')}
-                        </ul>
+                        </div>
                     `;
+                    
+                    // Add click handlers to option buttons
+                    const optionBtns = questionElement.querySelectorAll('.option-btn');
+                    optionBtns.forEach(btn => {
+                        btn.addEventListener('click', (e) => selectAnswer(btn.dataset.option, e));
+                    });
                 } else {
                     questionElement.classList.remove('with-options');
                     questionElement.textContent = card.question;
@@ -626,7 +746,9 @@
                 document.getElementById('section-input-front').value = sectionValue;
                 document.getElementById('section-input-back').value = sectionValue;
                 
-                // Note: We don't reset flip state here anymore, it's handled in navigation functions
+                // Reset selected answer and back color
+                selectedAnswer = null;
+                updateBackColor();
 
                 // Remove animation class
                 cardElement.classList.remove('changing');
@@ -654,6 +776,41 @@
             const card = document.getElementById('flashcard');
             card.classList.toggle('flipped');
             isFlipped = !isFlipped;
+            
+            // Reset selection when flipping back to front
+            if (!isFlipped) {
+                selectedAnswer = null;
+                updateBackColor();
+            }
+        }
+
+        function selectAnswer(option, event) {
+            event.stopPropagation(); // Prevent card flip from click handler
+            
+            const card = flashcards[currentIndex];
+            if (option === card.answer) {
+                selectedAnswer = 'correct';
+            } else {
+                selectedAnswer = 'wrong';
+            }
+            
+            updateBackColor();
+            
+            // Only flip if not already flipped
+            if (!isFlipped) {
+                flipCard();
+            }
+        }
+
+        function updateBackColor() {
+            const cardBack = document.querySelector('.card-back');
+            cardBack.classList.remove('back-correct', 'back-wrong');
+            
+            if (selectedAnswer === 'correct') {
+                cardBack.classList.add('back-correct');
+            } else if (selectedAnswer === 'wrong') {
+                cardBack.classList.add('back-wrong');
+            }
         }
 
         function nextCard() {
@@ -734,8 +891,7 @@
             input.addEventListener('focus', preventFlip);
         });
 
-        // Load first card
-        loadCard();
+        // Note: First card is loaded by loadDeck() called above
     </script>
 </body>
 </html>
